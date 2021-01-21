@@ -36,5 +36,4 @@ def _find_edi_835_files(path: str) -> List[str]:
 	return files
 
 if __name__ == '__main__':
-	ts = parse('~/Documents/senscio/Projects/835-parser/edi-835-parser/tests/test_edi_835_files/multiple_paid_claims.txt')
-	print(ts)
+	pass
