@@ -1,0 +1,11 @@
+,claim_index,patient,code,units,paid_amount,charge_amount,payer,service_period_start,service_period_end,note,rendering_provider
+0,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,1,6.0,6.0,NYSDOH,2010-01-01,2010-01-01,,
+1,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2700,1,2.75,2.75,NYSDOH,2010-01-01,2010-01-01,,
+2,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,1,5.5,5.5,NYSDOH,2010-01-01,2010-01-01,,
+3,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,S0580,2,20.0,20.0,NYSDOH,2010-01-01,2010-01-01,,
+4,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,0,0.0,12.0,NYSDOH,2010-01-01,2010-01-01,The time limit for filing has expired.,
+5,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,0,0.0,22.0,NYSDOH,2010-01-01,2010-01-01,The time limit for filing has expired.,
+6,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,1,6.0,6.0,NYSDOH,2010-01-01,2010-01-01,,
+7,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,1,5.5,5.5,NYSDOH,2013-09-17,2013-09-17,,
+8,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2700,0,0.0,2.75,NYSDOH,2010-01-01,2010-01-01,The attachment/other documentation that was received was incomplete or deficient.,
+9,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,S0580,0,0.0,20.0,NYSDOH,2010-01-01,2010-01-01,The attachment/other documentation that was received was incomplete or deficient.,
