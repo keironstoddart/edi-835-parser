@@ -26,7 +26,8 @@ from edi_835_parser import parse
 path = '~/Desktop/my_directory_of_edi_files'
 transaction_sets = parse(path)
 ```
-In both cases, `parse` returns an instance of the `TransactionSets` class. This is the class you manipulate depending on your needs. 
+In both cases, `parse` returns an instance of the `TransactionSets` class. 
+This is the class you manipulate depending on your needs. 
 For example, say you want to work with the transaction sets data as a `pd.DataFrame`.
 ```python
 from edi_835_parser import parse
@@ -40,7 +41,7 @@ And then save that `pd.DataFrame` as a `.csv` file.
 ```python
 data.to_csv('~/Desktop/my_edi_file.csv')
 ```
-The complete set of `TransactionSets` functionality can be found be inspecting the `TransactionSets` 
+The complete set of `TransactionSets` functionality can be found by inspecting the `TransactionSets` 
 class found at `edi_parser/transaction_set/transaction_sets.py`
 
 ### Tests
@@ -48,3 +49,9 @@ Example EDI 835 files can be found in `tests/test_edi_835/files`. To run the tes
 ```
 python -m pytest
 ```
+
+### Contributing to edi-835-parser
+All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
+
+Not all EDI 835 elements and segments are currently parsable and not all EDI codes are mapped. If you are interested in
+contributing to edi-835-parser, please feel free to fork the project and/or reach out by emailing edi835parser@gmail.com.
