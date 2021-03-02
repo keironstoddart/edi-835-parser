@@ -40,6 +40,24 @@ class TransactionSet:
 		services = []
 		for claim in self.claims:
 			for service in claim.services:
+				remark = None
+				if service.remark:
+					remark = '{}: {}'.format(service.remark.qualifier, service.remark.code)
+
+				# if the service doesn't have a start date assume the service and claim dates match
+				start_date = None
+				if service.service_period_start:
+					start_date = service.service_period_start.date
+				elif claim.claim_statement_period_start:
+					start_date = claim.claim_statement_period_start.date
+
+				# if the service doesn't have an end date assume the service and claim dates match
+				end_date = None
+				if service.service_period_end:
+					end_date = service.service_period_end.date
+				elif claim.claim_statement_period_end:
+					end_date = claim.claim_statement_period_end.date
+
 				services.append({
 					'claim_index': claim.claim.index,
 					'patient': claim.patient.name,
@@ -48,9 +66,10 @@ class TransactionSet:
 					'paid_amount': service.service.paid_amount,
 					'charge_amount': service.service.charge_amount,
 					'payer': self.payer.organization.name,
-					'service_period_start': service.service_period_start.date,
-					'service_period_end': service.service_period_end.date,
+					'start_date': start_date,
+					'end_date': end_date,
 					'note': service.adjustment.reason_code if service.adjustment else None,
+					'remark': remark,
 					'rendering_provider': claim.rendering_provider.name if claim.rendering_provider else None,
 				})
 		return pd.DataFrame(services)

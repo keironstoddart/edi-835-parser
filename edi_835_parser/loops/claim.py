@@ -1,4 +1,5 @@
 from typing import Iterator, Tuple, Optional, List
+from datetime import datetime
 from warnings import warn
 
 from edi_835_parser.segments.claim import Claim as ClaimSegment
@@ -43,6 +44,22 @@ class Claim:
 
 		if len(rendering_provider) == 1:
 			return rendering_provider[0]
+
+	@property
+	def claim_statement_period_start(self) -> Optional[DateSegment]:
+		statement_period_start = [d for d in self.dates if d.qualifier == 'claim statement period start']
+		assert len(statement_period_start) <= 1
+
+		if len(statement_period_start) == 1:
+			return statement_period_start[0]
+
+	@property
+	def claim_statement_period_end(self) -> Optional[DateSegment]:
+		statement_period_end = [d for d in self.dates if d.qualifier == 'claim statement period end']
+		assert len(statement_period_end) <= 1
+
+		if len(statement_period_end) == 1:
+			return statement_period_end[0]
 
 	@property
 	def patient(self) -> EntitySegment:
