@@ -63,6 +63,7 @@ class TransactionSet:
 					'patient': claim.patient.name,
 					'code': service.service.service_code,
 					'units': service.service.units,
+					'payment_date': self.financial_information.payment_date,
 					'paid_amount': service.service.paid_amount,
 					'charge_amount': service.service.charge_amount,
 					'payer': self.payer.organization.name,
