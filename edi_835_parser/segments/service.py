@@ -22,7 +22,9 @@ class Service:
 		self.service_code = segment[1]
 		self.charge_amount = segment[2]
 		self.paid_amount = segment[3]
-		self.units = segment[5]
+
+		# assume unit count of one if unit not provided
+		self.units = segment[5] if len(segment) > 4 else 1
 
 	def __repr__(self):
 		return '\n'.join(str(item) for item in self.__dict__.items())
