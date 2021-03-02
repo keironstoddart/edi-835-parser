@@ -1,5 +1,4 @@
 from typing import Iterator, Tuple, Optional, List
-from datetime import datetime
 from warnings import warn
 
 from edi_835_parser.segments.claim import Claim as ClaimSegment
