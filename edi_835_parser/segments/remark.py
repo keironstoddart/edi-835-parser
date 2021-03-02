@@ -8,7 +8,7 @@ class Remark:
 	identification = 'LQ'
 
 	identifier = Identifier()
-	qualifer = RemarkQualifier()
+	qualifier = RemarkQualifier()
 	code = RemarkCode()
 
 	def __init__(self, segment: str):
