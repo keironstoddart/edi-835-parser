@@ -6,6 +6,8 @@ reason_codes = {
 	'243': 'Services not authorized by network/primary care providers.',
 	'29': 'The time limit for filing has expired.',
 	'251': 'The attachment/other documentation that was received was incomplete or deficient.',
+	'2': 'Coinsurnace Amount.',
+	'96': 'Non-covered charge(s).'
 }
 
 
