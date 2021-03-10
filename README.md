@@ -6,7 +6,7 @@ This package provides a simple-to-use Python interface to EDI 835 Health Care Cl
 *This package is made publicly available by [Senscio Systems](https://www.sensciosystems.com/), the company behind the [Ibis Program](https://www.ibisprogram.com/), an industry leading healthcare initiative that helps people take control of their chronic condition management.*
 
 ### Installation
-Binary installers for the latest released version are at the Python Package Index.
+Binary installers for the latest released version are at the Python Package Index. Please note that you need tp run Python 3.9 or higher to install the parser.
 ```
 pip install edi-835-parser
 ```
