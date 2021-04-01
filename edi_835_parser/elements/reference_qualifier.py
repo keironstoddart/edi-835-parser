@@ -5,7 +5,8 @@ reference_qualifiers = {
 	'6R': 'provider control number',
 	'0K': 'policy form identifying number',
 	'PQ': 'payee identification',
-	'TJ': 'federal taxpayer identification number'
+	'TJ': 'federal taxpayer identification number',
+	'LU': 'location number'
 }
 
 
