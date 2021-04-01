@@ -26,6 +26,13 @@ class TransactionSets:
 
 		return data
 
+	def sum_payments(self) -> float:
+		amount = 0
+		for transaction_set in self:
+			amount += transaction_set.financial_information.amount_paid
+
+		return amount
+
 	def count_claims(self) -> int:
 		count = 0
 		for transaction_set in self:

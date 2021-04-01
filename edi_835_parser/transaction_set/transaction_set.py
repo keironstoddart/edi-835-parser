@@ -4,6 +4,7 @@ from collections import namedtuple
 import pandas as pd
 
 from edi_835_parser.loops.claim import Claim as ClaimLoop
+from edi_835_parser.loops.service import Service as ServiceLoop
 from edi_835_parser.loops.organization import Organization as OrganizationLoop
 from edi_835_parser.segments.utilities import find_identifier
 from edi_835_parser.segments.interchange import Interchange as InterchangeSegment
@@ -37,52 +38,94 @@ class TransactionSet:
 
 	def to_dataframe(self) -> pd.DataFrame:
 		"""flatten the remittance advice by service to a pandas DataFrame"""
-		services = []
+		data = []
 		for claim in self.claims:
 			for service in claim.services:
-				remark = None
-				if service.remark:
-					remark = '{}: {}'.format(service.remark.qualifier, service.remark.code)
 
-				reference = None
-				if service.references:
-					reference = ', '.join(str(r) for r in service.references)
+				serialized_service = TransactionSet.serialize_service(
+					self.financial_information,
+					self.payer,
+					claim,
+					service
+				)
 
-
-				# if the service doesn't have a start date assume the service and claim dates match
-				start_date = None
-				if service.service_period_start:
-					start_date = service.service_period_start.date
-				elif claim.claim_statement_period_start:
-					start_date = claim.claim_statement_period_start.date
-
-				# if the service doesn't have an end date assume the service and claim dates match
-				end_date = None
-				if service.service_period_end:
-					end_date = service.service_period_end.date
-				elif claim.claim_statement_period_end:
-					end_date = claim.claim_statement_period_end.date
+				datum = TransactionSet.add_line_item(serialized_service, service.service.paid_amount, 'payment', None, None)
+				data.append(datum)
 
 				for adjustment in service.adjustments:
-					services.append({
-						'claim_index': claim.claim.index,
-						'patient': claim.patient.name,
-						'code': service.service.service_code,
-						'units': service.service.units,
-						'payment_date': self.financial_information.payment_date,
-						'paid_amount': service.service.paid_amount,
-						'charge_amount': service.service.charge_amount,
-						'payer': self.payer.organization.name,
-						'start_date': start_date,
-						'end_date': end_date,
-						'adjustment_group': adjustment.group_code,
-						'adjustment_reason': adjustment.reason_code,
-						'adjustment_amount': adjustment.amount,
-						'remark': remark,
-						'reference': reference,
-						'rendering_provider': claim.rendering_provider.name if claim.rendering_provider else None,
-					})
-		return pd.DataFrame(services)
+					datum = TransactionSet.add_line_item(
+						serialized_service,
+						adjustment.amount,
+						'adjustment',
+						adjustment.group_code,
+						adjustment.reason_code
+					)
+					data.append(datum)
+
+		return pd.DataFrame(data)
+
+	@staticmethod
+	def add_line_item(
+			service: dict,
+			amount: int,
+			type: str,
+			group: Optional[str],
+			reason: Optional[str]
+	) -> dict:
+		service = service.copy()
+
+		service['amount'] = amount
+		service['type'] = type
+		service['group'] = group
+		service['reason'] = reason
+
+		return service
+
+	@staticmethod
+	def serialize_service(
+			financial_information: FinancialInformationSegment,
+			payer: OrganizationLoop,
+			claim: ClaimLoop,
+			service: ServiceLoop,
+	) -> dict:
+		remark = None
+		if service.remark:
+			remark = '{}: {}'.format(service.remark.qualifier, service.remark.code)
+
+		reference = None
+		if service.references:
+			reference = ', '.join(str(r) for r in service.references)
+
+		# if the service doesn't have a start date assume the service and claim dates match
+		start_date = None
+		if service.service_period_start:
+			start_date = service.service_period_start.date
+		elif claim.claim_statement_period_start:
+			start_date = claim.claim_statement_period_start.date
+
+		# if the service doesn't have an end date assume the service and claim dates match
+		end_date = None
+		if service.service_period_end:
+			end_date = service.service_period_end.date
+		elif claim.claim_statement_period_end:
+			end_date = claim.claim_statement_period_end.date
+
+		datum = {
+			'claim_index': claim.claim.index,
+			'patient': claim.patient.name,
+			'code': service.service.service_code,
+			'units': service.service.units,
+			'transaction_date': financial_information.transaction_date,
+			'charge_amount': service.service.charge_amount,
+			'payer': payer.organization.name,
+			'start_date': start_date,
+			'end_date': end_date,
+			'remark': remark,
+			'reference': reference,
+			'rendering_provider': claim.rendering_provider.name if claim.rendering_provider else None,
+		}
+
+		return datum
 
 	@classmethod
 	def build(cls, file_path: str) -> 'TransactionSet':
