@@ -44,6 +44,11 @@ class TransactionSet:
 				if service.remark:
 					remark = '{}: {}'.format(service.remark.qualifier, service.remark.code)
 
+				reference = None
+				if service.references:
+					reference = ', '.join(str(r) for r in service.references)
+
+
 				# if the service doesn't have a start date assume the service and claim dates match
 				start_date = None
 				if service.service_period_start:
@@ -58,21 +63,25 @@ class TransactionSet:
 				elif claim.claim_statement_period_end:
 					end_date = claim.claim_statement_period_end.date
 
-				services.append({
-					'claim_index': claim.claim.index,
-					'patient': claim.patient.name,
-					'code': service.service.service_code,
-					'units': service.service.units,
-					'payment_date': self.financial_information.payment_date,
-					'paid_amount': service.service.paid_amount,
-					'charge_amount': service.service.charge_amount,
-					'payer': self.payer.organization.name,
-					'start_date': start_date,
-					'end_date': end_date,
-					'note': service.adjustment.reason_code if service.adjustment else None,
-					'remark': remark,
-					'rendering_provider': claim.rendering_provider.name if claim.rendering_provider else None,
-				})
+				for adjustment in service.adjustments:
+					services.append({
+						'claim_index': claim.claim.index,
+						'patient': claim.patient.name,
+						'code': service.service.service_code,
+						'units': service.service.units,
+						'payment_date': self.financial_information.payment_date,
+						'paid_amount': service.service.paid_amount,
+						'charge_amount': service.service.charge_amount,
+						'payer': self.payer.organization.name,
+						'start_date': start_date,
+						'end_date': end_date,
+						'adjustment_group': adjustment.group_code,
+						'adjustment_reason': adjustment.reason_code,
+						'adjustment_amount': adjustment.amount,
+						'remark': remark,
+						'reference': reference,
+						'rendering_provider': claim.rendering_provider.name if claim.rendering_provider else None,
+					})
 		return pd.DataFrame(services)
 
 	@classmethod

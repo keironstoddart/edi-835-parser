@@ -26,14 +26,14 @@ class Service:
 			references: List[ReferenceSegment] = None,
 			remark: RemarkSegment = None,
 			amount: AmountSegment = None,
-			adjustment: ServiceAdjustmentSegment = None
+			adjustments: List[ServiceAdjustmentSegment] = None
 	):
 		self.service = service
 		self.dates = dates if dates else []
 		self.references = references if references else []
 		self.remark = remark
 		self.amount = amount
-		self.adjustment = adjustment
+		self.adjustments = adjustments if adjustments else []
 
 	def __repr__(self):
 		return '\n'.join(str(item) for item in self.__dict__.items())
@@ -91,7 +91,7 @@ class Service:
 					service.references.append(reference)
 
 				elif identifier == ServiceAdjustmentSegment.identification:
-					service.adjustment = ServiceAdjustmentSegment(segment)
+					service.adjustments.append(ServiceAdjustmentSegment(segment))
 
 				elif identifier in cls.terminating_identifiers:
 					return service, segment, segments
