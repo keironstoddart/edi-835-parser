@@ -17,8 +17,11 @@ class Reference:
 		self.qualifier = segment[1]
 		self.value = segment[2]
 
-	def __repr__(self):
+	def __repr__(self) -> str:
 		return '\n'.join(str(item) for item in self.__dict__.items())
+
+	def __str__(self) -> str:
+		return f'{self.qualifier}: {self.value}'
 
 
 if __name__ == '__main__':
