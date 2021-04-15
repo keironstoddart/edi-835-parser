@@ -21,7 +21,7 @@ class Entity:
 		self.entity = segment[1]
 		self.type = segment[2]
 		self.last_name = segment[3]
-		self.first_name = segment[4]
+		self.first_name = get_element(segment, 4)
 		self.identification_code_qualifier = get_element(segment, 8)
 		self.identification_code = get_element(segment, 9)
 

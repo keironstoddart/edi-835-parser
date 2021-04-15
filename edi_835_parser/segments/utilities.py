@@ -22,6 +22,6 @@ def find_identifier(segment) -> str:
 def get_element(segment: List[str], index: int) -> Optional[str]:
 	element = None
 	if index < len(segment):
-		element =  segment[index]
+		element = segment[index]
 
 	return element
