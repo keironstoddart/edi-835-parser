@@ -24,14 +24,14 @@ class Service:
 			service: ServiceSegment = None,
 			dates: List[DateSegment] = None,
 			references: List[ReferenceSegment] = None,
-			remark: RemarkSegment = None,
+			remarks: List[RemarkSegment] = None,
 			amount: AmountSegment = None,
 			adjustments: List[ServiceAdjustmentSegment] = None
 	):
 		self.service = service
 		self.dates = dates if dates else []
 		self.references = references if references else []
-		self.remark = remark
+		self.remarks = remarks if remarks else []
 		self.amount = amount
 		self.adjustments = adjustments if adjustments else []
 
@@ -84,7 +84,8 @@ class Service:
 					service.amount = AmountSegment(segment)
 
 				elif identifier == RemarkSegment.identification:
-					service.remark = RemarkSegment(segment)
+					remark = RemarkSegment(segment)
+					service.remarks.append(remark)
 
 				elif identifier == ReferenceSegment.identification:
 					reference = ReferenceSegment(segment)

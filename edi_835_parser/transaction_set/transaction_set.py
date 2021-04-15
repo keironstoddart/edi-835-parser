@@ -42,44 +42,31 @@ class TransactionSet:
 		for claim in self.claims:
 			for service in claim.services:
 
-				serialized_service = TransactionSet.serialize_service(
+				datum = TransactionSet.serialize_service(
 					self.financial_information,
 					self.payer,
 					claim,
 					service
 				)
 
-				datum = TransactionSet.add_line_item(serialized_service, service.service.paid_amount, 'payment', None, None)
+				for index, adjustment in enumerate(service.adjustments):
+					datum[f'adj_{index}_group'] = adjustment.group_code
+					datum[f'adj_{index}_code'] = adjustment.reason_code.code
+					datum[f'adj_{index}_amount'] = adjustment.amount
+
+				for index, reference in enumerate(service.references):
+					datum[f'ref_{index}_code'] = reference.qualifier.code
+					datum[f'ref_{index}_value'] = reference.value
+
+				for index, remark in enumerate(service.remarks):
+					datum[f'rem_{index}_group'] = remark.qualifier
+					datum[f'rem_{index}_code'] = remark.code.code
+
 				data.append(datum)
 
-				for adjustment in service.adjustments:
-					datum = TransactionSet.add_line_item(
-						serialized_service,
-						adjustment.amount,
-						'adjustment',
-						adjustment.group_code,
-						adjustment.reason_code
-					)
-					data.append(datum)
+		data = pd.DataFrame(data)
 
 		return pd.DataFrame(data)
-
-	@staticmethod
-	def add_line_item(
-			service: dict,
-			amount: int,
-			type: str,
-			group: Optional[str],
-			reason: Optional[str]
-	) -> dict:
-		service = service.copy()
-
-		service['amount'] = amount
-		service['type'] = type
-		service['group'] = group
-		service['reason'] = reason
-
-		return service
 
 	@staticmethod
 	def serialize_service(
@@ -88,14 +75,6 @@ class TransactionSet:
 			claim: ClaimLoop,
 			service: ServiceLoop,
 	) -> dict:
-		remark = None
-		if service.remark:
-			remark = '{}: {}'.format(service.remark.qualifier, service.remark.code)
-
-		reference = None
-		if service.references:
-			reference = ', '.join(str(r) for r in service.references)
-
 		# if the service doesn't have a start date assume the service and claim dates match
 		start_date = None
 		if service.service_period_start:
@@ -117,11 +96,10 @@ class TransactionSet:
 			'units': service.service.units,
 			'transaction_date': financial_information.transaction_date,
 			'charge_amount': service.service.charge_amount,
+			'paid_amount': service.service.paid_amount,
 			'payer': payer.organization.name,
 			'start_date': start_date,
 			'end_date': end_date,
-			'remark': remark,
-			'reference': reference,
 			'rendering_provider': claim.rendering_provider.name if claim.rendering_provider else None,
 		}
 

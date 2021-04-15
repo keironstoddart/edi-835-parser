@@ -36,6 +36,4 @@ def _find_edi_835_files(path: str) -> List[str]:
 	return files
 
 if __name__ == '__main__':
-	data = parse('~/Desktop/Waystar EoBs')
-	print(data.sum_payments())
-	data.to_dataframe().to_csv('~/Desktop/temp.csv')
+	pass
