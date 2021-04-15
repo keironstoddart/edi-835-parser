@@ -1,7 +1,7 @@
 from edi_835_parser.elements import Element
 
 # https://x12.org/codes/claim-adjustment-group-codes
-group_codes = {
+adjustment_group_codes = {
 	'CR': 'corrections and reversals',
 	'OA': 'other adjustment',
 	'PR': 'patient responsibility',
@@ -13,4 +13,4 @@ group_codes = {
 class AdjustmentGroupCode(Element):
 
 	def parser(self, value: str) -> str:
-		return group_codes.get(value, value)
+		return adjustment_group_codes.get(value, value)

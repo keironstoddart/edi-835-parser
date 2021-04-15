@@ -1,4 +1,4 @@
-from edi_835_parser.elements import Element
+from edi_835_parser.elements import Element, Code
 
 # https://x12.org/codes/remittance-advice-remark-codes
 remark_codes = {
@@ -18,11 +18,11 @@ remark_codes = {
 	'N781': 'Alert: Patient is a Medicaid/ Qualified Medicare Beneficiary. Review your records for any wrongfully collected deductible. This amount may be billed to a subsequent payer.',
 	'N782': 'Alert: Patient is a Medicaid/ Qualified Medicare Beneficiary. Review your records for any wrongfully collected coinsurance. This amount may be billed to a subsequent payer.',
 	'N807': 'Payment adjustment based on the Merit-based Incentive Payment System (MIPS).',
-
 }
 
 
 class RemarkCode(Element):
 
-	def parser(self, value: str) -> str:
-		return remark_codes.get(value, value)
+	def parser(self, value: str) -> Code:
+		description = remark_codes.get(value, None)
+		return Code(value, description)

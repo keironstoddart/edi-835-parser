@@ -16,3 +16,13 @@ class Element(ABC):
 	@abstractmethod
 	def parser(self, value):
 		pass
+
+
+class Code:
+
+	def __init__(self, code: str, description: str):
+		self.code = code
+		self.description = description
+
+	def __str__(self) -> str:
+		return str(self.__dict__)

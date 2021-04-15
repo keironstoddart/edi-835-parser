@@ -1,4 +1,4 @@
-from edi_835_parser.elements import Element
+from edi_835_parser.elements import Element, Code
 
 # https://x12.org/codes/claim-adjustment-reason-codes
 adjustment_reason_codes = {
@@ -28,5 +28,6 @@ adjustment_reason_codes = {
 
 class AdjustmentReasonCode(Element):
 
-	def parser(self, value: str) -> str:
-		return adjustment_reason_codes.get(value, value)
+	def parser(self, value: str) -> Code:
+		description = adjustment_reason_codes.get(value, None)
+		return Code(value, description)
