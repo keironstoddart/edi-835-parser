@@ -1,21 +1,14 @@
-,claim_index,patient,code,units,transaction_date,charge_amount,payer,start_date,end_date,remark,reference,rendering_provider,amount,type,group,reason
-0,200200964A52,Mary Dough,59430,1.0,2011-01-08,1210.0,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,provider control number: 0001,,1057.86,payment,,
-1,200200964A52,Mary Dough,59430,1.0,2011-01-08,1210.0,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,provider control number: 0001,,34.6,adjustment,contractual obligation,42
-2,200200964A52,Mary Dough,59430,1.0,2011-01-08,1210.0,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,provider control number: 0001,,117.54,adjustment,patient responsibility,Coinsurnace Amount.
-3,200200964A52,Mary Dough,59440,1.0,2011-01-08,890.0,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,provider control number: 0002,,865.0,payment,,
-4,200200964A52,Mary Dough,59440,1.0,2011-01-08,890.0,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,provider control number: 0002,,25.0,adjustment,patient responsibility,Co-payment Amount.
-5,200200964A52,Mary Dough,59426,,2011-01-08,,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,provider control number: 0003,,,payment,,
-0,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,1.0,2010-01-01,6.0,NYSDOH,2010-01-01,2010-01-01,,,,6.0,payment,,
-1,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2700,1.0,2010-01-01,2.75,NYSDOH,2010-01-01,2010-01-01,,,,2.75,payment,,
-2,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,1.0,2010-01-01,5.5,NYSDOH,2010-01-01,2010-01-01,,,,5.5,payment,,
-3,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,S0580,2.0,2010-01-01,20.0,NYSDOH,2010-01-01,2010-01-01,,,,20.0,payment,,
-4,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,0.0,2010-01-01,12.0,NYSDOH,2010-01-01,2010-01-01,,,,0.0,payment,,
-5,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,0.0,2010-01-01,12.0,NYSDOH,2010-01-01,2010-01-01,,,,12.0,adjustment,contractual obligation,The time limit for filing has expired.
-6,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,0.0,2010-01-01,22.0,NYSDOH,2010-01-01,2010-01-01,,,,0.0,payment,,
-7,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,0.0,2010-01-01,22.0,NYSDOH,2010-01-01,2010-01-01,,,,22.0,adjustment,contractual obligation,The time limit for filing has expired.
-8,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,1.0,2010-01-01,6.0,NYSDOH,2010-01-01,2010-01-01,,,,6.0,payment,,
-9,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,1.0,2010-01-01,5.5,NYSDOH,2013-09-17,2013-09-17,,,,5.5,payment,,
-10,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2700,0.0,2010-01-01,2.75,NYSDOH,2010-01-01,2010-01-01,claim payment: N206,,,0.0,payment,,
-11,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2700,0.0,2010-01-01,2.75,NYSDOH,2010-01-01,2010-01-01,claim payment: N206,,,2.75,adjustment,contractual obligation,The attachment/other documentation that was received was incomplete or deficient.
-12,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,S0580,0.0,2010-01-01,20.0,NYSDOH,2010-01-01,2010-01-01,claim payment: N206,,,0.0,payment,,
-13,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,S0580,0.0,2010-01-01,20.0,NYSDOH,2010-01-01,2010-01-01,claim payment: N206,,,20.0,adjustment,contractual obligation,The attachment/other documentation that was received was incomplete or deficient.
+,claim_index,patient,code,units,transaction_date,charge_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_code,ref_0_value,rem_0_code,rem_0_group
+0,200200964A52,Mary Dough,59430,1.0,2011-01-08,1210.0,1057.86,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,34.6,42,contractual obligation,117.54,2,patient responsibility,6R,0001,,
+1,200200964A52,Mary Dough,59440,1.0,2011-01-08,890.0,865.0,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,25.0,3,patient responsibility,,,,6R,0002,,
+2,200200964A52,Mary Dough,59426,,2011-01-08,,,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,,,,,,,6R,0003,,
+0,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,1.0,2010-01-01,6.0,6.0,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
+1,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2700,1.0,2010-01-01,2.75,2.75,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
+2,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,1.0,2010-01-01,5.5,5.5,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
+3,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,S0580,2.0,2010-01-01,20.0,20.0,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
+4,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,0.0,2010-01-01,12.0,0.0,NYSDOH,2010-01-01,2010-01-01,,12.0,29,contractual obligation,,,,,,,
+5,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,0.0,2010-01-01,22.0,0.0,NYSDOH,2010-01-01,2010-01-01,,22.0,29,contractual obligation,,,,,,,
+6,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,1.0,2010-01-01,6.0,6.0,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
+7,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,1.0,2010-01-01,5.5,5.5,NYSDOH,2013-09-17,2013-09-17,,,,,,,,,,,
+8,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2700,0.0,2010-01-01,2.75,0.0,NYSDOH,2010-01-01,2010-01-01,,2.75,251,contractual obligation,,,,,,N206,claim payment
+9,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,S0580,0.0,2010-01-01,20.0,0.0,NYSDOH,2010-01-01,2010-01-01,,20.0,251,contractual obligation,,,,,,N206,claim payment
