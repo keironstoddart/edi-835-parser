@@ -55,3 +55,6 @@ All contributions, bug reports, bug fixes, documentation improvements, enhanceme
 
 Not all EDI 835 elements and segments are currently parsable and not all EDI codes are mapped. If you are interested in
 contributing to edi-835-parser, please feel free to fork the project and/or reach out by emailing edi835parser@gmail.com.
+
+### Acknowledgements
+A special thank you to Github user `gizquier2` for his interest in this project and continued feedback.
