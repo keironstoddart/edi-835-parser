@@ -1,5 +1,4 @@
 from edi_835_parser.elements.identifier import Identifier
-from edi_835_parser.elements.integer import Integer
 from edi_835_parser.elements.claim_status import ClaimStatus
 from edi_835_parser.elements.dollars import Dollars
 from edi_835_parser.segments.utilities import split_segment
@@ -9,7 +8,6 @@ class Claim:
 	identification = 'CLP'
 
 	identifier = Identifier()
-	index = Integer()
 	status = ClaimStatus()
 	charge_amount = Dollars()
 	paid_amount = Dollars()
