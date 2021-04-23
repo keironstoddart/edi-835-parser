@@ -13,9 +13,9 @@ class Service:
 	identifier = Identifier()
 	charge_amount = Dollars()
 	paid_amount = Dollars()
-	service_code = ServiceCode()
-	service_qualifier = ServiceQualifer()
-	service_modifier = ServiceModifier()
+	code = ServiceCode()
+	qualifier = ServiceQualifer()
+	modifier = ServiceModifier()
 	allowed_units = Integer()
 	billed_units = Integer()
 
@@ -24,9 +24,9 @@ class Service:
 		segment = split_segment(segment)
 
 		self.identifier = segment[0]
-		self.service_code = segment[1]
-		self.service_qualifier = segment[1]
-		self.service_modifier = segment[1]
+		self.code = segment[1]
+		self.qualifier = segment[1]
+		self.modifier = segment[1]
 		self.charge_amount = segment[2]
 		self.paid_amount = segment[3]
 

@@ -92,7 +92,9 @@ class TransactionSet:
 		datum = {
 			'claim_index': claim.claim.index,
 			'patient': claim.patient.name,
-			'code': service.service.service_code,
+			'code': service.service.code,
+			'modifier': service.service.modifier,
+			'qualifier': service.service.qualifier,
 			'allowed_units': service.service.allowed_units,
 			'billed_units': service.service.billed_units,
 			'transaction_date': financial_information.transaction_date,
