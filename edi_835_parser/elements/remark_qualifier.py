@@ -1,4 +1,4 @@
-from edi_835_parser.elements import Element
+from edi_835_parser.elements import Element, Code
 
 remark_qualifiers = {
 	'HE': 'claim payment'
@@ -7,5 +7,6 @@ remark_qualifiers = {
 
 class RemarkQualifier(Element):
 
-	def parser(self, value: str) -> str:
-		return remark_qualifiers.get(value, value)
+	def parser(self, value: str) -> Code:
+		description = remark_qualifiers.get(value, None)
+		return Code(value, description)
