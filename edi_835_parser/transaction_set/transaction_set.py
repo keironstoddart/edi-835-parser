@@ -59,7 +59,7 @@ class TransactionSet:
 					datum[f'ref_{index}_value'] = reference.value
 
 				for index, remark in enumerate(service.remarks):
-					datum[f'rem_{index}_qual'] = remark.qualifier
+					datum[f'rem_{index}_qual'] = remark.qualifier.code
 					datum[f'rem_{index}_code'] = remark.code.code
 
 				data.append(datum)
