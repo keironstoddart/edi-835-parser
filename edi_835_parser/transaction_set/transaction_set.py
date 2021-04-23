@@ -50,7 +50,7 @@ class TransactionSet:
 				)
 
 				for index, adjustment in enumerate(service.adjustments):
-					datum[f'adj_{index}_group'] = adjustment.group_code
+					datum[f'adj_{index}_group'] = adjustment.group_code.code
 					datum[f'adj_{index}_code'] = adjustment.reason_code.code
 					datum[f'adj_{index}_amount'] = adjustment.amount
 
