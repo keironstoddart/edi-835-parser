@@ -17,7 +17,7 @@ class Claim:
 		segment = split_segment(segment)
 
 		self.identifier = segment[0]
-		self.index = segment[1]
+		self.marker = segment[1]
 		self.status = segment[2]
 		self.charge_amount = segment[3]
 		self.paid_amount = segment[4]

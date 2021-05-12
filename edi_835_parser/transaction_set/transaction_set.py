@@ -90,7 +90,7 @@ class TransactionSet:
 			end_date = claim.claim_statement_period_end.date
 
 		datum = {
-			'claim_index': claim.claim.index,
+			'marker': claim.claim.marker,
 			'patient': claim.patient.name,
 			'code': service.service.code,
 			'modifier': service.service.modifier,
