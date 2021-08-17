@@ -101,7 +101,7 @@ class Claim:
 
 				elif identifier == AmountSegment.identification:
 					amount = AmountSegment(segment)
-					claim.dates.append(amount)
+					claim.amount = amount
 					segment = None
 
 				elif identifier in cls.terminating_identifiers:
