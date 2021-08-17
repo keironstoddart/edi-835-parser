@@ -13,7 +13,7 @@ tests_require = [
 
 setuptools.setup(
     name="edi-835-parser",
-    version="1.4.0",
+    version="1.5.0",
     author="Keiron Stoddart",
     author_email="keiron.stoddart@gmail.com",
     description="A simple EDI 835 file format parser.",
