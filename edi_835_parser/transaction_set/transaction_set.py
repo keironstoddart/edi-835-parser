@@ -99,6 +99,7 @@ class TransactionSet:
 			'billed_units': service.service.billed_units,
 			'transaction_date': financial_information.transaction_date,
 			'charge_amount': service.service.charge_amount,
+			'allowed_amount': service.allowed_amount,
 			'paid_amount': service.service.paid_amount,
 			'payer': payer.organization.name,
 			'start_date': start_date,
