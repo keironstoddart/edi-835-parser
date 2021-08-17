@@ -1,4 +1,4 @@
-,claim_index,patient,code,units,transaction_date,charge_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_code,ref_0_value
-0,200200964A52,Mary Dough,59430,1.0,2011-01-08,1210.0,1057.86,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,34.6,42,contractual obligation,117.54,2,patient responsibility,6R,0001
-1,200200964A52,Mary Dough,59440,1.0,2011-01-08,890.0,865.0,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,25.0,3,patient responsibility,,,,6R,0002
-2,200200964A52,Mary Dough,59426,,2011-01-08,,,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,,,,,,,6R,0003
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
+0,200200964A52,Mary Dough,59430,,HC,1.0,1,2011-01-08,1210.0,1175.4,1057.86,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,34.6,42,CO,117.54,2,PR,6R,0001
+1,200200964A52,Mary Dough,59440,,HC,1.0,1,2011-01-08,890.0,,865.0,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,25.0,3,PR,,,,6R,0002
+2,200200964A52,Mary Dough,59426,,HC,,742,2011-01-08,,742.0,,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,,,,,,,6R,0003

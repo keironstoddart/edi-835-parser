@@ -1,14 +1,14 @@
-,claim_index,patient,code,units,transaction_date,charge_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_code,ref_0_value,rem_0_code,rem_0_group
-0,200200964A52,Mary Dough,59430,1.0,2011-01-08,1210.0,1057.86,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,34.6,42,contractual obligation,117.54,2,patient responsibility,6R,0001,,
-1,200200964A52,Mary Dough,59440,1.0,2011-01-08,890.0,865.0,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,25.0,3,patient responsibility,,,,6R,0002,,
-2,200200964A52,Mary Dough,59426,,2011-01-08,,,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,,,,,,,6R,0003,,
-0,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,1.0,2010-01-01,6.0,6.0,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
-1,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2700,1.0,2010-01-01,2.75,2.75,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
-2,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,1.0,2010-01-01,5.5,5.5,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
-3,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,S0580,2.0,2010-01-01,20.0,20.0,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
-4,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,0.0,2010-01-01,12.0,0.0,NYSDOH,2010-01-01,2010-01-01,,12.0,29,contractual obligation,,,,,,,
-5,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,0.0,2010-01-01,22.0,0.0,NYSDOH,2010-01-01,2010-01-01,,22.0,29,contractual obligation,,,,,,,
-6,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,1.0,2010-01-01,6.0,6.0,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
-7,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,1.0,2010-01-01,5.5,5.5,NYSDOH,2013-09-17,2013-09-17,,,,,,,,,,,
-8,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2700,0.0,2010-01-01,2.75,0.0,NYSDOH,2010-01-01,2010-01-01,,2.75,251,contractual obligation,,,,,,N206,claim payment
-9,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,S0580,0.0,2010-01-01,20.0,0.0,NYSDOH,2010-01-01,2010-01-01,,20.0,251,contractual obligation,,,,,,N206,claim payment
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,200200964A52,Mary Dough,59430,,HC,1.0,1,2011-01-08,1210.0,1175.4,1057.86,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,34.6,42,CO,117.54,2,PR,6R,0001,,
+1,200200964A52,Mary Dough,59440,,HC,1.0,1,2011-01-08,890.0,,865.0,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,25.0,3,PR,,,,6R,0002,,
+2,200200964A52,Mary Dough,59426,,HC,,742,2011-01-08,,742.0,,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,2010-12-31,2010-12-31,,,,,,,,6R,0003,,
+0,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,RB,HC,1.0,1,2010-01-01,6.0,6.0,6.0,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
+1,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2700,RB,HC,1.0,1,2010-01-01,2.75,2.75,2.75,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
+2,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,RB,HC,1.0,1,2010-01-01,5.5,5.5,5.5,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
+3,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,S0580,,HC,2.0,2,2010-01-01,20.0,20.0,20.0,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
+4,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,,HC,0.0,0,2010-01-01,12.0,,0.0,NYSDOH,2010-01-01,2010-01-01,,12.0,29,CO,,,,,,,
+5,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,,HC,0.0,0,2010-01-01,22.0,,0.0,NYSDOH,2010-01-01,2010-01-01,,22.0,29,CO,,,,,,,
+6,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2020,RB,HC,1.0,1,2010-01-01,6.0,6.0,6.0,NYSDOH,2010-01-01,2010-01-01,,,,,,,,,,,
+7,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2103,RB,HC,1.0,1,2010-01-01,5.5,5.5,5.5,NYSDOH,2013-09-17,2013-09-17,,,,,,,,,,,
+8,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,V2700,RB,HC,0.0,0,2010-01-01,2.75,,0.0,NYSDOH,2010-01-01,2010-01-01,,2.75,251,CO,,,,,,N206,HE
+9,PATIENT ACCOUNT NUMBER,Submitted First Submitted Last,S0580,,HC,0.0,0,2010-01-01,20.0,,0.0,NYSDOH,2010-01-01,2010-01-01,,20.0,251,CO,,,,,,N206,HE
