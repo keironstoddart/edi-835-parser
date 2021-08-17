@@ -9,6 +9,7 @@ from edi_835_parser.segments.amount import Amount as AmountSegment
 from edi_835_parser.segments.service_adjustment import ServiceAdjustment as ServiceAdjustmentSegment
 from edi_835_parser.segments.remark import Remark as RemarkSegment
 from edi_835_parser.segments.utilities import find_identifier
+from edi_835_parser.elements.dollars import Dollars
 
 
 class Service:
@@ -37,6 +38,12 @@ class Service:
 
 	def __repr__(self):
 		return '\n'.join(str(item) for item in self.__dict__.items())
+
+	@property
+	def allowed_amount(self) -> Optional[Dollars]:
+		if self.amount:
+			if self.amount.qualifier == 'allowed - actual':
+				return self.amount.amount
 
 	@property
 	def service_date(self) -> Optional[DateSegment]:
