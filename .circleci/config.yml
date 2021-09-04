@@ -18,6 +18,6 @@ jobs:
           pkg-manager: pip
       - run:
           name: Run tests
-          command: pytest
+          command: pytest --junitxml=tests/reports/junit.xml --html=tests/reports/pytest_report.html --self-contained-html
       - store_test_results:
           path: tests/reports
