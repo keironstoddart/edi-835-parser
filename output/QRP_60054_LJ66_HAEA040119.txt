@@ -1,0 +1,19 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,S280422000101,Diane Gilmer,0251,,NU,0,1,2022-01-21,4.83,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,4.83,97,CO,6R,1,N130,HE
+1,S280422000101,Diane Gilmer,0251,,NU,0,20,2022-01-21,1.05,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,1.05,97,CO,6R,2,N130,HE
+2,S280422000101,Diane Gilmer,72100,,HC,0,1,2022-01-21,651.0,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,651.0,97,CO,6R,3,N130,HE
+3,S280422000101,Diane Gilmer,64483,50,HC,1,1,2022-01-21,3463.33,1145.9,1145.9,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,2317.43,45,CO,6R,4,N59,HE
+4,S280422000101,Diane Gilmer,64484,,HC,0,2,2022-01-21,1731.67,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,1731.67,97,CO,6R,5,N130,HE
+5,S280422000101,Diane Gilmer,0370,,NU,0,1,2022-01-21,231.0,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,231.0,97,CO,6R,6,N130,HE
+6,S280422000101,Diane Gilmer,J3301,,HC,0,16,2022-01-21,86.88,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,86.88,97,CO,6R,7,N130,HE
+7,S280422000101,Diane Gilmer,J7120,,HC,0,1,2022-01-21,6.0,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,6.0,97,CO,6R,8,N130,HE
+8,S280422000101,Diane Gilmer,0710,,NU,0,2,2022-01-21,1160.0,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,1160.0,97,CO,6R,9,N130,HE
+9,S280475900101,Richard Huziak,93005,,HC,0,1,2022-01-21,407.0,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,407.0,97,CO,6R,9,N130,HE
+10,S280475900101,Richard Huziak,80053,,HC,0,1,2022-01-21,321.0,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,321.0,97,CO,6R,1,N130,HE
+11,S280475900101,Richard Huziak,83036,,HC,0,1,2022-01-21,130.0,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,130.0,97,CO,6R,2,N130,HE
+12,S280475900101,Richard Huziak,86850,,HC,0,1,2022-01-21,218.0,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,218.0,97,CO,6R,3,N130,HE
+13,S280475900101,Richard Huziak,86900,,HC,1,1,2022-01-21,129.0,103.98,103.98,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,25.02,45,CO,6R,4,N59,HE
+14,S280475900101,Richard Huziak,86901,,HC,0,1,2022-01-21,85.0,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,85.0,97,CO,6R,5,N130,HE
+15,S280475900101,Richard Huziak,85025,,HC,0,1,2022-01-21,233.0,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,233.0,97,CO,6R,6,N130,HE
+16,S280475900101,Richard Huziak,85610,,HC,0,1,2022-01-21,102.0,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,102.0,97,CO,6R,7,N130,HE
+17,S280475900101,Richard Huziak,81001,,HC,0,1,2022-01-21,138.0,,0.0,AETNA,2021-12-22,2021-12-22, Lake Health Beachwood Medical C,138.0,97,CO,6R,8,N130,HE

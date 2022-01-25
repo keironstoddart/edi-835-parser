@@ -1,0 +1,12 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,20370000OPAJ,Ruth Kadow,91303,,HC,0,1,2022-01-21,0.1,,0.0,AETNA,2021-12-02,2021-12-02," Progressive North Ridgeville, L",0.1,109,CO,6R,AVNR0000003052-1,N418,HE
+1,20370000OPAJ,Ruth Kadow,0031A,,HC,0,1,2022-01-21,40.0,,0.0,AETNA,2021-12-02,2021-12-02," Progressive North Ridgeville, L",40.0,109,CO,6R,AVNR0000003052-2,N418,HE
+2,21630000OPA0,James Ansell,0110,,NU,0,3,2022-01-21,2636.34,,0.0,AETNA,2021-12-01,2021-12-04," Progressive North Ridgeville, L",2636.34,97,CO,6R,AVNR0000003043-2,N130,HE
+3,21630000OPA0,James Ansell,0110,,NU,0,5,2022-01-21,3377.5,,0.0,AETNA,2021-12-04,2021-12-09," Progressive North Ridgeville, L",3377.5,97,CO,6R,AVNR0000003043-3,N130,HE
+4,21630000OPA0,James Ansell,KACD1,,HP,8,8,2022-01-21,0.0,5895.14,5895.14,AETNA,2021-12-01,2021-12-09," Progressive North Ridgeville, L",-5895.14,45,CO,6R,AVNR0000003043-1,N6,HE
+5,21630000OPA0,James Ansell,0300,,NU,0,1,2022-01-21,50.0,,0.0,AETNA,2021-12-01,2021-12-09," Progressive North Ridgeville, L",50.0,97,CO,6R,AVNR0000003043-4,N130,HE
+6,21630000OPA0,James Ansell,0320,,NU,0,1,2022-01-21,475.4,,0.0,AETNA,2021-12-01,2021-12-09," Progressive North Ridgeville, L",475.4,97,CO,6R,AVNR0000003043-5,N130,HE
+7,21630000OPA0,James Ansell,0420,,NU,0,11,2022-01-21,440.0,,0.0,AETNA,2021-12-01,2021-12-09," Progressive North Ridgeville, L",440.0,97,CO,6R,AVNR0000003043-6,N130,HE
+8,21630000OPA0,James Ansell,0424,,NU,0,1,2022-01-21,100.0,,0.0,AETNA,2021-12-01,2021-12-09," Progressive North Ridgeville, L",100.0,97,CO,6R,AVNR0000003043-7,N130,HE
+9,21630000OPA0,James Ansell,0430,,NU,0,8,2022-01-21,320.0,,0.0,AETNA,2021-12-01,2021-12-09," Progressive North Ridgeville, L",320.0,97,CO,6R,AVNR0000003043-8,N130,HE
+10,21630000OPA0,James Ansell,0434,,NU,0,1,2022-01-21,100.0,,0.0,AETNA,2021-12-01,2021-12-09," Progressive North Ridgeville, L",100.0,97,CO,6R,AVNR0000003043-9,N130,HE

@@ -1,0 +1,5 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,L75676XX001MB1,Ruby Steffens,73562,RT,HC,1,1,2022-01-21,314.0,83.21,83.21,AETNA,2021-12-13,2021-12-13, Perry County Health System,230.79,45,CO,,,,6R,PCMH0000458564-1,N59,HE
+1,L75333XX001MB1,Bonnie Brewer,71271,,HC,1,1,2022-01-21,2254.0,597.31,388.15,AETNA,2021-12-10,2021-12-10, Perry County Health System,1656.69,45,CO,166.03,1,PR,6R,PCMH0000452181-1,,
+2,L52497HX001MP1,Delmer Hedge,99223,,HC,1,1,2022-01-21,410.0,190.34,190.34,AETNA,2021-08-17,2021-08-17, Perry County Health System,219.66,45,CO,,,,6R,PCMH0000371611-1,N6,HE
+3,L52497HX001MP1,Delmer Hedge,99238,,HC,1,1,2022-01-21,162.0,68.07,68.07,AETNA,2021-08-18,2021-08-18, Perry County Health System,93.93,45,CO,,,,6R,PCMH0000371611-2,N6,HE

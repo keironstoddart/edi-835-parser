@@ -1,0 +1,6 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,VAX30801,Gary Foster,80053,,HC,0,1,2022-01-18,140.0,,0.0,AETNA,2021-06-17,2021-06-17, Charles Cole Memorial Hospital,140.0,29,CO,6R,H7XP0008109659-2,,
+1,VAX30801,Gary Foster,80061,,HC,0,1,2022-01-18,135.0,,0.0,AETNA,2021-06-17,2021-06-17, Charles Cole Memorial Hospital,135.0,29,CO,6R,H7XP0008109659-3,,
+2,VAX30801,Gary Foster,36415,,HC,0,1,2022-01-18,21.0,,0.0,AETNA,2021-06-17,2021-06-17, Charles Cole Memorial Hospital,21.0,97,CO,6R,H7XP0008109659-1,N19,HE
+3,2220110049L0,Donald Hinman,99203,CG,HC,0,1,2022-01-18,205.0,,0.0,AETNA,2021-12-16,2021-12-16, Charles Cole Memorial Hospital,205.0,97,CO,6R,H7XP0008105317-1,N130,HE
+4,2220110048L0,Donald Hinman,G0402,CG,HC,0,1,2022-01-18,179.0,,0.0,AETNA,2021-12-01,2021-12-01, Charles Cole Memorial Hospital,179.0,97,CO,6R,H7XP0008105318-1,N130,HE

@@ -33,7 +33,7 @@ class TransactionSet:
 	@property
 	def payer(self) -> OrganizationLoop:
 		payer = [o for o in self.organizations if o.organization.type == 'payer']
-		assert len(payer) == 1
+		# assert len(payer) == 1 (assumption: even if len(payer) > 1, value of payer will be same) #TODO
 		return payer[0]
 
 	def to_dataframe(self) -> pd.DataFrame:
@@ -90,8 +90,14 @@ class TransactionSet:
 			end_date = claim.claim_statement_period_end.date
 
 		datum = {
-			'marker': claim.claim.marker,
-			'patient': claim.patient.name,
+			'patient_control_id': claim.claim.patient_control_number,
+			'patient_id_qualifier': claim.patient.identification_code_qualifier,
+			'patient_id': claim.patient.identification_code,
+			'patient_last_name': claim.patient.last_name,
+			'patient_first_name': claim.patient.first_name,
+			'patient_middle_name': claim.patient.middle_name,
+			'patient_name_suffix': claim.patient.name_suffix,
+			'patient_name_prefix': claim.patient.name_prefix,
 			'code': service.service.code,
 			'modifier': service.service.modifier,
 			'qualifier': service.service.qualifier,
@@ -101,10 +107,41 @@ class TransactionSet:
 			'charge_amount': service.service.charge_amount,
 			'allowed_amount': service.allowed_amount,
 			'paid_amount': service.service.paid_amount,
-			'payer': payer.organization.name,
-			'start_date': start_date,
-			'end_date': end_date,
-			'rendering_provider': claim.rendering_provider.name if claim.rendering_provider else None,
+			'payer_id': payer.organization.identification_code,  # TODO
+			'payer_name': payer.organization.name,               # TODO
+			'bt_facility_type_code_clp08': claim.claim.facility_type_code,
+			'bt_facility_type_code_clp09': claim.claim.claim_frequency_code,
+			'provider_entity_type_qualifier': claim.rendering_provider.type,
+			'provider_id_qualifier': claim.rendering_provider.identification_code_qualifier,
+			'provider_id': claim.rendering_provider.identification_code,
+			'provider_name': claim.rendering_provider.name if claim.rendering_provider else None,
+			'provider_first_name': claim.rendering_provider.first_name,
+			'provider_middle_name': claim.rendering_provider.middle_name,
+			'provider_suffix': claim.rendering_provider.name_suffix,
+			'provider_prefix': claim.rendering_provider.name_prefix,
+			# 'claim_received_date': claim.claim_received_date,
+			'claim_paid_date': financial_information.transaction_date,
+			'claim_status': claim.claim.status,
+			'claim_total_charge_amount': claim.claim.charge_amount,
+			'claim_payment_amount': claim.claim.paid_amount,
+			'claim_patient_responsibility': claim.claim.patient_responsibility_amount,
+			'claim_filing_indicator': claim.claim.claim_filing_indicator_code,
+			'payer_claim_control_number': claim.claim.payer_claim_control_number,
+			'drg_code': claim.claim.drg_code,
+			'corrected_insured_last_name': claim.insured.last_name if claim.insured else None,
+			'corrected_insured_first_name': claim.insured.first_name if claim.insured else None,
+			'corrected_insured_middle_name': claim.insured.middle_name if claim.insured else None,
+			'corrected_insured_prefix': claim.insured.name_prefix if claim.insured else None,
+			'corrected_insured_suffix': claim.insured.name_suffix if claim.insured else None,
+			'corrected_insured_id_qualifier': claim.insured.identification_code_qualifier if claim.insured else None,
+			'corrected_insured_id': claim.insured.identification_code if claim.insured else None,
+			'claim_statement_period_start': claim.claim_statement_period_start,
+			'claim_statement_period_end': claim.claim_statement_period_end,
+			'claim_coverage_expiration': claim.claim_coverage_expiration,
+			'claim_coverage_amount': claim.amount.amount,
+			'service_start_date': start_date,
+			'service_end_date': end_date,
+
 		}
 
 		return datum

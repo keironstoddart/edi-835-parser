@@ -1,0 +1,2 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,82614239900,Audric Ford,99214,GT,HC,1,1,2022-01-24,370.0,132.82,92.97,AETNA,2022-01-04,2022-01-04, Children S Hospital Dental Clinic,39.85,2,PR,6R,NWCH0022549721-1,N130,HE

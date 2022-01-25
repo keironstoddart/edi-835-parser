@@ -1,0 +1,4 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,859998,Jason Jerome,99205,GT,HC,1,1,2022-01-17,-500.0,,-162.68,AETNA,2020-09-17,2020-09-17,Robert Brauer,-297.32,45,CO,-40.0,3,PR,6R,CCHW0000926049-1,,
+1,859998,Jason Jerome,99205,GT,HC,1,1,2022-01-17,500.0,202.68,202.68,AETNA,2020-09-17,2020-09-17,Robert Brauer,297.32,45,CO,,,,6R,CCHW0000926049-1,,
+2,100303,Barbara Washington,99213,GT,HC,0,1,2022-01-17,150.0,,0.0,AETNA,2021-12-09,2021-12-09, Rakesh Ranjan,150.0,18,OA,,,,6R,00000000001,N522,HE

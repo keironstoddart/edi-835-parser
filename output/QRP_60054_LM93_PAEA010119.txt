@@ -1,0 +1,4 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,221042B444ZK,Edmund Dolney,73502,26,HC,0,1,2022-01-24,63.0,,0.0,AETNA,2021-01-20,2021-01-20, Avera St. Luke S Hospital,63.0,B9,CO,6R,265/1.,,
+1,BWA00062236138,Joshua Thielbar,99213,,HC,1,1,2022-01-24,149.0,126.65,126.65,AETNA,2021-10-06,2021-10-06, Access Health Brookings,22.35,45,CO,6R,BRKA0010455902-1,,
+2,BWA00079818242,Joshua Thielbar,99213,,HC,0,1,2022-01-24,149.0,,0.0,AETNA,2021-10-06,2021-10-06, Access Health Brookings,149.0,18,OA,6R,BRKA0012353805-1,N522,HE

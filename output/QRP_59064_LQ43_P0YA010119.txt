@@ -1,0 +1,2 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group
+0,EX1262994,Marivi Medina,83516,,HC,0,0,2022-01-18,149.0,,0.0,MMCP,2021-12-16,2021-12-16, Exagen Diagnostics,149.0,18,CO

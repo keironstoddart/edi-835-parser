@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,808747,Aaron Vonderheide,99213,95,HC,1,1,2022-01-21,105.5,64.26,24.26,AETNA,2021-12-09,2021-12-09, Grant-Blackford Mental Hl,41.24,45,CO,40.0,3,PR,6R,GWXP0001920498-1,N6,HE
+1,808746,Roberta Fields,90834,AJ,HC,1,1,2022-01-21,206.0,88.41,88.41,AETNA,2021-12-15,2021-12-15, Grant-Blackford Mental Hl,117.59,45,CO,,,,6R,GWXP0001920497-1,N6,HE

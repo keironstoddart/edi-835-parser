@@ -1,0 +1,6 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,DAA3999540,John Edwards,99442,95,HC,1,1,2022-01-21,63.53,63.53,63.53,AETNA,2021-03-03,2021-03-03,Ronn Grandia,,,,6R,MT1.99442.20210303.1,,
+1,DAA4268194,Mary Clay,99222,,HC,1,1,2022-01-21,244.87,132.18,132.18,AETNA,2021-12-28,2021-12-28, Point Pleasant Physician Billin,112.69,45,CO,6R,MT1.99222.20211228.1,N59,HE
+2,DAA4267802,Betty Greenlee,99283,CS,HC,1,1,2022-01-21,155.67,72.4,72.4,AETNA,2021-12-31,2021-12-31, Point Pleasant Physician Billin,83.27,45,CO,6R,MT1.99283.20211231.1,N59,HE
+3,DAA4273272,Ricky Ratliff,99223,,HC,1,1,2022-01-21,359.97,194.29,194.29,AETNA,2021-12-28,2021-12-28, Point Pleasant Physician Billin,165.68,45,CO,6R,MT1.99223.20211228.1,N59,HE
+4,DAA4272658,Mary Clay,99233,,HC,1,1,2022-01-21,183.24,100.19,100.19,AETNA,2021-12-27,2021-12-27, Point Pleasant Physician Billin,83.05,45,CO,6R,MT1.99233.20211227.1,N59,HE

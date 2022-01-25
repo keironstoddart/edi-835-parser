@@ -1,0 +1,6 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
+0,H315331564900,Jerrica Jones,87046,,HC,0,2,2022-01-19,64.0,64.0,0.0,AETNA,2021-11-12,2021-11-12, Promedica Bay Park Hospital,64.0,227,PR,6R,PMXP0100259078-1,MA04,HE,N179,HE
+1,H315331564900,Jerrica Jones,87045,,HC,0,1,2022-01-19,43.0,43.0,0.0,AETNA,2021-11-12,2021-11-12, Promedica Bay Park Hospital,43.0,227,PR,6R,PMXP0100259078-2,MA04,HE,N179,HE
+2,H315331564900,Jerrica Jones,87077,,HC,0,1,2022-01-19,101.0,101.0,0.0,AETNA,2021-11-12,2021-11-12, Promedica Bay Park Hospital,101.0,227,PR,6R,PMXP0100259078-3,MA04,HE,N179,HE
+3,H315331564900,Jerrica Jones,87427,,HC,0,1,2022-01-19,79.0,79.0,0.0,AETNA,2021-11-12,2021-11-12, Promedica Bay Park Hospital,79.0,227,PR,6R,PMXP0100259078-4,MA04,HE,N179,HE
+4,P214907570,Jerrica Jones,99213,25,HC,0,1,2022-01-19,228.0,228.0,0.0,AETNA,2021-10-22,2021-10-22,Anita Patibandla,228.0,227,PR,6R,XPPB0099954925-1,MA04,HE,N179,HE

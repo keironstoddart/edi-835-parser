@@ -1,0 +1,14 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,P10015298610,Michael Dembowski,71046,TC,HC,1,1,2022-01-21,56.0,20.89,20.89,AETNA,2021-12-30,2021-12-30," The Methodist Hospitals, Inc.",35.11,45,CO,,,,6R,MHPH0010165425-1,N59,HE
+1,P10015298620,Francine Autrey,99213,25,HC,0,1,2022-01-21,100.0,,0.0,AETNA,2021-12-27,2021-12-27," The Methodist Hospitals, Inc.",100.0,96,CO,,,,6R,MHPH0010165547-1,N56,HE
+2,P10015298620,Francine Autrey,36415,,HC,1,1,2022-01-21,16.0,3.0,3.0,AETNA,2021-12-27,2021-12-27," The Methodist Hospitals, Inc.",13.0,45,CO,,,,6R,MHPH0010165547-2,N59,HE
+3,P10015298670,Irvin Minor,99214,,HC,1,1,2022-01-21,149.0,122.65,102.65,AETNA,2021-12-30,2021-12-30," The Methodist Hospitals, Inc.",26.35,45,CO,20.0,3,PR,6R,MHPH0010165641-1,N59,HE
+4,P10015298670,Irvin Minor,3078F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-30,2021-12-30," The Methodist Hospitals, Inc.",0.01,97,CO,,,,6R,MHPH0010165641-2,N19,HE
+5,P10015298670,Irvin Minor,3074F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-30,2021-12-30," The Methodist Hospitals, Inc.",0.01,97,CO,,,,6R,MHPH0010165641-3,N19,HE
+6,P10015298530,Lawrence Pops,99211,,HC,1,1,2022-01-21,54.0,18.02,18.02,AETNA,2021-12-30,2021-12-30," The Methodist Hospitals, Inc.",35.98,45,CO,,,,6R,MHPH0010165386-1,N59,HE
+7,P10015298530,Lawrence Pops,3078F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-30,2021-12-30," The Methodist Hospitals, Inc.",0.01,97,CO,,,,6R,MHPH0010165386-2,N19,HE
+8,P10015298530,Lawrence Pops,3075F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-30,2021-12-30," The Methodist Hospitals, Inc.",0.01,97,CO,,,,6R,MHPH0010165386-3,N19,HE
+9,P10015298550,Donald May,99442,95,HC,1,1,2022-01-21,100.0,73.44,73.44,AETNA,2021-12-29,2021-12-29," The Methodist Hospitals, Inc.",26.56,45,CO,,,,6R,MHPH0010165385-1,N59,HE
+10,P10015298580,James Rose,3078F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-29,2021-12-29," The Methodist Hospitals, Inc.",0.01,97,CO,,,,6R,MHPH0010165716-2,N19,HE
+11,P10015298580,James Rose,3074F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-29,2021-12-29," The Methodist Hospitals, Inc.",0.01,97,CO,,,,6R,MHPH0010165716-3,N19,HE
+12,P10015298580,James Rose,S0630,,HC,1,1,2022-01-21,25.0,25.0,0.0,AETNA,2021-12-29,2021-12-29," The Methodist Hospitals, Inc.",25.0,3,PR,,,,6R,MHPH0010165716-1,,

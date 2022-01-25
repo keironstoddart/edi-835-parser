@@ -45,6 +45,15 @@ class Claim:
 			return rendering_provider[0]
 
 	@property
+	def insured(self) -> Optional[EntitySegment]:
+		insured = [e for e in self.entities if e.entity == 'insured']
+		assert len(insured) <= 1
+
+		if len(insured) == 1:
+			return insured[0]
+
+
+	@property
 	def claim_statement_period_start(self) -> Optional[DateSegment]:
 		statement_period_start = [d for d in self.dates if d.qualifier == 'claim statement period start']
 		assert len(statement_period_start) <= 1
@@ -59,6 +68,23 @@ class Claim:
 
 		if len(statement_period_end) == 1:
 			return statement_period_end[0]
+
+	@property
+	def claim_received_date(self) -> Optional[DateSegment]:
+		claim_received = [d for d in self.dates if d.qualifier == 'received']
+		assert len(claim_received) <= 1
+
+		if len(claim_received) == 1:
+			return claim_received[0]
+
+
+	@property
+	def claim_coverage_expiration(self) -> Optional[DateSegment]:
+		coverage_expiration = [d for d in self.dates if d.qualifier == 'expiration']
+		assert len(coverage_expiration) <= 1
+
+		if len(coverage_expiration) == 1:
+			return coverage_expiration[0]
 
 	@property
 	def patient(self) -> EntitySegment:

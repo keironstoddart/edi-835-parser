@@ -1,0 +1,7 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,4761634,Carolyn Yanchar,99336,,HC,1,1,2022-01-21,191.0,112.22,112.22,AETNA,2021-12-06,2021-12-06," Lake Hospital System, Inc.",78.78,45,CO,,,,6R,LHPG0024421819-1,N59,HE
+1,4760365,Marie Dinonno,90792,,HC,1,1,2022-01-21,232.0,148.55,148.55,AETNA,2021-12-02,2021-12-02," Lake Hospital System, Inc.",83.45,45,CO,,,,6R,LHPG0024421818-1,N59,HE
+2,4762116,Edward Woodman,99336,,HC,1,1,2022-01-21,191.0,112.22,87.22,AETNA,2021-12-13,2021-12-13," Lake Hospital System, Inc.",78.78,45,CO,25.0,3,PR,6R,LHPG0024421821-1,N59,HE
+3,4761646,William Schudel Jr,99349,,HC,1,1,2022-01-21,181.0,107.01,107.01,AETNA,2021-12-15,2021-12-15," Lake Hospital System, Inc.",73.99,45,CO,,,,6R,LHPG0024421822-1,N59,HE
+4,4761646,William Schudel Jr,90833,,HC,1,1,2022-01-21,107.0,26.71,26.71,AETNA,2021-12-15,2021-12-15," Lake Hospital System, Inc.",80.29,45,CO,,,,6R,LHPG0024421822-2,N59,HE
+5,4761650,Beverly Brashear,99349,,HC,1,1,2022-01-21,181.0,107.01,107.01,AETNA,2021-12-15,2021-12-15," Lake Hospital System, Inc.",73.99,45,CO,,,,6R,LHPG0024421813-1,N59,HE

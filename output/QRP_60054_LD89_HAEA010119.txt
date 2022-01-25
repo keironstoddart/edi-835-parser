@@ -1,0 +1,24 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,19924-0028-001U,Audrey Weese,99213,CG,HC,1,1,2022-01-24,165.0,165.0,26.4,AETNA,2021-09-24,2021-09-24," Webster Memorial Hospital, Inc.",132.0,23,OA,6.6,2,PR,6R,WVXP0002175349-1,,
+1,2177-0256-001U,Mildred Jett,99347,CG,HC,1,1,2022-01-24,215.0,193.86,43.0,AETNA,2021-09-21,2021-09-21," Webster Memorial Hospital, Inc.",172.0,23,OA,,,,6R,WVXP0002175613-1,,
+2,15073-0025-001U,Charlotte Brown,97110,GP,HC,3,3,2022-01-24,225.0,126.0,45.0,AETNA,2021-12-14,2021-12-14," Webster Memorial Hospital, Inc.",180.0,23,OA,,,,6R,WVXP0002171198-1,,
+3,675-0195-001U,Thelma Crislip,87426,,HC,1,1,2022-01-24,90.0,353.33,19.04,AETNA,2021-11-10,2021-11-10," Webster Memorial Hospital, Inc.",600.96,23,OA,,,,6R,WVXP0002155859-1,,
+4,675-0195-001U,Thelma Crislip,U0002,,HC,1,1,2022-01-24,250.0,,0.0,AETNA,2021-11-10,2021-11-10," Webster Memorial Hospital, Inc.",250.0,45,CO,,,,6R,WVXP0002155859-2,,
+5,675-0195-001U,Thelma Crislip,87804,,HC,1,1,2022-01-24,97.0,,0.0,AETNA,2021-11-10,2021-11-10," Webster Memorial Hospital, Inc.",97.0,45,CO,,,,6R,WVXP0002155859-3,,
+6,675-0195-001U,Thelma Crislip,87880,,HC,1,1,2022-01-24,63.0,,0.0,AETNA,2021-11-10,2021-11-10," Webster Memorial Hospital, Inc.",63.0,45,CO,,,,6R,WVXP0002155859-4,,
+7,675-0195-001U,Thelma Crislip,99212,,HC,1,1,2022-01-24,60.0,,0.0,AETNA,2021-11-10,2021-11-10," Webster Memorial Hospital, Inc.",60.0,45,CO,,,,6R,WVXP0002155859-5,,
+8,675-0195-001U,Thelma Crislip,99212,25,HC,1,1,2022-01-24,60.0,,0.0,AETNA,2021-11-10,2021-11-10," Webster Memorial Hospital, Inc.",60.0,45,CO,,,,6R,WVXP0002155859-6,,
+9,9755-0254-001U,Betty Jordan,99212,,HC,1,1,2022-01-24,60.0,108.11,20.2,AETNA,2021-12-21,2021-12-21," Webster Memorial Hospital, Inc.",119.8,23,OA,5.0,3,PR,6R,WVXP0002168381-1,,
+10,9755-0254-001U,Betty Jordan,99213,25,HC,1,1,2022-01-24,85.0,,0.0,AETNA,2021-12-21,2021-12-21," Webster Memorial Hospital, Inc.",85.0,45,CO,,,,6R,WVXP0002168381-2,,
+11,15804-0056-001U,Charles Wilson,99212,,HC,1,1,2022-01-24,60.0,96.92,23.22,AETNA,2021-12-23,2021-12-23," Webster Memorial Hospital, Inc.",121.78,23,OA,,,,6R,WVXP0002169705-1,,
+12,15804-0056-001U,Charles Wilson,99213,25,HC,1,1,2022-01-24,85.0,,0.0,AETNA,2021-12-23,2021-12-23," Webster Memorial Hospital, Inc.",85.0,45,CO,,,,6R,WVXP0002169705-2,,
+13,15073-0018-001U,Charlotte Brown,97110,GP,HC,1,1,2022-01-24,75.0,42.0,15.0,AETNA,2021-11-16,2021-11-16," Webster Memorial Hospital, Inc.",60.0,23,OA,,,,6R,WVXP0002156436-1,,
+14,15073-0019-001U,Charlotte Brown,97110,GP,HC,3,3,2022-01-24,225.0,166.32,59.4,AETNA,2021-11-18,2021-11-18," Webster Memorial Hospital, Inc.",237.6,23,OA,,,,6R,WVXP0002161800-1,,
+15,15073-0019-001U,Charlotte Brown,97140,GP,HC,1,1,2022-01-24,72.0,,0.0,AETNA,2021-11-18,2021-11-18," Webster Memorial Hospital, Inc.",72.0,45,CO,,,,6R,WVXP0002161800-2,N20,HE
+16,15073-0021-001U,Charlotte Brown,97110,GP,HC,3,3,2022-01-24,225.0,166.32,59.4,AETNA,2021-11-24,2021-11-24," Webster Memorial Hospital, Inc.",237.6,23,OA,,,,6R,WVXP0002162978-1,,
+17,15073-0021-001U,Charlotte Brown,97140,GP,HC,1,1,2022-01-24,72.0,,0.0,AETNA,2021-11-24,2021-11-24," Webster Memorial Hospital, Inc.",72.0,45,CO,,,,6R,WVXP0002162978-2,N20,HE
+18,15073-0023-001U,Charlotte Brown,97110,GP,HC,3,3,2022-01-24,225.0,166.32,59.4,AETNA,2021-12-01,2021-12-01," Webster Memorial Hospital, Inc.",237.6,23,OA,,,,6R,WVXP0002166638-1,,
+19,15073-0023-001U,Charlotte Brown,97140,GP,HC,1,1,2022-01-24,72.0,,0.0,AETNA,2021-12-01,2021-12-01," Webster Memorial Hospital, Inc.",72.0,45,CO,,,,6R,WVXP0002166638-2,N20,HE
+20,15073-0024-001U,Charlotte Brown,97112,GP,HC,1,1,2022-01-24,67.0,37.52,13.4,AETNA,2021-12-08,2021-12-08," Webster Memorial Hospital, Inc.",53.6,23,OA,,,,6R,WVXP0002166940-1,,
+21,15073-0022-001U,Charlotte Brown,97110,GP,HC,2,2,2022-01-24,150.0,164.64,58.8,AETNA,2021-11-29,2021-11-29," Webster Memorial Hospital, Inc.",235.2,23,OA,,,,6R,WVXP0002164699-1,,
+22,15073-0022-001U,Charlotte Brown,97140,GP,HC,2,2,2022-01-24,144.0,,0.0,AETNA,2021-11-29,2021-11-29," Webster Memorial Hospital, Inc.",144.0,45,CO,,,,6R,WVXP0002164699-2,N20,HE

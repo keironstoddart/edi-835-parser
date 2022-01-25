@@ -1,0 +1,11 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,4746810,Vernon Miles,99308,,HC,1,1,2022-01-21,98.0,57.09,57.09,AETNA,2021-12-23,2021-12-23," Lake Hospital System, Inc.",40.91,45,CO,6R,LHPG0024421375-1,N59,HE
+1,4765377,Joan Lewis,99308,,HC,1,1,2022-01-21,98.0,67.17,67.17,AETNA,2021-11-25,2021-11-25," Lake Hospital System, Inc.",30.83,45,CO,6R,LHPG0024410572-1,N59,HE
+2,4765376,Dorothy Warren,99308,,HC,1,1,2022-01-21,98.0,67.17,67.17,AETNA,2021-11-25,2021-11-25," Lake Hospital System, Inc.",30.83,45,CO,6R,LHPG0024410571-1,N59,HE
+3,4765340,Leonard Elliott,99308,,HC,1,1,2022-01-21,98.0,67.17,67.17,AETNA,2021-11-11,2021-11-11," Lake Hospital System, Inc.",30.83,45,CO,6R,LHPG0024410566-1,N59,HE
+4,4765371,Phoebe Birmingham,99308,,HC,1,1,2022-01-21,98.0,67.17,67.17,AETNA,2021-11-25,2021-11-25," Lake Hospital System, Inc.",30.83,45,CO,6R,LHPG0024410569-1,N59,HE
+5,4765373,Mary Wright,99308,,HC,1,1,2022-01-21,98.0,67.17,67.17,AETNA,2021-11-25,2021-11-25," Lake Hospital System, Inc.",30.83,45,CO,6R,LHPG0024410573-1,N59,HE
+6,4765324,Walter Mueller,99308,,HC,0,1,2022-01-21,98.0,,0.0,AETNA,2021-11-04,2021-11-04," Lake Hospital System, Inc.",98.0,B9,CO,6R,LHPG0024410565-1,,
+7,4765344,Joan Polakowski,99309,,HC,1,1,2022-01-21,129.0,88.48,88.48,AETNA,2021-11-11,2021-11-11," Lake Hospital System, Inc.",40.52,45,CO,6R,LHPG0024410567-1,N59,HE
+8,4765315,Joan Polakowski,99306,,HC,1,1,2022-01-21,239.0,162.51,162.51,AETNA,2021-11-04,2021-11-04," Lake Hospital System, Inc.",76.49,45,CO,6R,LHPG0024410564-1,N59,HE
+9,4765375,Joan Polakowski,99309,,HC,1,1,2022-01-21,129.0,88.48,88.48,AETNA,2021-11-25,2021-11-25," Lake Hospital System, Inc.",40.52,45,CO,6R,LHPG0024410570-1,N59,HE

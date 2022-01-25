@@ -1,0 +1,5 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,500482000061E0,Linda Hunter,0192,,NU,0,10,2022-01-21,3150.0,,0.0,AETNA,2021-12-02,2021-12-12, Piqua Healthcare Llc,3150.0,97,CO,6R,BOHO0000071512-2,N130,HE
+1,500482000061E0,Linda Hunter,KAXE1,,HP,10,10,2022-01-21,0.0,5148.13,5148.13,AETNA,2021-12-02,2021-12-12, Piqua Healthcare Llc,-5148.13,45,CO,6R,BOHO0000071512-1,N6,HE
+2,500482000061E0,Linda Hunter,0250,,NU,0,1,2022-01-21,625.25,,0.0,AETNA,2021-12-02,2021-12-12, Piqua Healthcare Llc,625.25,97,CO,6R,BOHO0000071512-3,N130,HE
+3,500482000061E0,Linda Hunter,0300,,NU,0,1,2022-01-21,165.57,,0.0,AETNA,2021-12-02,2021-12-12, Piqua Healthcare Llc,165.57,97,CO,6R,BOHO0000071512-4,N130,HE

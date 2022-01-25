@@ -1,0 +1,2 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
+0,WKC4858903,Virginia Dunn,93010,,HC,1,1,2022-01-21,112.08,8.55,8.55,AETNA,2021-12-28,2021-12-28, Tidelands Health Waccamaw Commu,103.53,45,CO,6R,W2XP0008736575-1

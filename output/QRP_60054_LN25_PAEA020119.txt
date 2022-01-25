@@ -1,0 +1,6 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,AAA01664570,Mark Meridew,45385,,HC,1,1,2022-01-21,870.0,252.52,252.52,AETNA,2021-11-29,2021-11-29," Fchc Medical Care, Llc",617.48,45,CO,,,,6R,FCHC0003183882-1,N59,HE
+1,AAA01675194,Corwin Riegsecker,99225,,HC,1,1,2022-01-21,145.0,70.48,70.48,AETNA,2021-12-04,2021-12-04," Fchc Medical Care, Llc",74.52,45,CO,,,,6R,FCHC0003185358-1,N59,HE
+2,AAA01676499,Mark Meridew,99213,,HC,1,1,2022-01-21,150.0,89.0,64.0,AETNA,2021-12-06,2021-12-06," Fchc Medical Care, Llc",61.0,45,CO,25.0,3,PR,6R,FCHC0003185279-1,N59,HE
+3,AAA01676354,Vern Beck,99204,,HC,1,1,2022-01-21,325.0,164.49,134.49,AETNA,2021-12-10,2021-12-10," Fchc Medical Care, Llc",160.51,45,CO,30.0,3,PR,6R,FCHC0003185182-1,N59,HE
+4,AAA01677200,Corwin Riegsecker,99224,,HC,1,1,2022-01-21,80.0,37.98,37.98,AETNA,2021-12-05,2021-12-05," Fchc Medical Care, Llc",42.02,45,CO,,,,6R,FCHC0003185359-1,N59,HE

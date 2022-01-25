@@ -1,0 +1,8 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
+0,90924924,Affie Ervin,99212,CG,HC,0,1,2022-01-17,80.0,,0.0,AETNA,2021-06-07,2021-06-07, Franklin Parish Hospital Servic,80.0,18,OA,6R,GILB0002857317-1,N522,HE,,
+1,90924924,Affie Ervin,82962,,HC,0,1,2022-01-17,15.0,,0.0,AETNA,2021-06-07,2021-06-07, Franklin Parish Hospital Servic,15.0,18,OA,6R,GILB0002857317-2,N130,HE,N522,HE
+2,90907394,Barbara Ervin,99212,CG,HC,0,1,2022-01-17,80.0,,0.0,AETNA,2021-03-15,2021-03-15, Franklin Parish Hospital Servic,80.0,18,OA,6R,GILB0002996915-1,N522,HE,,
+3,90891943,Affie Ervin,99212,CG,HC,0,1,2022-01-17,80.0,,0.0,AETNA,2021-04-19,2021-04-19, Franklin Parish Hospital Servic,80.0,252,PI,6R,GILB0003005301-1,N710,HE,,
+4,90891943,Affie Ervin,82962,,HC,0,1,2022-01-17,15.0,,0.0,AETNA,2021-04-19,2021-04-19, Franklin Parish Hospital Servic,15.0,252,PI,6R,GILB0003005301-2,N710,HE,,
+5,90870142,Affie Ervin,99213,CG,HC,0,1,2022-01-17,100.0,,0.0,AETNA,2021-03-15,2021-03-15, Franklin Parish Hospital Servic,100.0,252,PI,6R,GILB0002857321-1,N710,HE,,
+6,90870142,Affie Ervin,82962,,HC,0,1,2022-01-17,15.0,,0.0,AETNA,2021-03-15,2021-03-15, Franklin Parish Hospital Servic,15.0,252,PI,6R,GILB0002857321-2,N130,HE,N710,HE

@@ -1,0 +1,2 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,AAA01605978,Thomas Kent,27447,RT,HC,1,1,2022-01-21,2755.0,1289.81,1289.81,AETNA,2021-12-13,2021-12-13," Fchc Medical Care, Llc",1465.19,45,CO,6R,FCHC0003185245-1,N59,HE

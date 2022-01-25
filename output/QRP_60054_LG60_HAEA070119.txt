@@ -1,0 +1,6 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,91047112,Donnie Harper,99213,CG,HC,1,1,2022-01-21,185.0,67.99,67.99,AETNA,2021-02-25,2021-02-25, Franklin Parish Hospital Servic,117.01,45,CO,6R,CRHC0003010531-1,N59,HE
+1,91047112,Donnie Harper,93005,,HC,0,1,2022-01-21,55.0,,0.0,AETNA,2021-02-25,2021-02-25, Franklin Parish Hospital Servic,55.0,97,CO,6R,CRHC0003010531-2,N130,HE
+2,91047112,Donnie Harper,93010,,HC,0,1,2022-01-21,30.0,,0.0,AETNA,2021-02-25,2021-02-25, Franklin Parish Hospital Servic,30.0,97,CO,6R,CRHC0003010531-3,N19,HE
+3,91051000,Carrie Navarro,11055,CG,HC,1,1,2022-01-21,290.0,87.0,87.0,AETNA,2021-12-30,2021-12-30, Franklin Parish Hospital Servic,203.0,45,CO,6R,CRHC0003019646-1,,
+4,91051000,Carrie Navarro,11719,,HC,0,1,2022-01-21,122.0,,0.0,AETNA,2021-12-30,2021-12-30, Franklin Parish Hospital Servic,122.0,96,CO,6R,CRHC0003019646-2,N115,HE

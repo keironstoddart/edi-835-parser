@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,82614170902,Maria Baez,99214,,HC,1,1,2022-01-21,230.0,209.3,204.3,AETNA,2021-12-30,2021-12-30, Nationwide Children S Hospital,20.7,45,CO,5.0,3,PR,6R,NWCH0022578151-2,N59,HE
+1,82614170902,Maria Baez,87426,,HC,1,1,2022-01-21,103.0,93.73,93.73,AETNA,2021-12-30,2021-12-30, Nationwide Children S Hospital,9.27,45,CO,,,,6R,NWCH0022578151-1,N59,HE

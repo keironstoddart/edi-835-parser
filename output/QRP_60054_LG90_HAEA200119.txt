@@ -1,0 +1,2 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
+0,WKC4864133,Gregory Schmidt,99285,,HC,1,1,2022-01-21,913.82,166.56,166.56,AETNA,2021-12-23,2021-12-23, Tidelands Health Waccamaw Commu,747.26,45,CO,6R,W2XP0008736585-1

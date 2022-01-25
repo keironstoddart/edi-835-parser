@@ -1,0 +1,2 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
+0,5391821710,Sai Pasupuleti,99213,CS,HC,1,1,2022-01-24,106.0,72.31,72.31,AETNA,2022-01-03,2022-01-03," Premier Health Urgent Care, Inc",33.69,45,CO,6R,PHUC0035766507-1

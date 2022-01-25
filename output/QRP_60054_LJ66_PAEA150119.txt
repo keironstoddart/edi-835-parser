@@ -1,0 +1,4 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
+0,4710516,Crystal Temple,99442,,HC,0,1,2022-01-19,90.0,90.0,0.0,AETNA,2021-11-26,2021-11-26,Abigail Cicero,90.0,227,PR,6R,LHPG0024125854-1,MA04,HE,N179,HE
+1,S277265200101,Ashley Barry,99213,,HC,0,1,2022-01-19,307.0,307.0,0.0,AETNA,2021-11-20,2021-11-20, Lake Health Willowick Campus,307.0,226,CO,6R,1,N517,HE,,
+2,S277254800101,Andrew Brewer,99213,,HC,0,1,2022-01-19,307.0,307.0,0.0,AETNA,2021-11-20,2021-11-20, Mentor Wellness Campus,307.0,226,PI,6R,1,N517,HE,,

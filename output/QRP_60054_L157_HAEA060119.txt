@@ -1,0 +1,4 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
+0,MBN63003,Patricia Mcintosh,G0463,25,HC,0,1,2022-01-21,233.25,,0.0,AETNA,2021-09-30,2021-09-30, Ephraim Mcdowell Regional Medic,233.25,16,PI,,,,6R,E7XP0014372994-2,MA30,HE,MA67,HE
+1,MBN63003,Patricia Mcintosh,0272,,NU,0,1,2022-01-21,19.5,,0.0,AETNA,2021-09-30,2021-09-30, Ephraim Mcdowell Regional Medic,19.5,16,PI,,,,6R,E7XP0014372994-1,MA30,HE,MA67,HE
+2,39387,Eloise Mayes,E1392,RR,HC,1,1,2022-01-21,157.5,47.23,37.78,AETNA,2021-12-26,2021-12-26, Ephraim Mcdowell Regional Medic,110.27,45,CO,9.45,2,PR,6R,00000000001,N6,HE,,

@@ -1,0 +1,4 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
+0,JBJ60545,Shirley Gunlock,99285,GC,HC,1,1,2022-01-21,-485.0,,-174.29,AETNA,2021-12-21,2021-12-21, Freeman-Oak Hill Health System,-310.71,45,CO,,,N59,HE,N694,HE
+1,JBJ62955,Shirley Gunlock,99285,GC,HC,1,1,2022-01-21,485.0,174.29,174.29,AETNA,2021-12-21,2021-12-21, Freeman-Oak Hill Health System,310.71,45,CO,6R,FMHS0005556919-2,N59,HE,,
+2,JBJ62955,Shirley Gunlock,93010,,HC,1,1,2022-01-21,31.0,8.0,8.0,AETNA,2021-12-21,2021-12-21, Freeman-Oak Hill Health System,23.0,45,CO,6R,FMHS0005556919-1,N59,HE,,

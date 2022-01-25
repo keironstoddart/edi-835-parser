@@ -1,0 +1,9 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,475775301,Maxine Townes,73030,LT,HC,1,1,2022-01-18,315.0,71.66,64.49,AETNA,2021-12-29,2021-12-29, Morehouse General Hospital,243.34,45,CO,7.17,2,PR,6R,12XP0001544254-1,N59,HE
+1,473987101,Eddie Fenceroy,82248,,HC,0,1,2022-01-18,20.0,,0.0,AETNA,2021-07-15,2021-07-15, Morehouse General Hospital,20.0,29,CO,,,,6R,12XP0001537744-2,,
+2,473987101,Eddie Fenceroy,80061,,HC,0,1,2022-01-18,67.0,,0.0,AETNA,2021-07-15,2021-07-15, Morehouse General Hospital,67.0,96,CO,,,,6R,12XP0001537744-3,N115,HE
+3,473987101,Eddie Fenceroy,84443,,HC,0,1,2022-01-18,94.0,,0.0,AETNA,2021-07-15,2021-07-15, Morehouse General Hospital,94.0,96,CO,,,,6R,12XP0001537744-4,N115,HE
+4,473987101,Eddie Fenceroy,80053,,HC,0,1,2022-01-18,151.0,,0.0,AETNA,2021-07-15,2021-07-15, Morehouse General Hospital,151.0,29,CO,,,,6R,12XP0001537744-5,,
+5,473987101,Eddie Fenceroy,85025,,HC,0,1,2022-01-18,108.0,,0.0,AETNA,2021-07-15,2021-07-15, Morehouse General Hospital,108.0,29,CO,,,,6R,12XP0001537744-6,,
+6,473987101,Eddie Fenceroy,81001,,HC,0,1,2022-01-18,24.0,,0.0,AETNA,2021-07-15,2021-07-15, Morehouse General Hospital,24.0,29,CO,,,,6R,12XP0001537744-7,,
+7,473987101,Eddie Fenceroy,36415,,HC,0,1,2022-01-18,25.0,,0.0,AETNA,2021-07-15,2021-07-15, Morehouse General Hospital,25.0,29,CO,,,,6R,12XP0001537744-1,,

@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,H9321221888200,Merrychris Forrester,93922,,HC,1,1,2022-01-24,264.83,224.32,224.32,AETNA,2021-12-28,2021-12-28, Mecosta County Medical Center-Rehab. Unit,828.3,23,OA,6R,H9321221888200-1,,
+1,H9321221888200,Merrychris Forrester,93925,,HC,1,1,2022-01-24,787.79,,0.0,AETNA,2021-12-28,2021-12-28, Mecosta County Medical Center-Rehab. Unit,787.79,45,CO,6R,H9321221888200-2,N20,HE

@@ -1,0 +1,4 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
+0,ADI9637280,Linda Smith,99213,,HC,1,1,2022-01-21,156.0,53.45,38.45,AETNA,2021-12-21,2021-12-21," Bloomington Medical Services, L",102.55,45,CO,15.0,3,PR,6R,BLMS0007433249-1
+1,ADI9637280,Linda Smith,0241U,QW,HC,1,1,2022-01-21,125.0,60.62,60.62,AETNA,2021-12-21,2021-12-21," Bloomington Medical Services, L",64.38,45,CO,,,,6R,BLMS0007433249-2
+2,ADI9627244,Terry Slusser,99204,,HC,1,1,2022-01-21,288.0,143.41,118.41,AETNA,2021-12-29,2021-12-29," Bloomington Medical Services, L",144.59,45,CO,25.0,3,PR,6R,BLMS0007433373-1

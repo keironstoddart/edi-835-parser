@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
+0,221295B813HR,Barbara Rouse,90694,,HC,1,1,2022-01-21,132.56,66.43,66.43,AETNA,2021-10-21,2021-10-21, Ephraim Mcdowell Health Resourc,66.13,45,CO,6R,DTXP0014473336-1
+1,221295B813HR,Barbara Rouse,G0008,,HC,1,1,2022-01-21,37.0,10.0,10.0,AETNA,2021-10-21,2021-10-21, Ephraim Mcdowell Health Resourc,27.0,45,CO,6R,DTXP0014473336-2

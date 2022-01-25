@@ -1,0 +1,4 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,AAA01664950,Susan Vanslyke,99214,,HC,1,1,2022-01-21,215.0,126.5,101.5,AETNA,2021-12-07,2021-12-07," Fchc Medical Care, Llc",88.5,45,CO,25.0,3,PR,6R,FCHC0003183613-1,N59,HE
+1,AAA01664878,Minerva Rivas,99214,,HC,1,1,2022-01-21,215.0,98.46,98.46,AETNA,2021-12-07,2021-12-07," Fchc Medical Care, Llc",116.54,45,CO,,,,6R,FCHC0003183636-1,N59,HE
+2,AAA01662730,Elvia Rivera,99214,,HC,1,1,2022-01-21,215.0,98.46,98.46,AETNA,2021-12-07,2021-12-07," Fchc Medical Care, Llc",116.54,45,CO,,,,6R,FCHC0003183692-1,N59,HE

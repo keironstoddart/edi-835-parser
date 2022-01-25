@@ -1,0 +1,5 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,FCA00008567504,Norma Moore,99213,,HC,1,1,2022-01-21,115.0,64.43,44.43,AETNA,2021-12-29,2021-12-29, Fulton County Medical Center,50.57,45,CO,20.0,3,PR,6R,FLXP0002415381-1,N59,HE
+1,FCA00008569344,Faye Butts,99213,,HC,1,1,2022-01-21,115.0,64.43,44.43,AETNA,2021-12-30,2021-12-30, Fulton County Medical Center,50.57,45,CO,20.0,3,PR,6R,FLXP0002415350-1,N59,HE
+2,FCA00008569352,James Butts,99213,,HC,1,1,2022-01-21,115.0,64.43,44.43,AETNA,2021-12-30,2021-12-30, Fulton County Medical Center,50.57,45,CO,20.0,3,PR,6R,FLXP0002415395-1,N59,HE
+3,FCA00008576500,Rodney Wagaman,99214,,HC,1,1,2022-01-21,165.0,95.07,75.07,AETNA,2021-12-30,2021-12-30, Fulton County Medical Center,69.93,45,CO,20.0,3,PR,6R,FLXP0002416197-1,N59,HE

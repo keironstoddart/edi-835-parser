@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,JLC12827A40,Willie Mae Bennett,99214,,HC,1,1,2022-01-21,242.0,109.28,89.28,AETNA,2021-12-16,2021-12-16, Hospital Authority Of Jefferson,132.72,45,CO,20.0,3,PR,6R,1211390,N59,HE
+1,JLC4131A8,Clarice Jenkins,99307,CG,HC,1,1,2022-01-21,184.0,136.14,136.14,AETNA,2021-12-21,2021-12-21, Jefferson Hospital,47.86,45,CO,,,,6R,00000000001,N6,HE

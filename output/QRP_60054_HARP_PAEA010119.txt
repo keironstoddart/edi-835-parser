@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
+0,538799-AMCV-MI,Robert Nehm,36620,,HC,1,1,2022-01-19,204.0,61.57,0.0,AETNA,2022-01-07,2022-01-07, Anesthesia Associates Of Western Michigan,142.43,45,CO,61.57,1,PR,6R,603132-AMCV-MI
+1,538799-AMCV-MI,Robert Nehm,31500,,HC,1,1,2022-01-19,204.0,186.97,0.0,AETNA,2022-01-07,2022-01-07, Anesthesia Associates Of Western Michigan,17.03,45,CO,186.97,1,PR,6R,603131-AMCV-MI

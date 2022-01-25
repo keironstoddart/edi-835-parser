@@ -1,0 +1,4 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
+0,MG1000346710,Michelle Hubbard,43239,,HC,1,1,2022-01-21,747.56,190.88,0.0,AETNA,2022-01-17,2022-01-17,Mamoon Elbedawi,556.68,45,CO,190.88,1,PR,6R,MIMI0000070612-1
+1,MG1000344860,Kevin Cannon,45380,,HC,1,1,2022-01-21,607.0,277.14,0.0,AETNA,2021-12-02,2021-12-02,Mamoon Elbedawi,329.86,45,CO,277.14,1,PR,6R,MIMI0000070331-1
+2,MG1000344500,Victoria Dotson,99222,,HC,1,1,2022-01-21,244.39,149.81,149.81,AETNA,2021-12-27,2021-12-27, Mid Michigan Gastroenterology A,94.58,45,CO,,,,6R,MIMI0000070242-1

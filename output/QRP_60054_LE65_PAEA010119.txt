@@ -1,0 +1,7 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
+0,RC175918060,Jeffrey Landowski,85610,PO,HC,0,1,2022-01-21,46.0,,0.0,AETNA,2021-06-25,2021-06-25, Aspirus Riverview Hospital   Cl,46.0,18,OA,6R,ASCL0090050138-1,N522,HE,,
+1,WC175831410,Jill Gregorich,93010,,HC,1,1,2022-01-21,96.0,8.09,8.09,AETNA,2021-12-29,2021-12-29, Aspirus Medical Group Inc,87.91,45,CO,6R,ASCL0090022922-1,N6,HE,N807,HE
+2,WC175831420,Jill Gregorich,93010,,HC,1,1,2022-01-21,96.0,8.09,8.09,AETNA,2021-12-30,2021-12-30, Aspirus Medical Group Inc,87.91,45,CO,6R,ASCL0090022923-1,N6,HE,N807,HE
+3,WC175905710,Donald Malott,93294,,HC,1,1,2022-01-21,280.0,29.56,29.56,AETNA,2021-10-20,2021-10-20, Aspirus Medical Group Inc,250.44,45,CO,6R,ASCL0090044799-1,N6,HE,N807,HE
+4,WC175905650,Frank Schmidt,93295,,HC,1,1,2022-01-21,467.0,36.59,36.59,AETNA,2021-12-20,2021-12-20, Aspirus Medical Group Inc,430.41,45,CO,6R,ASCL0090044938-1,N6,HE,N807,HE
+5,WC175905680,Lucyna Krzeczkowska,93295,,HC,1,1,2022-01-21,467.0,37.07,37.07,AETNA,2021-12-17,2021-12-17, Aspirus Medical Group Inc,429.93,45,CO,6R,ASCL0090044884-1,N59,HE,,

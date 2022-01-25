@@ -1,0 +1,2 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,PD66057,Gerald Scott,0013M,,HC,1,1,2022-01-19,2995.0,,0.0,CIGNA,2021-10-20,2021-10-20,,2995.0,146,CO,6R,PD0000080892-1,M64,HE

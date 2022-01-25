@@ -1,0 +1,2 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,P10015298460,Lois Carr,99213,95,HC,1,1,2022-01-21,100.0,73.3,38.3,AETNA,2021-12-29,2021-12-29," The Methodist Hospitals, Inc.",26.7,45,CO,35.0,3,PR,6R,MHPH0010165812-1,N59,HE

@@ -1,0 +1,2 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
+0,ADI9593458,Neva Dehoff,93306,26,HC,1,1,2022-01-21,128.0,69.42,69.42,AETNA,2021-12-11,2021-12-11, Bloomington Medical Services,58.58,45,CO,6R,BLMS0007427056-1

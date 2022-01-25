@@ -1,0 +1,4 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,BAB00011674040,Janice Maxwell,99284,,HC,1,1,2022-01-21,632.3,119.0,5.71,AETNA,2021-12-10,2021-12-10,Cole Hodges,608.74,23,OA,17.85,2,PR,6R,KDMC0000443470-1,,
+1,110611,Jacquilla Laird,96372,,HC,2,2,2022-01-21,597.5,58.84,58.84,AETNA,2021-12-27,2021-12-27, King S Daughters Medical Center,538.66,45,CO,,,,6R,00000000001,,
+2,110611,Jacquilla Laird,J3111,,HC,210,210,2022-01-21,9397.5,1962.24,1962.24,AETNA,2021-12-27,2021-12-27, King S Daughters Medical Center,7435.26,45,CO,,,,6R,00000000002,MA109,HE

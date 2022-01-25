@@ -1,0 +1,5 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
+0,P1027264502,Myles Overton,76937,26,HC,0,1,2022-01-19,30.0,,0.0,AETNA,2021-01-24,2021-01-24,Ambreen Sattar,30.0,18,OA,6R,7HXP0019837882-4
+1,P1027264502,Myles Overton,36556,,HC,0,1,2022-01-19,220.0,,0.0,AETNA,2021-01-24,2021-01-24,Ambreen Sattar,220.0,18,OA,6R,7HXP0019837882-3
+2,P1027264502,Myles Overton,36251,,HC,0,1,2022-01-19,510.0,,0.0,AETNA,2021-01-24,2021-01-24,Ambreen Sattar,510.0,18,OA,6R,7HXP0019837882-2
+3,P1027264502,Myles Overton,36558,,HC,0,1,2022-01-19,485.0,,0.0,AETNA,2021-01-27,2021-01-27,Ambreen Sattar,485.0,18,OA,6R,7HXP0019837882-1

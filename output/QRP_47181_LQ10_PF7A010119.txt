@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,01000583162620211223,Daimien Roque,A4421,,HC,0,10,2022-01-21,95.4,,0.0,HIGHMARK HEALTH OPTIONS,2021-12-21,2021-12-21,,95.4,252,CO,6R,CRGH0042524506-1,M23,HE
+1,01000583162620211223,Daimien Roque,A4927,,HC,1,1,2022-01-21,46.15,6.19,6.19,HIGHMARK HEALTH OPTIONS,2021-12-21,2021-12-21,,39.96,45,CO,6R,CRGH0042524506-2,,

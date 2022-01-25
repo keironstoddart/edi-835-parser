@@ -1,0 +1,12 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,4557207-003,Barbara Garner,3008F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-11-10,2021-11-10," Jtdm Family Practice,Llc",0.01,97,CO,,,,6R,GLPP0004538375-5,N19,HE
+1,4557207-003,Barbara Garner,1170F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-11-10,2021-11-10," Jtdm Family Practice,Llc",0.01,97,CO,,,,6R,GLPP0004538375-4,N19,HE
+2,4557207-003,Barbara Garner,1160F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-11-10,2021-11-10," Jtdm Family Practice,Llc",0.01,97,CO,,,,6R,GLPP0004538375-3,N19,HE
+3,4557207-003,Barbara Garner,1159F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-11-10,2021-11-10," Jtdm Family Practice,Llc",0.01,97,CO,,,,6R,GLPP0004538375-2,N19,HE
+4,4557207-003,Barbara Garner,1036F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-11-10,2021-11-10," Jtdm Family Practice,Llc",0.01,97,CO,,,,6R,GLPP0004538375-1,N19,HE
+5,4557207-003,Barbara Garner,99213,,HC,1,1,2022-01-21,128.0,62.88,22.88,AETNA,2021-11-11,2021-11-11," Jtdm Family Practice,Llc",65.12,45,CO,40.0,3,PR,6R,GLPP0004538375-6,,
+6,4626351-001,Nancy Topp,99204,,HC,1,1,2022-01-21,283.0,139.82,124.82,AETNA,2021-12-09,2021-12-09," Jtdm Family Practice, Llc",143.18,45,CO,15.0,3,PR,6R,GLPP0004543319-5,N59,HE
+7,4626351-001,Nancy Topp,3008F,,HC,0,2,2022-01-21,0.02,,0.0,AETNA,2021-12-09,2021-12-09," Jtdm Family Practice, Llc",0.02,97,CO,,,,6R,GLPP0004543319-4,N19,HE
+8,4626351-001,Nancy Topp,1160F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-09,2021-12-09," Jtdm Family Practice, Llc",0.01,97,CO,,,,6R,GLPP0004543319-3,N19,HE
+9,4626351-001,Nancy Topp,1159F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-09,2021-12-09," Jtdm Family Practice, Llc",0.01,97,CO,,,,6R,GLPP0004543319-2,N19,HE
+10,4626351-001,Nancy Topp,1036F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-09,2021-12-09," Jtdm Family Practice, Llc",0.01,97,CO,,,,6R,GLPP0004543319-1,N19,HE

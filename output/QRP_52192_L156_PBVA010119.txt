@@ -1,0 +1,2 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
+0,S3605612800102,David Glasener,99308,,HC,1,1,2022-01-18,98.0,67.17,67.49,CIGNA,2021-05-10,2021-05-10,,-0.32,144,CO,30.83,45,CO,6R,UHRP0064581301-1

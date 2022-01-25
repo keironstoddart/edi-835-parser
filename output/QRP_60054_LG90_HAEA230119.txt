@@ -1,0 +1,15 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,WKC3961411,Judith Coakley,0259,,NU,0,34,2022-01-19,236.85,215.06,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,236.85,50,CO,6R,W2XP0008578754-3,N661,HE
+1,WKC3961411,Judith Coakley,0110,,NU,0,2,2022-01-19,3978.0,3612.02,0.0,AETNA,2021-10-23,2021-10-24, Tidelands Health Waccamaw Community Hospital,3978.0,50,CO,6R,W2XP0008578754-1,N661,HE
+2,WKC3961411,Judith Coakley,0250,,NU,0,5,2022-01-19,50.25,45.63,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,50.25,50,CO,6R,W2XP0008578754-2,N661,HE
+3,WKC3961411,Judith Coakley,0272,,NU,0,1,2022-01-19,31.37,28.48,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,31.37,50,CO,6R,W2XP0008578754-4,N661,HE
+4,WKC3961411,Judith Coakley,0300,,NU,0,4,2022-01-19,83.92,76.2,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,83.92,50,CO,6R,W2XP0008578754-5,N661,HE
+5,WKC3961411,Judith Coakley,0301,,NU,0,10,2022-01-19,1827.04,1658.95,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,1827.04,50,CO,6R,W2XP0008578754-6,N661,HE
+6,WKC3961411,Judith Coakley,0305,,NU,0,5,2022-01-19,763.65,693.39,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,763.65,50,CO,6R,W2XP0008578754-7,N661,HE
+7,WKC3961411,Judith Coakley,0320,,NU,0,1,2022-01-19,285.78,259.49,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,285.78,50,CO,6R,W2XP0008578754-8,N661,HE
+8,WKC3961411,Judith Coakley,0350,,NU,0,1,2022-01-19,2357.72,2140.81,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,2357.72,50,CO,6R,W2XP0008578754-9,N661,HE
+9,WKC3961411,Judith Coakley,0410,,NU,0,3,2022-01-19,525.0,476.7,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,525.0,50,CO,6R,W2XP0008578754-10,N661,HE
+10,WKC3961411,Judith Coakley,0424,,NU,0,1,2022-01-19,187.71,170.44,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,187.71,50,CO,6R,W2XP0008578754-11,N661,HE
+11,WKC3961411,Judith Coakley,0450,,NU,0,2,2022-01-19,1068.49,970.19,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,1068.49,96,PR,6R,W2XP0008578754-12,N130,HE
+12,WKC3961411,Judith Coakley,0480,,NU,0,1,2022-01-19,2957.2,2685.14,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,2957.2,50,CO,6R,W2XP0008578754-13,N661,HE
+13,WKC3961411,Judith Coakley,0730,,NU,0,1,2022-01-19,285.84,259.54,0.0,AETNA,2021-10-23,2021-10-25, Tidelands Health Waccamaw Community Hospital,285.84,50,CO,6R,W2XP0008578754-14,N661,HE

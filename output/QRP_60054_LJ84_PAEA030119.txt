@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,P10015303810,Dorothy Moss,99232,,HC,1,1,2022-01-21,132.0,68.02,68.02,AETNA,2021-12-30,2021-12-30," The Methodist Hospitals, Inc.",63.98,45,CO,6R,MHPH0010172456-2,N59,HE
+1,P10015303810,Dorothy Moss,99232,,HC,1,1,2022-01-21,132.0,68.02,68.02,AETNA,2021-12-31,2021-12-31," The Methodist Hospitals, Inc.",63.98,45,CO,6R,MHPH0010172456-1,N59,HE

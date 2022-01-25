@@ -1,0 +1,5 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
+0,6001072,Cruz Chingman,IGID1,,HC,2,2,2022-01-17,0.0,,0.0,MERIDIAN HEALTH PLAN,2021-10-09,2021-10-09,,,,,,
+1,6001072,Cruz Chingman,0120,,NU,2,2,2022-01-17,790.0,,0.0,MERIDIAN HEALTH PLAN,2021-10-09,2021-10-09,,790.0,197,CO,,
+2,6001072,Cruz Chingman,0250,,NU,1,1,2022-01-17,744.95,,0.0,MERIDIAN HEALTH PLAN,2021-10-10,2021-10-10,,744.95,197,CO,,
+3,10000495015NP,Janette Fulco,99213,,HC,1,1,2022-01-17,96.0,,38.63,MERIDIAN HEALTH PLAN,2021-12-15,2021-12-15,Usha Movva,57.37,23,OA,6R,1

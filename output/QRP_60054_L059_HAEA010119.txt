@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,0001039511INV,Rita Szymecki,G0299,,HC,0,1,2022-01-19,100.0,100.0,0.0,AETNA,2021-10-22,2021-10-22," Interim Healthcare, Inc.",100.0,226,CO,6R,TOPA0001156468-3,N517,HE
+1,0001039511INV,Rita Szymecki,G0299,,HC,0,1,2022-01-19,100.0,100.0,0.0,AETNA,2021-10-07,2021-10-07," Interim Healthcare, Inc.",100.0,226,CO,6R,TOPA0001156468-2,N517,HE

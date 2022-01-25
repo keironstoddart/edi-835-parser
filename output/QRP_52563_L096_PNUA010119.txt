@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
+0,AN13503,Debbie Schafer,00952,QZ,HC,51,51,2022-01-17,1350.0,71.34,71.34,MERIDIAN HEALTH PLAN,2022-01-05,2022-01-05,Jamey Heemer,1278.66,45,CO,6R,7961878879
+1,AN13476,Jordan Perkins,01200,QZ,HC,17,17,2022-01-17,900.0,49.16,49.16,MERIDIAN HEALTH PLAN,2022-01-05,2022-01-05,Kalin Wade,850.84,45,CO,6R,7961878883

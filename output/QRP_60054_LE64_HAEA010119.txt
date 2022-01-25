@@ -1,0 +1,9 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
+0,102470000263B8,Melyn Johnson,0192,,NU,0,1,2022-01-24,-400.0,,0.0,AETNA,2021-07-20,2021-07-20, Avante At Mt. Dora,-400.0,226,PI,6R,00000000002,MA48,HE,N179,HE
+1,102470000263B8,Melyn Johnson,0250,,NU,0,26,2022-01-24,-31.38,,0.0,AETNA,2021-07-20,2021-07-21, Avante At Mt. Dora,-31.38,226,PI,6R,00000000003,N179,HE,N20,HE
+2,102470000263B8,Melyn Johnson,0430,,NU,0,2,2022-01-24,-68.7,,0.0,AETNA,2021-07-20,2021-07-21, Avante At Mt. Dora,-68.7,226,PI,6R,00000000004,N179,HE,N20,HE
+3,102470000263B8,Melyn Johnson,0434,,NU,0,1,2022-01-24,-91.33,,0.0,AETNA,2021-07-20,2021-07-21, Avante At Mt. Dora,-91.33,226,PI,6R,00000000005,N179,HE,N20,HE
+4,102470000263B8,Melyn Johnson,0192,,NU,1,1,2022-01-24,400.0,400.0,400.0,AETNA,2021-07-20,2021-07-20, Avante At Mt. Dora,,,,6R,00000000002,,,,
+5,102470000263B8,Melyn Johnson,0250,,NU,26,26,2022-01-24,31.38,,0.0,AETNA,2021-07-20,2021-07-21, Avante At Mt. Dora,31.38,97,CO,6R,00000000003,N20,HE,,
+6,102470000263B8,Melyn Johnson,0430,,NU,2,2,2022-01-24,68.7,,0.0,AETNA,2021-07-20,2021-07-21, Avante At Mt. Dora,68.7,97,CO,6R,00000000004,N20,HE,,
+7,102470000263B8,Melyn Johnson,0434,,NU,1,1,2022-01-24,91.33,,0.0,AETNA,2021-07-20,2021-07-21, Avante At Mt. Dora,91.33,97,CO,6R,00000000005,N20,HE,,

@@ -1,0 +1,5 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,102-21-04787-1-1,Kenneth Wollny,A0427,EH,HC,1,1,2022-01-21,789.0,427.19,341.75,AETNA,2021-12-15,2021-12-15, City Of Wooster,361.81,45,CO,85.44,2,PR,6R,C8TPD9Z-1343056,N6,HE
+1,102-21-04787-1-1,Kenneth Wollny,A0425,EH,HC,1,1,2022-01-21,14.16,11.56,9.25,AETNA,2021-12-15,2021-12-15, City Of Wooster,2.6,45,CO,2.31,2,PR,6R,C8TPD9Z-1343057,N6,HE
+2,102-21-04795-1-1,Edith Swank,A0429,PH,HC,1,1,2022-01-21,671.0,359.73,345.34,AETNA,2021-12-16,2021-12-16, City Of Wooster,311.27,45,CO,14.39,2,PR,6R,C8TPDBC-1343387,N6,HE
+3,102-21-04795-1-1,Edith Swank,A0425,PH,HC,1,1,2022-01-21,14.16,11.56,11.1,AETNA,2021-12-16,2021-12-16, City Of Wooster,2.6,45,CO,0.46,2,PR,6R,C8TPDBC-1343388,N6,HE

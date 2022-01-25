@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
+0,WKC4857563,Gerald Kelly,99282,,HC,1,1,2022-01-21,215.14,39.81,39.81,AETNA,2021-12-18,2021-12-18, Tidelands Health Waccamaw Commu,175.33,45,CO,6R,W2XP0008736570-1
+1,WKC4864127,Gregory Schmidt,93010,,HC,1,1,2022-01-21,112.08,8.55,8.55,AETNA,2021-12-23,2021-12-23, Tidelands Health Waccamaw Commu,103.53,45,CO,6R,W2XP0008736584-1

@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,191710000OOLO,Betty Tyree,91300,,HC,0,1,2022-01-18,0.1,,0.0,AETNA,2021-10-28,2021-10-28, Progressive Pines Llc,0.1,109,CO,6R,GCQC0000019518-1,N418,HE
+1,191710000OOLO,Betty Tyree,0004A,,HC,0,1,2022-01-18,40.0,,0.0,AETNA,2021-10-28,2021-10-28, Progressive Pines Llc,40.0,109,CO,6R,GCQC0000019518-2,N418,HE

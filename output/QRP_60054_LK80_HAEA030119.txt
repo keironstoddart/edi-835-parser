@@ -1,0 +1,3 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
+0,516472-0001-001U,Jacob Ubbing,87811,,HC,1,1,2022-01-24,70.5,66.98,66.98,AETNA,2022-01-09,2022-01-09, Helen Newberry Joy Hospital,3.52,45,CO,6R,NJXP0002319284-1
+1,516472-0001-001U,Jacob Ubbing,C9803,,HC,1,1,2022-01-24,38.0,36.1,36.1,AETNA,2022-01-09,2022-01-09, Helen Newberry Joy Hospital,1.9,45,CO,6R,NJXP0002319284-2

@@ -1,0 +1,11 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,91027235,Andra Sledge,99283,,HC,0,1,2022-01-21,666.0,,0.0,AETNA,2021-11-10,2021-11-10, Franklin Parish Hospital Servic,666.0,252,PI,,,,6R,FPSQ0002969580-1,N391,HE
+1,91052809,Mildred Waller,G0463,,HC,0,1,2022-01-21,153.0,,0.0,AETNA,2021-12-17,2021-12-17, Franklin Parish Hospital Servic,153.0,97,CO,,,,6R,FPSQ0003023713-8,N19,HE
+2,91052809,Mildred Waller,93005,,HC,1,1,2022-01-21,105.0,6.05,0.0,AETNA,2021-12-17,2021-12-17, Franklin Parish Hospital Servic,98.95,45,CO,6.05,3,PR,6R,FPSQ0003023713-9,,
+3,91052809,Mildred Waller,87070,,HC,1,1,2022-01-21,87.0,8.79,0.0,AETNA,2021-12-17,2021-12-17, Franklin Parish Hospital Servic,78.21,45,CO,8.79,3,PR,6R,FPSQ0003023713-2,,
+4,91052809,Mildred Waller,82306,,HC,1,1,2022-01-21,167.76,30.19,0.0,AETNA,2021-12-17,2021-12-17, Franklin Parish Hospital Servic,137.57,45,CO,30.19,3,PR,6R,FPSQ0003023713-3,,
+5,91052809,Mildred Waller,80053,,HC,1,1,2022-01-21,60.0,10.77,0.0,AETNA,2021-12-17,2021-12-17, Franklin Parish Hospital Servic,49.23,45,CO,10.77,3,PR,6R,FPSQ0003023713-4,,
+6,91052809,Mildred Waller,85025,,HC,1,1,2022-01-21,51.0,7.93,0.0,AETNA,2021-12-17,2021-12-17, Franklin Parish Hospital Servic,43.07,45,CO,7.93,3,PR,6R,FPSQ0003023713-5,,
+7,91052809,Mildred Waller,87186,91,HC,2,2,2022-01-21,118.0,17.65,0.0,AETNA,2021-12-17,2021-12-17, Franklin Parish Hospital Servic,100.35,45,CO,17.65,3,PR,6R,FPSQ0003023713-6,,
+8,91052809,Mildred Waller,87077,,HC,2,2,2022-01-21,90.0,16.48,2.86,AETNA,2021-12-17,2021-12-17, Franklin Parish Hospital Servic,73.52,45,CO,13.62,3,PR,6R,FPSQ0003023713-7,N59,HE
+9,91052809,Mildred Waller,36415,,HC,0,1,2022-01-21,12.0,,0.0,AETNA,2021-12-17,2021-12-17, Franklin Parish Hospital Servic,12.0,97,CO,,,,6R,FPSQ0003023713-1,N19,HE

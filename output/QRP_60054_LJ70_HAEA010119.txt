@@ -1,0 +1,5 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,59700003H5U,Richard Chesser,0192,,NU,2,2,2022-01-21,620.0,620.0,620.0,AETNA,2021-12-30,2022-01-01, Carroll Healthcare Center,6R,CHCC0000014386-2,,
+1,59700003H5U,Richard Chesser,KDGD1,,HP,2,2,2022-01-21,0.0,,0.0,AETNA,2021-12-30,2022-01-01, Carroll Healthcare Center,6R,CHCC0000014386-1,N19,HE
+2,59700003GXI,Richard Chesser,0192,,NU,6,6,2022-01-21,1860.0,1860.0,1860.0,AETNA,2021-12-20,2021-12-26, Carroll Healthcare Center,6R,CHCC0000014373-2,,
+3,59700003GXI,Richard Chesser,KDFD1,,HP,6,6,2022-01-21,0.0,,0.0,AETNA,2021-12-20,2021-12-26, Carroll Healthcare Center,6R,CHCC0000014373-1,N19,HE

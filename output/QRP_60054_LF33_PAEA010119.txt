@@ -1,0 +1,27 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
+0,000101515620,Robert Dezee,99214,,HC,1,1,2022-01-21,129.0,78.54,53.54,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",50.46,45,CO,25.0,3,PR,6R,1HXP0002393487-1
+1,000101515620,Robert Dezee,3079F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393487-5
+2,000101515620,Robert Dezee,3075F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393487-3
+3,000101515620,Robert Dezee,3008F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393487-9
+4,000101515620,Robert Dezee,2001F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393487-8
+5,000101515620,Robert Dezee,1111F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393487-7
+6,000101515620,Robert Dezee,1036F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393487-2
+7,000101515620,Robert Dezee,G8754,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393487-6
+8,000101515620,Robert Dezee,G8752,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393487-4
+9,000101515102,Donna Holmes-Lanza,99214,25,HC,1,1,2022-01-21,129.0,78.54,78.54,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",50.46,45,CO,,,,6R,1HXP0002393488-5
+10,000101515102,Donna Holmes-Lanza,90732,,HC,1,1,2022-01-21,236.0,125.92,125.92,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",110.08,45,CO,,,,6R,1HXP0002393488-2
+11,000101515102,Donna Holmes-Lanza,90682,,HC,1,1,2022-01-21,121.88,65.26,65.26,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",56.62,45,CO,,,,6R,1HXP0002393488-4
+12,000101515102,Donna Holmes-Lanza,90472,,HC,1,1,2022-01-21,24.0,10.0,10.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",14.0,45,CO,,,,6R,1HXP0002393488-3
+13,000101515102,Donna Holmes-Lanza,90471,,HC,1,1,2022-01-21,50.0,10.0,10.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",40.0,45,CO,,,,6R,1HXP0002393488-1
+14,000101515102,Donna Holmes-Lanza,3079F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393488-9
+15,000101515102,Donna Holmes-Lanza,3075F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393488-7
+16,000101515102,Donna Holmes-Lanza,3048F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393488-13
+17,000101515102,Donna Holmes-Lanza,3008F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393488-15
+18,000101515102,Donna Holmes-Lanza,2001F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393488-14
+19,000101515102,Donna Holmes-Lanza,1111F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393488-12
+20,000101515102,Donna Holmes-Lanza,1036F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393488-6
+21,000101515102,Donna Holmes-Lanza,1034F,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393488-11
+22,000101515102,Donna Holmes-Lanza,G8754,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393488-10
+23,000101515102,Donna Holmes-Lanza,G8752,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-01," Ohio North East Health Systems,",,,,,,,6R,1HXP0002393488-8
+24,000101517672,Mark Waldorf,G0511,,HC,1,1,2022-01-21,72.0,59.21,39.21,AETNA,2021-11-22,2021-11-22," Ohio North East Health Systems,",12.79,45,CO,20.0,3,PR,6R,1HXP0002393489-1
+25,000101517674,Cheryl Waldorf,G0511,,HC,1,1,2022-01-21,72.0,59.21,39.21,AETNA,2021-11-22,2021-11-22," Ohio North East Health Systems,",12.79,45,CO,20.0,3,PR,6R,1HXP0002393490-1

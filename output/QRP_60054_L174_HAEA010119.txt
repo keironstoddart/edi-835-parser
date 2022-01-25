@@ -1,0 +1,6 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
+0,BRP161495710,Deanna Malloy,99214,CS,HC,0,1,2022-01-24,222.0,,0.0,AETNA,2021-10-21,2021-10-21,Peter Macdonald,222.0,18,OA,,,,6R,BRP161495710-1
+1,BRP161495710,Deanna Malloy,90686,,HC,0,1,2022-01-24,33.0,,0.0,AETNA,2021-10-21,2021-10-21,Peter Macdonald,33.0,18,OA,,,,6R,BRP161495710-2
+2,BRP161495710,Deanna Malloy,90471,,HC,0,1,2022-01-24,35.0,,0.0,AETNA,2021-10-21,2021-10-21,Peter Macdonald,35.0,18,OA,,,,6R,BRP161495710-3
+3,BRP160323990,Harold Rose,99213,CG,HC,1,1,2022-01-24,152.0,152.0,0.0,AETNA,2021-12-20,2021-12-20, Mecosta County Medical Center-Rehab. Unit,104.48,23,OA,47.52,1,PR,6R,BRP160323990-1
+4,BRP161319540,Olga Clark,99215,,HC,1,1,2022-01-24,294.0,140.88,80.88,AETNA,2022-01-07,2022-01-07,Tiffany Lattimore,153.12,45,CO,60.0,3,PR,6R,BRP161319540-1

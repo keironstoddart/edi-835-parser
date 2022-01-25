@@ -1,0 +1,4 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
+0,BRP160466830,Louis Schreiner,49654,,HC,1,1,2022-01-24,2066.0,1194.29,1194.29,AETNA,2021-12-20,2021-12-20,Matthew Rausch,871.71,45,CO,6R,BRP160466830-1
+1,BRP160466830,Louis Schreiner,S2900,,HC,1,1,2022-01-24,74.0,74.0,74.0,AETNA,2021-12-20,2021-12-20,Matthew Rausch,,,,6R,BRP160466830-2
+2,BRP160213490,Paul Underwood,99203,,HC,1,1,2022-01-24,224.0,116.34,116.34,AETNA,2021-12-21,2021-12-21,Matthew Rausch,107.66,45,CO,6R,BRP160213490-1

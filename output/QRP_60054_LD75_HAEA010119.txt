@@ -1,0 +1,4 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,L5010142800,Faith Berkmeyer,0114,,NU,1,1,2022-01-24,2060.0,1400.0,1400.0,AETNA,2021-12-14,2021-12-14, The Craig And Frances Lindner Center Of Hope,660.0,45,CO,6R,GFXP0000582104-1,,
+1,L5010142800,Faith Berkmeyer,0250,,NU,15,15,2022-01-24,101.4,,0.0,AETNA,2021-12-14,2021-12-15, The Craig And Frances Lindner Center Of Hope,101.4,97,CO,6R,GFXP0000582104-2,N20,HE
+2,L5010119100,Faith Berkmeyer,90853,,HC,1,1,2022-01-24,1236.0,500.0,500.0,AETNA,2021-12-14,2021-12-14, The Craig And Frances Lindner Center Of Hope,736.0,45,CO,6R,GFXP0000582040-1,,

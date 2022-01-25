@@ -1,0 +1,9 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,07680000B2RH,Barbara Fleming,0120,,NU,22,22,2022-01-21,6820.0,6820.0,6120.0,AETNA,2021-12-01,2021-12-23, Marian Healthcare Center,700.0,3,PR,6R,G9XP0000211111-2,,
+1,07680000B2RH,Barbara Fleming,0270,,NU,0,1,2022-01-21,13.1,,0.0,AETNA,2021-12-01,2021-12-22, Marian Healthcare Center,13.1,97,CO,6R,G9XP0000211111-4,N130,HE
+2,07680000B2RH,Barbara Fleming,JECC1,,HP,22,22,2022-01-21,0.0,,0.0,AETNA,2021-12-01,2021-12-23, Marian Healthcare Center,,,,6R,G9XP0000211111-1,N19,HE
+3,07680000B2RH,Barbara Fleming,0250,,NU,0,1,2022-01-21,367.74,,0.0,AETNA,2021-12-01,2021-12-22, Marian Healthcare Center,367.74,97,CO,6R,G9XP0000211111-3,N130,HE
+4,07680000B2RH,Barbara Fleming,0320,,NU,0,1,2022-01-21,115.5,,0.0,AETNA,2021-12-01,2021-12-22, Marian Healthcare Center,115.5,97,CO,6R,G9XP0000211111-5,N130,HE
+5,07680000B2RH,Barbara Fleming,0420,,NU,0,15,2022-01-21,2250.0,,0.0,AETNA,2021-12-01,2021-12-22, Marian Healthcare Center,2250.0,97,CO,6R,G9XP0000211111-6,N130,HE
+6,07680000B2RH,Barbara Fleming,0430,,NU,0,15,2022-01-21,2325.0,,0.0,AETNA,2021-12-01,2021-12-22, Marian Healthcare Center,2325.0,97,CO,6R,G9XP0000211111-7,N130,HE
+7,07680000B2RH,Barbara Fleming,0440,,NU,0,7,2022-01-21,700.0,,0.0,AETNA,2021-12-01,2021-12-22, Marian Healthcare Center,700.0,97,CO,6R,G9XP0000211111-8,N130,HE

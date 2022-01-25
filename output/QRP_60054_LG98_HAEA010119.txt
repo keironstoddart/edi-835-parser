@@ -1,0 +1,23 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
+0,25C626362-6,Clinton Rush,96372,59,HC,0,1,2022-01-21,-93.0,,0.0,AETNA,2021-09-07,2021-09-07," Oncology/Hematology Care, Inc.",-93.0,55,PI,,,,,,N623,HE,N694,HE
+1,25C626362-6,Clinton Rush,96365,,HC,0,1,2022-01-21,-304.0,,0.0,AETNA,2021-09-07,2021-09-07," Oncology/Hematology Care, Inc.",-304.0,55,PI,,,,,,N623,HE,N694,HE
+2,25C626362-6,Clinton Rush,J3489,JW,HC,1,1,2022-01-21,-462.0,,-12.14,AETNA,2021-09-07,2021-09-07," Oncology/Hematology Care, Inc.",-449.86,45,CO,,,,,,N59,HE,N694,HE
+3,25C626362-6,Clinton Rush,J3489,,HC,3,3,2022-01-21,-1386.0,,-36.42,AETNA,2021-09-07,2021-09-07," Oncology/Hematology Care, Inc.",-1349.58,45,CO,,,,,,N59,HE,N694,HE
+4,25C626362-6,Clinton Rush,J3420,,HC,0,1,2022-01-21,-19.0,,0.0,AETNA,2021-09-07,2021-09-07," Oncology/Hematology Care, Inc.",-19.0,55,CO,,,,,,N623,HE,N694,HE
+5,25C1242035-7,Clinton Rush,96372,59,HC,1,1,2022-01-21,93.0,13.64,13.64,AETNA,2021-09-07,2021-09-07," Oncology/Hematology Care, Inc.",79.36,45,CO,,,,6R,2,N59,HE,,
+6,25C1242035-7,Clinton Rush,96365,,HC,1,1,2022-01-21,304.0,68.11,68.11,AETNA,2021-09-07,2021-09-07," Oncology/Hematology Care, Inc.",235.89,45,CO,,,,6R,1,N59,HE,,
+7,25C1242035-7,Clinton Rush,J3489,JW,HC,1,1,2022-01-21,462.0,12.14,12.14,AETNA,2021-09-07,2021-09-07," Oncology/Hematology Care, Inc.",449.86,45,CO,,,,6R,5,N59,HE,,
+8,25C1242035-7,Clinton Rush,J3489,,HC,3,3,2022-01-21,1386.0,36.42,36.42,AETNA,2021-09-07,2021-09-07," Oncology/Hematology Care, Inc.",1349.58,45,CO,,,,6R,4,N59,HE,,
+9,25C1242035-7,Clinton Rush,J3420,,HC,1,1,2022-01-21,19.0,1.98,1.98,AETNA,2021-09-07,2021-09-07," Oncology/Hematology Care, Inc.",17.02,45,CO,,,,6R,3,N59,HE,,
+10,25C516404-7,Taewon Rno,85025,,HC,0,1,2022-01-21,-35.0,,0.0,AETNA,2021-08-05,2021-08-05," Oncology/Hematology Care, Inc.",-35.0,96,CO,,,,,,N115,HE,N694,HE
+11,25C516404-7,Taewon Rno,83550,,HC,0,1,2022-01-21,-34.0,,0.0,AETNA,2021-08-05,2021-08-05," Oncology/Hematology Care, Inc.",-34.0,96,CO,,,,,,N115,HE,N694,HE
+12,25C516404-7,Taewon Rno,82728,,HC,0,1,2022-01-21,-58.0,,0.0,AETNA,2021-08-05,2021-08-05," Oncology/Hematology Care, Inc.",-58.0,96,CO,,,,,,N115,HE,N694,HE
+13,25C516404-7,Taewon Rno,82540,,HC,1,1,2022-01-21,-30.0,,0.0,AETNA,2021-08-05,2021-08-05," Oncology/Hematology Care, Inc.",-25.36,45,CO,-4.64,3,PR,,,N694,HE,,
+14,25C516404-7,Taewon Rno,80053,,HC,1,1,2022-01-21,-62.0,,-0.2,AETNA,2021-08-05,2021-08-05," Oncology/Hematology Care, Inc.",-51.44,45,CO,-10.36,3,PR,,,N59,HE,N694,HE
+15,25C516404-7,Taewon Rno,36415,,HC,0,1,2022-01-21,-19.0,,0.0,AETNA,2021-08-05,2021-08-05," Oncology/Hematology Care, Inc.",-19.0,97,CO,,,,,,N19,HE,N694,HE
+16,25C1240934-8,Taewon Rno,85025,,HC,1,1,2022-01-21,35.0,7.77,7.77,AETNA,2021-08-05,2021-08-05," Oncology/Hematology Care, Inc.",27.23,45,CO,,,,6R,1,N59,HE,,
+17,25C1240934-8,Taewon Rno,83550,,HC,1,1,2022-01-21,34.0,8.74,8.74,AETNA,2021-08-05,2021-08-05," Oncology/Hematology Care, Inc.",25.26,45,CO,,,,6R,5,N59,HE,,
+18,25C1240934-8,Taewon Rno,82728,,HC,1,1,2022-01-21,58.0,13.63,13.63,AETNA,2021-08-05,2021-08-05," Oncology/Hematology Care, Inc.",44.37,45,CO,,,,6R,3,N59,HE,,
+19,25C1240934-8,Taewon Rno,82540,,HC,1,1,2022-01-21,30.0,4.64,4.64,AETNA,2021-08-05,2021-08-05," Oncology/Hematology Care, Inc.",25.36,45,CO,,,,6R,4,N59,HE,,
+20,25C1240934-8,Taewon Rno,80053,,HC,1,1,2022-01-21,62.0,10.56,10.56,AETNA,2021-08-05,2021-08-05," Oncology/Hematology Care, Inc.",51.44,45,CO,,,,6R,2,N59,HE,,
+21,25C1240934-8,Taewon Rno,36415,,HC,0,1,2022-01-21,19.0,,0.0,AETNA,2021-08-05,2021-08-05," Oncology/Hematology Care, Inc.",19.0,97,CO,,,,6R,6,MA67,HE,N19,HE

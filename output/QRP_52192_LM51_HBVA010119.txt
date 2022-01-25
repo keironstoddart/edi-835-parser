@@ -1,0 +1,2 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
+0,WVC9308845,Mike Orrick,72148,,HC,1,1,2022-01-19,630.0,218.17,0.0,CIGNA,2021-08-29,2021-08-29,,218.17,3,PR,411.83,45,CO,6R,WRHH0001494869-1

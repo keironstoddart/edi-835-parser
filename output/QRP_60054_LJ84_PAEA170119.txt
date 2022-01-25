@@ -1,0 +1,2 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,NWI100077080,Wendell Edgington,45378,,HC,0,1,2022-01-19,985.0,985.0,0.0,AETNA,2021-11-19,2021-11-19,Harshavardhan Dalal,985.0,226,CO,6R,MHPH0010029357-1,N517,HE
