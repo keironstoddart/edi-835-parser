@@ -119,7 +119,7 @@ class TransactionSet:
 			'provider_middle_name': claim.rendering_provider.middle_name,
 			'provider_suffix': claim.rendering_provider.name_suffix,
 			'provider_prefix': claim.rendering_provider.name_prefix,
-			# 'claim_received_date': claim.claim_received_date,
+			'claim_received_date': claim.claim_received_date.date,
 			'claim_paid_date': financial_information.transaction_date,
 			'claim_status': claim.claim.status,
 			'claim_total_charge_amount': claim.claim.charge_amount,
@@ -135,9 +135,9 @@ class TransactionSet:
 			'corrected_insured_suffix': claim.insured.name_suffix if claim.insured else None,
 			'corrected_insured_id_qualifier': claim.insured.identification_code_qualifier if claim.insured else None,
 			'corrected_insured_id': claim.insured.identification_code if claim.insured else None,
-			'claim_statement_period_start': claim.claim_statement_period_start,
-			'claim_statement_period_end': claim.claim_statement_period_end,
-			'claim_coverage_expiration': claim.claim_coverage_expiration,
+			'claim_statement_period_start': claim.claim_statement_period_start.date if claim.claim_statement_period_start else None,
+			'claim_statement_period_end': claim.claim_statement_period_end.date if claim.claim_statement_period_end else None,
+			'claim_coverage_expiration': claim.claim_coverage_expiration.date if claim.claim_coverage_expiration else None,
 			'claim_coverage_amount': claim.amount.amount,
 			'service_start_date': start_date,
 			'service_end_date': end_date,
@@ -182,6 +182,9 @@ class TransactionSet:
 
 			if response.key == 'claim':
 				claims.append(response.value)
+
+			# if response.key in cls.terminating_identifiers:
+
 
 		return TransactionSet(interchange, financial_information, claims, organizations)
 

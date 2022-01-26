@@ -14,14 +14,5 @@ path = 'input/quadax_sample_835.txt'
 
 transaction_set = parse(path)
 
-# print(len(transaction_sets))
-
 data = transaction_set.to_dataframe()
-# print(data)
-# print(transaction_set)
-
-# data = transaction_set.to_dataframe()
-#
-# print(data)
-#
 data.to_csv("output/quadax_sample_835.txt")
