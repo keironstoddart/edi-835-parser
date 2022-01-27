@@ -21,6 +21,12 @@ def emedny_sample():
 	path = current_path + '/test_edi_835_files/emedny_sample.txt'
 	return edi_835_parser.parse(path)
 
+# @pytest.fixture
+# def quadax_sample_835():
+# 	path = current_path + '/test_edi_835_files/quadax_sample_835.txt'
+# 	return edi_835_parser.parse(path)
+
+
 
 @pytest.fixture
 def all_samples():
