@@ -19,6 +19,7 @@ def find_identifier(segment) -> str:
 	segment = split_segment(segment)
 	return segment[0]
 
+
 def get_element(segment: List[str], index: int, default=None) -> Optional[str]:
 	element = default
 	if index < len(segment):
