@@ -87,6 +87,15 @@ class Claim:
 			return coverage_expiration[0]
 
 	@property
+	def claim_contract_code(self) -> Optional[ReferenceSegment]:
+		contract_code = [r for r in self.references if r.qualifier == 'contract code']
+		assert len(contract_code) <= 1
+
+		if len(contract_code) == 1:
+			return contract_code[0]
+
+
+	@property
 	def patient(self) -> EntitySegment:
 		patient = [e for e in self.entities if e.entity == 'patient']
 		assert len(patient) == 1

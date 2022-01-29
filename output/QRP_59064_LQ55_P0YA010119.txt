@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
-0,P1054690710,Charles Mccutcheon,81528,,HC,1,1,2022-01-18,681.0,549.0,549.0,MCHP,2022-01-03,2022-01-03, Exact Sciences Laboratories,132.0,45,CO,6R,EXSC0010317640-1

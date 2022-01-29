@@ -1,8 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
-0,1002170310-0001,Gail Edwards,77067,,HC,0,1,2022-01-24,-330.0,,0.0,AETNA,2021-08-06,2021-08-06, Upmc Somerset,-330.0,227,PR,6R,XMXP0002424601-2,MA04,HE,N179,HE
-1,1002170310-0001,Gail Edwards,77063,,HC,0,1,2022-01-24,-87.0,,0.0,AETNA,2021-08-06,2021-08-06, Upmc Somerset,-87.0,227,PR,6R,XMXP0002424601-1,MA04,HE,N179,HE
-2,1002170310-0001,Gail Edwards,77067,,HC,1,1,2022-01-24,330.0,90.74,90.74,AETNA,2021-08-06,2021-08-06, Upmc Somerset,239.26,45,CO,6R,XMXP0002424601-2,,,,
-3,1002170310-0001,Gail Edwards,77063,,HC,1,1,2022-01-24,87.0,23.92,23.92,AETNA,2021-08-06,2021-08-06, Upmc Somerset,63.08,45,CO,6R,XMXP0002424601-1,,,,
-4,1002214772-0001,Dawson Snyder,36415,,HC,0,1,2022-01-24,15.0,15.0,0.0,AETNA,2021-12-30,2021-12-30, Upmc Somerset,15.0,16,PI,6R,XMXP0002541403-1,M51,HE,,
-5,1002214772-0001,Dawson Snyder,G2023,,HC,0,1,2022-01-24,15.0,15.0,0.0,AETNA,2021-12-30,2021-12-30, Upmc Somerset,15.0,16,PI,6R,XMXP0002541403-2,M51,HE,,
-6,1002214772-0001,Dawson Snyder,87635,,HC,0,1,2022-01-24,125.0,125.0,0.0,AETNA,2021-12-30,2021-12-30, Upmc Somerset,125.0,16,PI,6R,XMXP0002541403-3,M51,HE,,

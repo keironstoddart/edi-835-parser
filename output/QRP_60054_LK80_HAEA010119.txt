@@ -1,6 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,124131,Carolyn Burton,99213,CG,HC,1,1,2022-01-21,123.0,228.57,228.57,AETNA,2021-04-05,2021-04-05, Helen Newberry Joy Hosp,-105.57,45,CO,6R,NJXP0002320434-1,N59,HE
-1,124131,Carolyn Burton,1159F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-04-05,2021-04-05, Helen Newberry Joy Hosp,0.01,97,CO,6R,NJXP0002320434-2,N19,HE
-2,124131,Carolyn Burton,1160F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-04-05,2021-04-05, Helen Newberry Joy Hosp,0.01,97,CO,6R,NJXP0002320434-3,N19,HE
-3,124131,Carolyn Burton,3075F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-04-05,2021-04-05, Helen Newberry Joy Hosp,0.01,97,CO,6R,NJXP0002320434-4,N19,HE
-4,124131,Carolyn Burton,3078F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-04-05,2021-04-05, Helen Newberry Joy Hosp,0.01,97,CO,6R,NJXP0002320434-5,N19,HE

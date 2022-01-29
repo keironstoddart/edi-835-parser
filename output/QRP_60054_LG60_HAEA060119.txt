@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,91058097,Mildred Waller,73564,26,HC,1,1,2022-01-21,37.0,11.09,11.09,AETNA,2021-12-27,2021-12-27, Franklin Parish Hospital Servic,25.91,45,CO,6R,FPSQ0003032511-1,N59,HE
-1,91059078,James Anderson,99214,,HC,1,1,2022-01-21,115.0,100.3,100.3,AETNA,2021-12-30,2021-12-30, Franklin Parish Hospital Servic,14.7,45,CO,6R,FPSQ0003034502-1,N59,HE

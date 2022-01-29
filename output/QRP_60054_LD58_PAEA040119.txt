@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
-0,ADI9622788,Dorothy Wyatt,99225,,HC,1,1,2022-01-21,127.0,61.56,36.56,AETNA,2021-12-29,2021-12-29," Bloomington Medical Services, L",65.44,45,CO,25.0,3,PR,6R,BLMS0007429166-1
-1,ADI9623162,Dorothy Wyatt,99217,,HC,1,1,2022-01-21,126.0,61.97,36.97,AETNA,2021-12-30,2021-12-30," Bloomington Medical Services, L",64.03,45,CO,25.0,3,PR,6R,BLMS0007429167-1

@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
-0,MA8500601030,Zeyn Ayan,99495,,HC,1,1,2022-01-17,375.0,118.07,118.07,MERIDIAN HEALTH PLAN,2021-10-01,2021-10-01,Mustafa Akpinar,256.93,45,CO,6R,AKCC0000098335-1

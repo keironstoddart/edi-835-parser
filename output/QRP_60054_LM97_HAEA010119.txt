@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
-0,47363-C551797,Johan Jerome,B4100,,HC,0,9,2022-01-19,37.13,3.42,0.0,AETNA,2021-09-28,2021-10-27, Nationwide Children S Hospital Homecare,37.13,204,PR,6R,NWHC0000112991-1

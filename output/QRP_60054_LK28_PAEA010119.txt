@@ -1,6 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
-0,KH1000916500,Robert Frye,1159F,,HC,0,1,2022-01-19,0.0,,0.0,AETNA,2021-11-16,2021-11-16,Mohamed Abdalla,,,,,,,6R,KDHN0000205970-6
-1,KH1000916500,Robert Frye,1111F,,HC,0,1,2022-01-19,0.0,,0.0,AETNA,2021-11-16,2021-11-16,Mohamed Abdalla,,,,,,,6R,KDHN0000205970-4
-2,KH1000916500,Robert Frye,1036F,,HC,0,1,2022-01-19,0.0,,0.0,AETNA,2021-11-16,2021-11-16,Mohamed Abdalla,,,,,,,6R,KDHN0000205970-3
-3,KH1000916500,Robert Frye,1000F,,HC,0,1,2022-01-19,0.0,,0.0,AETNA,2021-11-16,2021-11-16,Mohamed Abdalla,,,,,,,6R,KDHN0000205970-2
-4,KH1000921530,Kenneth Nelson,99233,,HC,1,1,2022-01-19,145.0,112.34,0.0,AETNA,2022-01-03,2022-01-03,Imad Modawi,32.66,45,CO,112.34,1,PR,6R,KDHN0000207242-1

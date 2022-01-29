@@ -1,5 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,HAM60830,Kamden Mondi,0124,,NU,6,6,2022-01-24,6120.0,5700.0,2280.0,AETNA,2021-11-10,2021-11-15, Millcreek Community Hospital,420.0,45,CO,570.0,2,PR,6R,6MXP0001891688-1,N661,HE
-1,HAM60830,Kamden Mondi,0250,,NU,34,34,2022-01-24,435.99,,0.0,AETNA,2021-11-10,2021-11-16, Millcreek Community Hospital,435.99,97,CO,,,,6R,6MXP0001891688-2,N20,HE
-2,HAM60830,Kamden Mondi,0306,,NU,1,1,2022-01-24,75.0,,0.0,AETNA,2021-11-10,2021-11-16, Millcreek Community Hospital,75.0,97,CO,,,,6R,6MXP0001891688-3,N20,HE
-3,HAM60830,Kamden Mondi,0450,,NU,1,1,2022-01-24,315.55,,0.0,AETNA,2021-11-10,2021-11-16, Millcreek Community Hospital,315.55,97,CO,,,,6R,6MXP0001891688-4,N20,HE

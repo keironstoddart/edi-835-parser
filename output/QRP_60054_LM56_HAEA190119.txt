@@ -1,8 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,AD691340002XKKT,Donald Pflieger,97116,GP,HC,3,3,2022-01-21,-82.5,,-47.46,AETNA,2020-08-05,2020-08-05, Huron Health Care Center Inc.,-35.04,45,CO,,,,6R,E5SQ0003123212-1,N59,HE
-1,AD691340002XKKT,Donald Pflieger,97530,GP,HC,1,1,2022-01-21,-33.55,,-19.54,AETNA,2020-08-06,2020-08-06, Huron Health Care Center Inc.,-14.01,45,CO,,,,6R,E5SQ0003123212-3,N59,HE
-2,AD691340002XKKT,Donald Pflieger,97116,GP,HC,0,2,2022-01-21,-55.0,,0.0,AETNA,2020-08-06,2020-08-06, Huron Health Care Center Inc.,-55.0,231,CO,,,,6R,E5SQ0003123212-2,,
-3,AD691340002XKKT,Donald Pflieger,97116,GP,HC,3,3,2022-01-21,82.5,47.46,47.46,AETNA,2020-08-05,2020-08-05, Huron Health Care Center Inc.,35.04,45,CO,,,,6R,E5SQ0003123212-1,N59,HE
-4,AD691340002XKKT,Donald Pflieger,97530,GP,HC,1,1,2022-01-21,33.55,19.54,19.54,AETNA,2020-08-06,2020-08-06, Huron Health Care Center Inc.,14.01,45,CO,,,,6R,E5SQ0003123212-3,N59,HE
-5,AD691340002XKKT,Donald Pflieger,97116,GP,HC,2,2,2022-01-21,55.0,31.64,31.64,AETNA,2020-08-06,2020-08-06, Huron Health Care Center Inc.,23.36,45,CO,,,,6R,E5SQ0003123212-2,N59,HE
-6,AD7863400038T24,William Aggers,97166,GO,HC,1,1,2022-01-21,95.15,44.45,24.45,AETNA,2021-12-14,2021-12-14, Huron Health Care Center Inc.,50.7,45,CO,20.0,3,PR,6R,E5SQ0003462891-1,N59,HE

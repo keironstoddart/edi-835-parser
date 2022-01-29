@@ -16,6 +16,7 @@ class Organization:
 		self.identifier = segment[0]
 		self.type = segment[1]
 		self.name = segment[2]
+		self.identification_code_qualifier = get_element(segment, 3)
 		self.identification_code = get_element(segment, 4)  # adding this value to fetch payer_id for remits
 		# (This value is Not required in EDI file)
 

@@ -1,4 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,AAA01664559,Richard Landversicht,49651,LT,HC,1,1,2022-01-21,2840.0,568.43,568.43,AETNA,2021-11-24,2021-11-24," Fchc Medical Care, Llc",2271.57,45,CO,,,,6R,FCHC0003183649-1,N59,HE
-1,AAA01664498,Richard Landversicht,49651,,HC,1,1,2022-01-21,2840.0,568.43,568.43,AETNA,2021-11-23,2021-11-23," Fchc Medical Care, Llc",2271.57,45,CO,,,,6R,FCHC0003183648-1,N59,HE
-2,AAA01661924,Penny Waack,99203,,HC,1,1,2022-01-21,210.0,109.66,79.66,AETNA,2021-11-23,2021-11-23," Fchc Medical Care, Llc",100.34,45,CO,30.0,3,PR,6R,FCHC0003183920-1,N59,HE

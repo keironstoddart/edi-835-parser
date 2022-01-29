@@ -1,7 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
-0,5003249620,Julie Decker,99214,,HC,1,1,2022-01-17,-190.0,,-85.48,AETNA,2021-09-23,2021-09-23,Robert Seward,-44.52,45,CO,-60.0,3,PR,6R,MEDF0003180367-1,,,,
-1,5003249620,Julie Decker,59820,,HC,0,1,2022-01-17,190.0,190.0,0.0,AETNA,2021-09-23,2021-09-23,Robert Seward,190.0,97,CO,,,,6R,MEDF0003180367-1,N19,HE,,
-2,5003485170,Wayne Shively,99232,,HC,1,1,2022-01-17,99.0,70.48,67.66,AETNA,2021-12-28,2021-12-28, Medf Physicians Corporation,28.52,45,CO,2.82,2,PR,6R,MEDF0003334024-1,N59,HE,,
-3,5003485180,Wayne Shively,99222,,HC,1,1,2022-01-17,188.0,133.49,128.15,AETNA,2021-12-27,2021-12-27, Medf Physicians Corporation,54.51,45,CO,5.34,2,PR,6R,MEDF0003334025-1,N59,HE,,
-4,5003456750,Paul Forwerck,G0438,,HC,1,1,2022-01-17,-234.0,,-163.35,AETNA,2021-12-28,2021-12-28, Medf Physicians Corp.,-70.65,45,CO,,,,,,N59,HE,N694,HE
-5,5003481870,Paul Forwerck,G0438,,HC,1,1,2022-01-17,234.0,163.35,163.35,AETNA,2021-12-28,2021-12-28, Medf Physicians Corp.,70.65,45,CO,,,,6R,MEDF0003332342-1,N59,HE,,

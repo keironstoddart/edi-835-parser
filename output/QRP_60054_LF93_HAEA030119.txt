@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
-0,261076V5867,Charlotte Lynn,10121,,HC,1,1,2022-01-19,275.0,190.39,0.0,AETNA,2022-01-05,2022-01-05,Miles Nelson,84.61,45,CO,190.39,1,PR,6R,1939777P5867B56843

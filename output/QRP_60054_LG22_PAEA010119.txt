@@ -1,9 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
-0,C07208XX002DM8,Darla Crownover,99214,QW,HC,0,1,2022-01-18,379.5,,0.0,AETNA,2021-09-21,2021-09-21, Wilbarger County Hospital Distr,379.5,96,CO,6R,1WXP0000607039-1,N56,HE,,
-1,C07208XX002DM8,Darla Crownover,87426,,HC,0,1,2022-01-18,60.0,,0.0,AETNA,2021-09-21,2021-09-21, Wilbarger County Hospital Distr,60.0,18,OA,6R,1WXP0000607039-2,N130,HE,N522,HE
-2,768892XX001MB,Darla Crownover,80053,,HC,0,1,2022-01-18,147.0,,0.0,AETNA,2021-09-21,2021-09-21, Wilbarger General Hospital,147.0,29,CO,6R,1WXP0000607866-1,,,,
-3,768892XX001MB,Darla Crownover,84443,,HC,0,1,2022-01-18,110.0,,0.0,AETNA,2021-09-21,2021-09-21, Wilbarger General Hospital,110.0,29,CO,6R,1WXP0000607866-2,,,,
-4,768892XX001MB,Darla Crownover,85025,,HC,0,1,2022-01-18,80.0,,0.0,AETNA,2021-09-21,2021-09-21, Wilbarger General Hospital,80.0,29,CO,6R,1WXP0000607866-3,,,,
-5,768892XX001MB,Darla Crownover,87177,,HC,0,1,2022-01-18,70.0,,0.0,AETNA,2021-09-21,2021-09-21, Wilbarger General Hospital,70.0,29,CO,6R,1WXP0000607866-5,,,,
-6,768892XX001MB,Darla Crownover,87046,,HC,0,1,2022-01-18,88.0,,0.0,AETNA,2021-09-21,2021-09-21, Wilbarger General Hospital,88.0,29,CO,6R,1WXP0000607866-6,,,,
-7,768892XX001MB,Darla Crownover,36415,,HC,0,1,2022-01-18,19.0,,0.0,AETNA,2021-09-21,2021-09-21, Wilbarger General Hospital,19.0,29,CO,6R,1WXP0000607866-4,,,,

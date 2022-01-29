@@ -1,6 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
-0,3006968497,Joshua Yazzie,99214,95,HC,0,1,2022-01-19,205.0,205.0,0.0,AETNA,2021-06-08,2021-06-08,Giselle Ferreira,205.0,227,PR,6R,00000000001,MA04,HE,N179,HE
-1,3006968507,Joshua Yazzie,99214,95,HC,0,1,2022-01-19,205.0,205.0,0.0,AETNA,2021-07-07,2021-07-07,Giselle Ferreira,205.0,227,PR,6R,00000000001,MA04,HE,N179,HE
-2,3006968471,Joshua Yazzie,99214,95,HC,0,1,2022-01-19,205.0,205.0,0.0,AETNA,2021-05-10,2021-05-10,Giselle Ferreira,205.0,227,PR,6R,00000000001,MA04,HE,N179,HE
-3,3006968444,Joshua Yazzie,99214,95,HC,0,1,2022-01-19,238.0,238.0,0.0,AETNA,2021-03-09,2021-03-09,Giselle Ferreira,238.0,227,PR,6R,00000000001,MA04,HE,N179,HE
-4,3006968456,Joshua Yazzie,99214,95,HC,0,1,2022-01-19,205.0,205.0,0.0,AETNA,2021-02-23,2021-02-23,Giselle Ferreira,205.0,227,PR,6R,00000000001,MA04,HE,N179,HE

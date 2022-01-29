@@ -1,9 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
-0,ANH1093390,Brandie Campbell,99203,25,HC,0,1,2022-01-21,-205.0,,0.0,AETNA,2021-10-21,2021-10-21,Brent Mclaurin,-205.0,177,PR,,,,6R,ANDH0000218327-1,N179,HE,N375,HE
-1,ANH1093390,Brandie Campbell,93000,59,HC,0,1,2022-01-21,-142.0,,0.0,AETNA,2021-10-21,2021-10-21,Brent Mclaurin,-142.0,177,PR,,,,6R,ANDH0000218327-2,N179,HE,N375,HE
-2,ANH1093390,Brandie Campbell,99203,25,HC,1,1,2022-01-21,205.0,101.91,81.53,AETNA,2021-10-21,2021-10-21,Brent Mclaurin,103.09,45,CO,20.38,2,PR,6R,ANDH0000218327-1,,,,
-3,ANH1093390,Brandie Campbell,93000,59,HC,1,1,2022-01-21,142.0,16.54,13.23,AETNA,2021-10-21,2021-10-21,Brent Mclaurin,125.46,45,CO,3.31,2,PR,6R,ANDH0000218327-2,,,,
-4,ANH1164170,James Sprowl,99214,,HC,1,1,2022-01-21,225.0,103.0,103.0,AETNA,2022-01-03,2022-01-03,Brent Mclaurin,122.0,45,CO,103.0,1,PR,6R,ANDH0000234481-1,N520,HE,,
-5,ANH1122900,Edward Schrader Jr,99232,,HC,0,1,2022-01-21,-96.0,,0.0,AETNA,2021-11-08,2021-11-08," Anderson Heart, Pc",-96.0,97,CO,,,,,,N19,HE,N694,HE
-6,ANH1175540,Edward Schrader,99232,25,HC,1,1,2022-01-21,96.0,68.89,68.89,AETNA,2021-11-08,2021-11-08," Anderson Heart, Pc",27.11,45,CO,,,,6R,ANDH0000236416-1,N59,HE,,
-7,ANH1175600,Opal Blume,93010,,HC,1,1,2022-01-21,26.0,8.06,8.06,AETNA,2021-12-18,2021-12-18," Anderson Heart, Pc",17.94,45,CO,,,,6R,ANDH0000236460-1,N59,HE,,

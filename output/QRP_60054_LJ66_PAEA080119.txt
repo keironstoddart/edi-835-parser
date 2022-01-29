@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,4762150,Edward Hughes,93294,,HC,1,1,2022-01-21,48.0,30.11,5.11,AETNA,2021-12-28,2021-12-28," Lake Hospital System, Inc.",17.89,45,CO,25.0,3,PR,6R,LHPG0024399880-1,N59,HE
-1,4762189,John Ulrich,93294,,HC,1,1,2022-01-21,48.0,30.11,30.11,AETNA,2021-12-30,2021-12-30," Lake Hospital System, Inc.",17.89,45,CO,,,,6R,LHPG0024399881-1,N59,HE

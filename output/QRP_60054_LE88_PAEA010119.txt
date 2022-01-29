@@ -1,6 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,36049,Doretta Anania,99214,,HC,1,1,2022-01-21,160.0,113.42,0.0,AETNA,2021-12-22,2021-12-22,Nicole Rashid,46.58,45,CO,113.42,1,PR,6R,N7SA0000075406-1,,
-1,36049,Doretta Anania,83861,QW,HC,1,1,2022-01-21,35.0,20.16,0.0,AETNA,2021-12-22,2021-12-22,Nicole Rashid,14.84,45,CO,20.16,1,PR,6R,N7SA0000075406-2,,
-2,36049,Doretta Anania,83861,QW,HC,1,1,2022-01-21,35.0,20.16,0.0,AETNA,2021-12-22,2021-12-22,Nicole Rashid,14.84,45,CO,20.16,1,PR,6R,N7SA0000075406-3,,
-3,36211,Ray Pauley,92014,,HC,1,1,2022-01-21,160.0,133.58,0.0,AETNA,2022-01-13,2022-01-13,Nicole Rashid,26.42,45,CO,133.58,1,PR,6R,N7SA0000075540-1,,
-4,36071,Lana Caldwell,99214,,HC,1,1,2022-01-21,160.0,123.74,98.74,AETNA,2021-12-29,2021-12-29, Nicole Rashid,36.26,45,CO,25.0,3,PR,6R,N7SA0000075422-1,N59,HE

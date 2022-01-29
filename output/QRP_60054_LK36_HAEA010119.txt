@@ -1,6 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,191900001X91,Dolores Onora,0191,,NU,0,13,2022-01-21,4160.0,,0.0,AETNA,2021-10-19,2021-11-01, Ihm Senior Living Community Inc,4160.0,97,CO,6R,SSIH0000011289-2,N130,HE
-1,191900001X91,Dolores Onora,GAXE1,,HP,13,13,2022-01-21,0.0,6446.65,6446.65,AETNA,2021-10-19,2021-11-01, Ihm Senior Living Community Inc,-6446.65,45,CO,6R,SSIH0000011289-1,N6,HE
-2,191900001X91,Dolores Onora,0250,,NU,0,1,2022-01-21,98.05,,0.0,AETNA,2021-10-19,2021-10-31, Ihm Senior Living Community Inc,98.05,97,CO,6R,SSIH0000011289-3,N130,HE
-3,191900001X91,Dolores Onora,0420,,NU,0,6,2022-01-21,490.3,,0.0,AETNA,2021-10-19,2021-10-31, Ihm Senior Living Community Inc,490.3,97,CO,6R,SSIH0000011289-4,N130,HE
-4,191900001X91,Dolores Onora,0430,,NU,0,5,2022-01-21,353.77,,0.0,AETNA,2021-10-19,2021-10-31, Ihm Senior Living Community Inc,353.77,97,CO,6R,SSIH0000011289-5,N130,HE

@@ -1,5 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
-0,VAX13090,Jaxon Osborne,0241U,,HC,0,1,2022-01-19,284.0,284.0,0.0,AETNA,2021-11-13,2021-11-13, Charles Cole Memorial Hospital,284.0,227,PR,6R,H7XP0008033487-1,MA04,HE,N179,HE
-1,VAX13090,Jaxon Osborne,C9803,,HC,0,1,2022-01-19,32.0,32.0,0.0,AETNA,2021-11-13,2021-11-13, Charles Cole Memorial Hospital,32.0,227,PR,6R,H7XP0008033487-2,N179,HE,N20,HE
-2,VAX13090,Jaxon Osborne,71046,,HC,0,1,2022-01-19,218.0,218.0,0.0,AETNA,2021-11-13,2021-11-13, Charles Cole Memorial Hospital,218.0,227,PR,6R,H7XP0008033487-3,MA04,HE,N179,HE
-3,VAX13090,Jaxon Osborne,99284,,HC,0,1,2022-01-19,517.0,517.0,0.0,AETNA,2021-11-13,2021-11-13, Charles Cole Memorial Hospital,517.0,227,PR,6R,H7XP0008033487-4,MA04,HE,N179,HE

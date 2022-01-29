@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,HF1000273370,Sydney Masseyverazain,1032F,,HC,0,1,2022-01-19,0.01,0.01,0.0,AETNA,2022-01-04,2022-01-04,Hytham Fadl,0.01,97,CO,6R,BTFP0000051620-3,N19,HE
-1,HF1000273370,Sydney Masseyverazain,1031F,,HC,0,1,2022-01-19,0.01,0.01,0.0,AETNA,2022-01-04,2022-01-04,Hytham Fadl,0.01,97,CO,6R,BTFP0000051620-2,N19,HE

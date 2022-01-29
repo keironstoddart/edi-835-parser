@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
-0,EO1000032410,Julie Jackson,99212,,HC,1,1,2022-01-19,70.0,48.64,0.0,AETNA,2022-01-10,2022-01-10,Manilal Mewada,21.36,45,CO,48.64,1,PR,6R,MOMM0000007206-1

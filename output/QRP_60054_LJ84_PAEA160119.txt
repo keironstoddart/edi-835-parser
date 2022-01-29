@@ -1,6 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,P10015303890,Sandra Adams,99213,25,HC,1,1,2022-01-21,100.0,86.24,51.24,AETNA,2021-12-16,2021-12-16," The Methodist Hospitals, Inc.",13.76,45,CO,35.0,3,PR,6R,MHPH0010172878-1,N59,HE
-1,P10015303890,Sandra Adams,93288,26,HC,1,1,2022-01-21,75.0,20.19,16.15,AETNA,2021-12-16,2021-12-16," The Methodist Hospitals, Inc.",54.81,45,CO,4.04,2,PR,6R,MHPH0010172878-2,N59,HE
-2,P10015303890,Sandra Adams,93005,59,HC,1,1,2022-01-21,52.0,5.81,4.65,AETNA,2021-12-16,2021-12-16," The Methodist Hospitals, Inc.",46.19,45,CO,1.16,2,PR,6R,MHPH0010172878-3,N59,HE
-3,P10015303890,Sandra Adams,3079F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-16,2021-12-16," The Methodist Hospitals, Inc.",0.01,97,CO,,,,6R,MHPH0010172878-4,N19,HE
-4,P10015303890,Sandra Adams,3074F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-16,2021-12-16," The Methodist Hospitals, Inc.",0.01,97,CO,,,,6R,MHPH0010172878-5,N19,HE

@@ -1,6 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
-0,C20710225540,Patrisha Monday,99213,,HC,1,1,2022-01-19,110.0,80.17,0.0,AETNA,2022-01-11,2022-01-11,Hyun Steward,29.83,45,CO,80.17,1,PR,6R,MMCX0000042107-1
-1,C20710225280,Barbara Brady,99214,,HC,1,1,2022-01-19,130.0,116.15,0.0,AETNA,2022-01-10,2022-01-10,Hyun Steward,13.85,45,CO,116.15,1,PR,6R,MMCX0000042062-1
-2,C20710225280,Barbara Brady,4010F,,HC,0,1,2022-01-19,0.0,,0.0,AETNA,2022-01-10,2022-01-10,Hyun Steward,,,,,,,6R,MMCX0000042062-4
-3,C20710225280,Barbara Brady,3078F,,HC,0,1,2022-01-19,0.0,,0.0,AETNA,2022-01-10,2022-01-10,Hyun Steward,,,,,,,6R,MMCX0000042062-3
-4,C20710225280,Barbara Brady,3074F,,HC,0,1,2022-01-19,0.0,,0.0,AETNA,2022-01-10,2022-01-10,Hyun Steward,,,,,,,6R,MMCX0000042062-2

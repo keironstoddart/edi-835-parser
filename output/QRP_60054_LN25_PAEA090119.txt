@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,AAA01665750,Elizabeth Ducey,96372,,HC,1,1,2022-01-21,40.0,11.59,9.27,AETNA,2021-12-28,2021-12-28," Fchc Medical Care, Llc",28.41,45,CO,2.32,2,PR,6R,FCHC0003183758-2,N59,HE
-1,AAA01665750,Elizabeth Ducey,J0897,,HC,60,60,2022-01-21,1650.0,1271.4,1017.12,AETNA,2021-12-28,2021-12-28," Fchc Medical Care, Llc",378.6,45,CO,254.28,2,PR,6R,FCHC0003183758-1,N59,HE

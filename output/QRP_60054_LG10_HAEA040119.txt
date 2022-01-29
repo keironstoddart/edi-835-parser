@@ -1,8 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,ACDF0456,William Carlson,36415,,HC,1,1,2022-01-19,14.61,217.99,217.99,AETNA,2021-12-22,2021-12-22, Up Health System Bell,340.95,23,OA,6R,8BXP0001484076-1,,
-1,ACDF0456,William Carlson,80053,,HC,1,1,2022-01-19,121.4,,0.0,AETNA,2021-12-22,2021-12-22, Up Health System Bell,121.4,97,CO,6R,8BXP0001484076-2,N20,HE
-2,ACDF0456,William Carlson,80061,,HC,1,1,2022-01-19,105.99,,0.0,AETNA,2021-12-22,2021-12-22, Up Health System Bell,105.99,97,CO,6R,8BXP0001484076-3,N20,HE
-3,ACDF0456,William Carlson,84443,,HC,1,1,2022-01-19,141.68,,0.0,AETNA,2021-12-22,2021-12-22, Up Health System Bell,141.68,97,CO,6R,8BXP0001484076-4,N20,HE
-4,ACDF0456,William Carlson,85025,,HC,1,1,2022-01-19,71.93,,0.0,AETNA,2021-12-22,2021-12-22, Up Health System Bell,71.93,97,CO,6R,8BXP0001484076-5,N20,HE
-5,ACDF0456,William Carlson,87086,,HC,1,1,2022-01-19,61.37,,0.0,AETNA,2021-12-22,2021-12-22, Up Health System Bell,61.37,97,CO,6R,8BXP0001484076-6,N20,HE
-6,ACDF0456,William Carlson,81001,,HC,1,1,2022-01-19,41.96,,0.0,AETNA,2021-12-22,2021-12-22, Up Health System Bell,41.96,97,CO,6R,8BXP0001484076-7,N20,HE

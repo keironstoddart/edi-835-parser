@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
-0,H700198696H,Hannah Farley,76811,,HC,0,1,2022-01-24,238.0,238.0,0.0,AETNA,2021-04-19,2021-04-19,Sierra Cuthpert,238.0,231,CO,,,,6R,8HXP0000696564-1
-1,H7002037160,Hannah Farley,99238,,HC,1,1,2022-01-24,125.0,78.65,62.92,AETNA,2021-09-16,2021-09-16,Larry Young,46.35,45,CO,15.73,2,PR,6R,8HXP0000695613-1

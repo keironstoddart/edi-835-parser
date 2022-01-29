@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
-0,NAI40694,Andrea White,99283,,HC,1,1,2022-01-21,246.0,60.67,60.67,AETNA,2021-12-24,2021-12-24," Russell County, Kentucky Hospit",185.33,45,CO,6R,RCPG0001734437-1

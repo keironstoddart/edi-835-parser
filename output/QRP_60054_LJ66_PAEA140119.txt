@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,4746065,Dolores Holliday,99222,CS,HC,1,1,2022-01-21,197.0,133.49,133.49,AETNA,2021-12-05,2021-12-05," Lake Hospital System, Inc.",63.51,45,CO,6R,LHPG0024300640-2,N59,HE
-1,4746065,Dolores Holliday,93306,26,HC,1,1,2022-01-21,350.0,69.42,69.42,AETNA,2021-12-06,2021-12-06," Lake Hospital System, Inc.",280.58,45,CO,6R,LHPG0024300640-1,N59,HE

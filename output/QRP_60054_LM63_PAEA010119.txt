@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,0001359019,Margaret Mcauliffe,67041,LT,HC,1,1,2022-01-21,3250.0,1231.47,1231.47,AETNA,2021-12-13,2021-12-13, Danbury Eye Physicians   Surgeo,2018.53,45,CO,6R,CEYE0000311707-1,N59,HE
-1,0001360739,Ann Williams,67904,RT,HC,1,1,2022-01-21,1365.0,642.37,642.37,AETNA,2021-12-17,2021-12-17, Danbury Eye Physicians   Surgeo,722.63,45,CO,6R,CEYE0000314164-1,N59,HE

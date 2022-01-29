@@ -1,4 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,FKC4579758,Dennis Delorenzo,72197,,HC,1,1,2022-01-21,2247.0,368.63,368.63,AETNA,2021-12-31,2021-12-31, Tidelands Health Market Common,1878.37,45,CO,6R,THIC0008724974-2,N59,HE
-1,FKC4579758,Dennis Delorenzo,J1610,,HC,1,1,2022-01-21,737.8,147.56,147.56,AETNA,2021-12-31,2021-12-31, Tidelands Health Market Common,590.24,45,CO,6R,THIC0008724974-1,N59,HE
-2,FKC4579758,Dennis Delorenzo,A9577,,HC,0,1,2022-01-21,418.93,,0.0,AETNA,2021-12-31,2021-12-31, Tidelands Health Market Common,418.93,97,CO,6R,THIC0008724974-3,N20,HE

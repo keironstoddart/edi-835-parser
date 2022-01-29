@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
-0,S282097600101,Carolyn Garmon,87636,QW,HC,1,1,2022-01-24,315.0,178.29,178.29,AETNA,2021-12-20,2021-12-20, Tripoint Medical Center,136.71,45,CO,6R,1

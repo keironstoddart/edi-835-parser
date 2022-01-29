@@ -10,9 +10,9 @@ import os
 #         data = transaction_set.to_dataframe()
 #         data.to_csv(f'output/{file}')
 
-path = 'input/quadax_sample_835.txt'
+path = 'input/sample_835.txt'
 
 transaction_set = parse(path)
 
 data = transaction_set.to_dataframe()
-data.to_csv("output/quadax_sample_835.txt")
+data.to_csv("output/sample_835.txt")

@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
-0,CRAJA002XX90663,Janis Crawford,90791,,HC,1,1,2022-01-21,190.0,75.0,75.0,AETNA,2021-12-17,2021-12-17," Cope Treatment Centers, Inc.",115.0,45,CO,6R,5DXP0001468609-1

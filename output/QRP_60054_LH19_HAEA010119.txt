@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
-0,265340000OOV3,Andrew Mihalic,Q3014,,HC,1,1,2022-01-21,21.32,21.32,18.12,AETNA,2021-12-10,2021-12-10," Progressive Parma Care Center,",3.2,2,PR,6R,PCQC0000037341-1

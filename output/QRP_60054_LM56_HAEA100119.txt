@@ -1,8 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,RV2412000385SP,Carrie Friedenstab,0120,,NU,3,3,2022-01-18,930.0,930.0,930.0,AETNA,2021-12-01,2021-12-04, Olmstead Health Care Center Inc,,,,6R,E5SQ0003453413-2,,
-1,RV2412000385SP,Carrie Friedenstab,GAXE1,,HP,3,3,2022-01-18,0.0,,0.0,AETNA,2021-12-01,2021-12-04, Olmstead Health Care Center Inc,,,,6R,E5SQ0003453413-1,N19,HE
-2,RV2412000385SP,Carrie Friedenstab,0250,,NU,0,1,2022-01-18,90.0,,0.0,AETNA,2021-12-01,2021-12-04, Olmstead Health Care Center Inc,90.0,97,CO,6R,E5SQ0003453413-3,N130,HE
-3,RV2412000385SP,Carrie Friedenstab,0300,,NU,0,1,2022-01-18,3.75,,0.0,AETNA,2021-12-01,2021-12-04, Olmstead Health Care Center Inc,3.75,97,CO,6R,E5SQ0003453413-4,N130,HE
-4,RV2412000385SP,Carrie Friedenstab,0320,,NU,0,1,2022-01-18,6.0,,0.0,AETNA,2021-12-01,2021-12-04, Olmstead Health Care Center Inc,6.0,97,CO,6R,E5SQ0003453413-5,N130,HE
-5,RV2412000385SP,Carrie Friedenstab,0421,,NU,0,3,2022-01-18,280.0,,0.0,AETNA,2021-12-01,2021-12-04, Olmstead Health Care Center Inc,280.0,97,CO,6R,E5SQ0003453413-6,N130,HE
-6,RV2412000385SP,Carrie Friedenstab,0431,,NU,0,3,2022-01-18,240.0,,0.0,AETNA,2021-12-01,2021-12-04, Olmstead Health Care Center Inc,240.0,97,CO,6R,E5SQ0003453413-7,N130,HE

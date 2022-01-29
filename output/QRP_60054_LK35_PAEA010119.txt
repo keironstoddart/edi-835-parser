@@ -1,5 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value
-0,HC1000754590,Kendryk Barnes,99204,25,HC,1,1,2022-01-21,240.0,177.1,0.0,AETNA,2022-01-11,2022-01-11,Mustafa Mahmoud Hassan,62.9,45,CO,177.1,1,PR,6R,HRCM0000165008-1
-1,HC1000754590,Kendryk Barnes,93000,,HC,1,1,2022-01-21,40.0,22.82,0.0,AETNA,2022-01-11,2022-01-11,Mustafa Mahmoud Hassan,17.18,45,CO,22.82,1,PR,6R,HRCM0000165008-2
-2,HC1000755310,Michael Rhodes,33264,,HC,1,1,2022-01-21,725.0,201.66,201.66,AETNA,2021-11-11,2021-11-11, Heart Rhythm Clinic Of Michigan,523.34,45,CO,,,,6R,HRCM0000164982-2
-3,HC1000755310,Michael Rhodes,33223,59,HC,1,1,2022-01-21,730.0,407.59,407.59,AETNA,2021-11-11,2021-11-11, Heart Rhythm Clinic Of Michigan,322.41,45,CO,,,,6R,HRCM0000164982-1

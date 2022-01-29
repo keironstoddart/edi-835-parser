@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,4762183,James Corrigan,99232,,HC,1,1,2022-01-21,102.0,70.48,67.66,AETNA,2021-12-30,2021-12-30," Lake Hospital System, Inc.",31.52,45,CO,2.82,2,PR,6R,LHPG0024399607-1,N59,HE
-1,4753050,Thomas Bordonaro,99308,,HC,1,1,2022-01-21,98.0,67.17,67.17,AETNA,2021-12-30,2021-12-30," Lake Hospital System, Inc.",30.83,45,CO,,,,6R,LHPG0024399882-1,N59,HE

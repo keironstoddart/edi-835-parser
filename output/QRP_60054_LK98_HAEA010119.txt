@@ -1,9 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
-0,NAK91636,Kimberly Murphy,96374,,HC,0,1,2022-01-19,138.0,138.0,0.0,AETNA,2021-11-23,2021-11-23, Humboldt Park Health,138.0,227,PR,6R,NWAH0001103521-1,N179,HE,N20,HE
-1,NAK91636,Kimberly Murphy,80053,,HC,0,1,2022-01-19,225.0,225.0,0.0,AETNA,2021-11-23,2021-11-23, Humboldt Park Health,225.0,227,PR,6R,NWAH0001103521-2,N179,HE,N20,HE
-2,NAK91636,Kimberly Murphy,85025,,HC,0,1,2022-01-19,154.0,154.0,0.0,AETNA,2021-11-23,2021-11-23, Humboldt Park Health,154.0,227,PR,6R,NWAH0001103521-3,N179,HE,N20,HE
-3,NAK91636,Kimberly Murphy,87086,,HC,0,1,2022-01-19,120.0,120.0,0.0,AETNA,2021-11-23,2021-11-23, Humboldt Park Health,120.0,227,PR,6R,NWAH0001103521-4,N179,HE,N20,HE
-4,NAK91636,Kimberly Murphy,81001,,HC,0,1,2022-01-19,50.0,50.0,0.0,AETNA,2021-11-23,2021-11-23, Humboldt Park Health,50.0,227,PR,6R,NWAH0001103521-5,N179,HE,N20,HE
-5,NAK91636,Kimberly Murphy,74176,,HC,0,1,2022-01-19,863.0,863.0,0.0,AETNA,2021-11-23,2021-11-23, Humboldt Park Health,863.0,227,PR,6R,NWAH0001103521-6,MA04,HE,N179,HE
-6,NAK91636,Kimberly Murphy,99285,25,HC,0,1,2022-01-19,2262.0,2262.0,0.0,AETNA,2021-11-23,2021-11-23, Humboldt Park Health,2262.0,227,PR,6R,NWAH0001103521-7,MA04,HE,N179,HE
-7,NAK91636,Kimberly Murphy,J1885,,HC,0,2,2022-01-19,16.59,16.59,0.0,AETNA,2021-11-23,2021-11-23, Humboldt Park Health,16.59,227,PR,6R,NWAH0001103521-8,N179,HE,N20,HE

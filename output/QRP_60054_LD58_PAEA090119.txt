@@ -1,5 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,ADI8713700,Worth Graham,99153,59,HC,0,1,2022-01-19,17.0,17.0,0.0,AETNA,2021-10-25,2021-10-25,Rahsaan Friend,17.0,226,CO,6R,BLMS0007327410-4,N517,HE
-1,ADI8713700,Worth Graham,99152,59,HC,0,1,2022-01-19,22.0,22.0,0.0,AETNA,2021-10-25,2021-10-25,Rahsaan Friend,22.0,226,CO,6R,BLMS0007327410-1,N517,HE
-2,ADI8713700,Worth Graham,45380,,HC,0,1,2022-01-19,361.0,361.0,0.0,AETNA,2021-10-25,2021-10-25,Rahsaan Friend,361.0,226,CO,6R,BLMS0007327410-3,N517,HE
-3,ADI8713700,Worth Graham,43239,,HC,0,1,2022-01-19,249.0,249.0,0.0,AETNA,2021-10-25,2021-10-25,Rahsaan Friend,249.0,226,CO,6R,BLMS0007327410-2,N517,HE

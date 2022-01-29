@@ -1,4 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
-0,GKC4542401,Earl Stegall,99232,,HC,1,1,2022-01-21,176.0,69.79,69.79,AETNA,2021-11-13,2021-11-13, Tidelands Health Georgetown Mem,106.21,45,CO,6R,TIDE0008742462-1
-1,GKC4542401,Earl Stegall,99232,,HC,1,1,2022-01-21,176.0,69.79,69.79,AETNA,2021-11-18,2021-11-18, Tidelands Health Georgetown Mem,106.21,45,CO,6R,TIDE0008742462-2
-2,GKC4542401,Earl Stegall,99232,,HC,1,1,2022-01-21,176.0,69.79,69.79,AETNA,2021-11-19,2021-11-19, Tidelands Health Georgetown Mem,106.21,45,CO,6R,TIDE0008742462-3

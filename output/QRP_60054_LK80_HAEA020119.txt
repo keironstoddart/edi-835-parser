@@ -1,6 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,124089,Casey Matlock,99214,CG,HC,1,1,2022-01-21,188.0,289.03,289.03,AETNA,2021-12-30,2021-12-30, Helen Newberry Joy Hosp,-101.03,45,CO,6R,NJXP0002320435-1,N59,HE
-1,124089,Casey Matlock,1159F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-30,2021-12-30, Helen Newberry Joy Hosp,0.01,97,CO,6R,NJXP0002320435-2,N19,HE
-2,124089,Casey Matlock,1160F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-30,2021-12-30, Helen Newberry Joy Hosp,0.01,97,CO,6R,NJXP0002320435-3,N19,HE
-3,124089,Casey Matlock,3075F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-30,2021-12-30, Helen Newberry Joy Hosp,0.01,97,CO,6R,NJXP0002320435-4,N19,HE
-4,124089,Casey Matlock,3079F,,HC,0,1,2022-01-21,0.01,,0.0,AETNA,2021-12-30,2021-12-30, Helen Newberry Joy Hosp,0.01,97,CO,6R,NJXP0002320435-5,N19,HE

@@ -1,5 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,BAA00006883748,Maria Campos,A0427,QN,HC,0,1,2022-01-21,-607.0,,0.0,AETNA,2021-08-05,2021-08-05, Gila Regional Med Ctr,-607.0,206,PI,,,N694,HE
-1,BAA00006883748,Maria Campos,A0425,QN,HC,0,1,2022-01-21,-25.5,,0.0,AETNA,2021-08-05,2021-08-05, Gila Regional Med Ctr,-25.5,206,PI,,,N694,HE
-2,BAA00006883748,Maria Campos,A0425,QN,HC,2,2,2022-01-21,25.5,7.4,7.4,AETNA,2021-08-05,2021-08-05, Gila Regional Med Ctr,18.1,45,CO,6R,GILA0000689354-1,N6,HE
-3,BAA00006883748,Maria Campos,A0427,QN,HC,1,1,2022-01-21,607.0,176.03,176.03,AETNA,2021-08-05,2021-08-05, Gila Regional Med Ctr,430.97,45,CO,6R,GILA0000689354-2,N6,HE

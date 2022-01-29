@@ -1,5 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,000100216596,Alice Mcwhorter,92014,,HC,1,1,2022-01-24,175.0,116.25,9.35,AETNA,2022-01-07,2022-01-07,James Sargent,58.75,45,CO,104.56,1,PR,6R,MUSA0000358077-1,,
-1,000100216596,Alice Mcwhorter,92083,,HC,1,1,2022-01-24,150.0,84.44,67.55,AETNA,2022-01-07,2022-01-07,James Sargent,65.56,45,CO,16.89,2,PR,6R,MUSA0000358077-2,,
-2,000100216596,Alice Mcwhorter,92250,,HC,1,1,2022-01-24,100.0,66.72,53.38,AETNA,2022-01-07,2022-01-07,James Sargent,26.44,45,CO,13.34,2,PR,6R,MUSA0000358077-3,,
-3,000100216596,Alice Mcwhorter,92015,,HC,1,1,2022-01-24,45.0,,0.0,AETNA,2022-01-07,2022-01-07,James Sargent,45.0,96,PR,,,,6R,MUSA0000358077-4,N129,HE

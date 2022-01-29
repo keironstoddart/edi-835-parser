@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
-0,WKC4857443,Dorothy Oldham,99284,,HC,1,1,2022-01-21,582.04,113.12,113.12,AETNA,2021-12-17,2021-12-17, Tidelands Health Waccamaw Commu,468.92,45,CO,6R,W2XP0008736336-1

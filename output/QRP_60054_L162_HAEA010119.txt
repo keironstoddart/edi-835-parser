@@ -1,6 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,MER3110151979103,Donald Howell,99291,25,HC,1,1,2022-01-21,852.5,217.91,217.91,AETNA,2021-12-23,2021-12-23, Mercer County Joint Township Co,634.59,45,CO,6R,JWXP0003334653-2,N59,HE
-1,MER3110151979103,Donald Howell,36556,,HC,1,1,2022-01-21,219.0,85.01,85.01,AETNA,2021-12-23,2021-12-23, Mercer County Joint Township Co,133.99,45,CO,6R,JWXP0003334653-1,N59,HE
-2,MER3110151979105,Donald Howell,99140,,HC,0,1,2022-01-21,214.5,,0.0,AETNA,2021-12-25,2021-12-25, Mercer County Joint Township Co,214.5,B15,CO,6R,JWXP0003334655-2,N674,HE
-3,MER3110151979105,Donald Howell,36620,,HC,1,1,2022-01-21,81.0,44.7,44.7,AETNA,2021-12-25,2021-12-25, Mercer County Joint Township Co,36.3,45,CO,6R,JWXP0003334655-3,N59,HE
-4,MER3110151979105,Donald Howell,31500,,HC,1,1,2022-01-21,585.5,144.03,144.03,AETNA,2021-12-25,2021-12-25, Mercer County Joint Township Co,441.47,45,CO,6R,JWXP0003334655-1,N59,HE

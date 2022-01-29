@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
-0,EX1275460,Geralyn Sentz,80220,,HC,0,1,2022-01-18,215.0,18.64,0.0,CHRISTUS HIX PLAN TEXAS,2022-01-05,2022-01-05,,215.0,197,PR,6R,EX0001861904-1

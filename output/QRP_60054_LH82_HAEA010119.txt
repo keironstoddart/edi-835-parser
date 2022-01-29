@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,105156-0104-001U,James Burch,99213,CG,HC,1,1,2022-01-21,90.0,114.01,114.01,AETNA,2021-12-30,2021-12-30, Wards 3 4   10 Hospital Service,-24.01,45,CO,6R,RMMC0000565143-1,N6,HE

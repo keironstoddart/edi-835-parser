@@ -1,8 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,ref_1_qual,ref_1_value,rem_0_code,rem_0_qual
-0,50225382160,Frederick Garber,99214,,HC,1,1,2022-01-21,-160.0,,0.0,AETNA,2021-08-31,2021-08-31, Samaritan Family Care,-145.0,23,OA,-15.0,3,PR,6R,STFP0034482293-1,,,,
-1,50225382160,Frederick Garber,36415,,HC,1,1,2022-01-21,-11.0,,-3.0,AETNA,2021-08-31,2021-08-31, Samaritan Family Care,-8.0,45,CO,,,,6R,STFP0034482293-2,,,N59,HE
-2,50225382160,Frederick Garber,G8417,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-08-31,2021-08-31, Samaritan Family Care,,,,,,,6R,STFP0034482293-7,,,,
-3,50225382160,Frederick Garber,99214,,HC,1,1,2022-01-21,160.0,126.5,126.5,AETNA,2021-08-31,2021-08-31, Samaritan Family Care,18.5,45,CO,15.0,3,PR,6R,STFP0034482293-1,,,N59,HE
-4,50225382160,Frederick Garber,36415,,HC,1,1,2022-01-21,11.0,3.0,6.0,AETNA,2021-08-31,2021-08-31, Samaritan Family Care,5.0,45,CO,,,,6R,STFP0034482293-2,,,N59,HE
-5,50225382160,Frederick Garber,G8417,,HC,1,1,2022-01-21,0.0,,0.0,AETNA,2021-08-31,2021-08-31, Samaritan Family Care,,,,,,,6R,STFP0034482293-7,,,,
-6,50225925590,Beverly Drake,G0179,,HC,1,1,2022-01-21,83.0,39.53,39.53,AETNA,2021-12-11,2021-12-11, Samaritan Family Care Inc,43.47,45,CO,,,,BB,000000015131611,6R,PKSA0035851440-1,N59,HE

@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,rem_0_code,rem_0_qual
-0,447946322,Laura Lee,99214,,HC,1,1,2022-01-18,115.0,115.0,115.0,CIGNA,2021-12-10,2021-12-10,,,,,,
-1,447946322,Laura Lee,92015,,HC,1,1,2022-01-18,35.0,,0.0,CIGNA,2021-12-10,2021-12-10,,35.0,97,CO,M15,HE

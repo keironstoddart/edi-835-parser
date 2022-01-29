@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual,rem_1_code,rem_1_qual
-0,33403,Jacob Mendlovic,99232,,HC,0,1,2022-01-19,138.92,138.92,0.0,AETNA,2021-11-10,2021-11-10,Brahmaiah Tandra,138.92,16,PI,6R,22496,MA113,HE,N517,HE
-1,33403,Jacob Mendlovic,99232,,HC,0,1,2022-01-19,138.92,138.92,0.0,AETNA,2021-11-17,2021-11-17,Brahmaiah Tandra,138.92,16,PI,6R,22497,MA113,HE,N517,HE

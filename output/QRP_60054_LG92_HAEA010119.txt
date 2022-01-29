@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value
-0,BAA00008469542,Kelsi Guynes,99213,25,HC,1,1,2022-01-19,180.0,79.48,0.0,AETNA,2021-12-23,2021-12-23,Jenna Graf,79.48,1,PR,6R,PCLO0001562259-1
-1,BAA00008469542,Kelsi Guynes,87804,QW,HC,1,1,2022-01-19,53.0,17.37,0.0,AETNA,2021-12-23,2021-12-23,Jenna Graf,17.37,1,PR,6R,PCLO0001562259-2

@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,AAA01662427,Elaine Schnitkey,99214,,HC,1,1,2022-01-21,215.0,98.46,98.46,AETNA,2021-12-03,2021-12-03," Fchc Medical Care, Llc",116.54,45,CO,6R,FCHC0003183887-1,N59,HE

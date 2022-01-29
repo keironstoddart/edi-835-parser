@@ -5,22 +5,25 @@ from edi_835_parser.loops.claim import Claim as ClaimLoop
 from edi_835_parser.loops.organization import Organization as OrganizationLoop
 from edi_835_parser.segments.utilities import find_identifier
 from edi_835_parser.segments.transaction import Transaction as TransactionSegment
+from edi_835_parser.segments.financial_information import FinancialInformation as FinancialInformationSegment
 
 
 class Transaction:
     initiating_identifier = TransactionSegment.identification
     terminating_identifiers = [
-        TransactionSegment.identification,  # TODO: add a comment
+        TransactionSegment.identification,  # Transaction segment (ST) has to end with an 'SE' segment
         'SE'
     ]
 
     def __init__(
             self,
             transaction: TransactionSegment = None,
+            financial_information: FinancialInformationSegment = None,
             claims: List[ClaimLoop] = None,
             organizations: List[OrganizationLoop] = None
     ):
         self.transaction = transaction
+        self.financial_information = financial_information
         self.claims = claims if claims else []
         self.organizations = organizations if organizations else []
 
@@ -47,6 +50,12 @@ class Transaction:
                 elif identifier == OrganizationLoop.initiating_identifier:
                     organization, segments, segment = OrganizationLoop.build(segment, segments)
                     transaction.organizations.append(organization)
+
+                elif identifier == FinancialInformationSegment.identification:
+                    financial_information = FinancialInformationSegment(segment)
+                    transaction.financial_information = financial_information
+                    segment = None
+
 
                 elif identifier in cls.terminating_identifiers:
                     return transaction, segments, segment

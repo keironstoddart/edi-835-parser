@@ -1,3 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,400294711,James Davis,99213,,HC,0,1,2022-01-18,108.97,,0.0,AETNA,2020-12-09,2020-12-09, Morgan County Ga Hospital Autho,108.97,18,OA,6R,MNPS0000606928-1,N522,HE
-1,400294711,James Davis,99213,,HC,0,1,2022-01-18,436.83,,0.0,AETNA,2020-12-09,2020-12-09, Morgan County Ga Hospital Autho,436.83,18,OA,6R,MNPS0000606928-2,N522,HE

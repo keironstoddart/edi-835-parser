@@ -1,2 +1,0 @@
-,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,adj_0_amount,adj_0_code,adj_0_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
-0,P10015298730,Cynthia Lorman,99232,,HC,1,1,2022-01-21,132.0,57.82,57.82,AETNA,2021-12-15,2021-12-15," The Methodist Hospitals, Inc.",74.18,45,CO,6R,MHPH0010165477-1,N6,HE
