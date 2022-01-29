@@ -19,13 +19,19 @@ class TransactionSets:
 	def __repr__(self):
 		return '\n'.join(str(transaction_set) for transaction_set in self)
 
-	def to_dataframe(self) -> pd.DataFrame:
+	def to_dataframe(self) -> tuple:
 		data = pd.DataFrame()
+		data2 = pd.DataFrame()
+
 		for transaction_set in self:
-			data = pd.concat([data, transaction_set.to_dataframe()])
+			x1, x2 = transaction_set.to_dataframe()
+			data = pd.concat([data, x1])
+			data2 = pd.concat([data2, x2])
 
 		data = TransactionSets.sort_columns(data)
-		return data
+		data2 = TransactionSets.sort_columns(data2)
+
+		return data, data2
 
 	@staticmethod
 	def sort_columns(data: pd.DataFrame) -> pd.DataFrame:

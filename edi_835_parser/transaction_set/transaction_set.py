@@ -26,31 +26,54 @@ class TransactionSet:
 	def __repr__(self):
 		return '\n'.join(str(item) for item in self.__dict__.items())
 
-	def to_dataframe(self) -> pd.DataFrame:
+	def to_dataframe(self) -> tuple[pd.DataFrame]:
 		"""flatten the remittance advice by service to a pandas DataFrame"""
-		data = []
+		data1 = []
+		data2 = []
+
 		for transaction in self.transactions:
 			for claim in transaction.claims:
 				for service in claim.services:
 
-					datum = TransactionSet.serialize_service(
+					datum1, datum2 = TransactionSet.serialize_service(
 						claim,
 						service,
 						transaction
 					)
 
-				data.append(datum)
+				data1.append(datum1)
+				data2.append(datum2)
 
-		data = pd.DataFrame(data)
+		data1 = pd.DataFrame(data1)
+		data2 = pd.DataFrame(data2)
 
-		return pd.DataFrame(data)
+		return data1, data2
 
+	# def to_dataframe2(self) -> pd.DataFrame:
+	# 	"""flatten the remittance advice by service to a pandas DataFrame"""
+	# 	data = []
+	#
+	# 	for transaction in self.transactions:
+	# 		for claim in transaction.claims:
+	# 			for service in claim.services:
+	# 				datum1, datum2 = TransactionSet.serialize_service(
+	# 					claim,
+	# 					service,
+	# 					transaction
+	# 				)
+	#
+	# 			data.append(datum2)
+	#
+	# 	data = pd.DataFrame(data)
+	#
+	# 	return pd.DataFrame(data)
+	#
 	@staticmethod
 	def serialize_service(
 			claim: ClaimLoop,
 			service: ServiceLoop,
 			transaction: TransactionLoop
-	) -> dict:
+	) -> tuple:
 		# if the service doesn't have a start date assume the service and claim dates match
 		start_date = None
 		if service.service_period_start:
@@ -65,7 +88,7 @@ class TransactionSet:
 		elif claim.claim_statement_period_end:
 			end_date = claim.claim_statement_period_end.date
 
-		datum = {
+		datum1 = {
 			'edi_transacrion_id_st02': transaction.transaction.transaction_set_control_no,
 			'patient_control_id': claim.claim.patient_control_number,
 			'patient_id_qualifier': claim.patient.identification_code_qualifier,
@@ -75,7 +98,7 @@ class TransactionSet:
 			'patient_middle_name': claim.patient.middle_name,
 			'patient_name_suffix': claim.patient.name_suffix,
 			'patient_name_prefix': claim.patient.name_prefix,
-			'payer_id': [o.organization.type for o in transaction.organizations if o.organization.type == 'payer'][0],
+			'payer_id': [o.organization.identification_code for o in transaction.organizations if o.organization.type == 'payer'][0],
 			'payer_name': [o.organization.name for o in transaction.organizations if o.organization.type == 'payer'][0],
 			'bt_facility_type_code_clp08': claim.claim.facility_type_code,
 			'bt_facility_type_code_clp09': claim.claim.claim_frequency_code,
@@ -113,7 +136,23 @@ class TransactionSet:
 
 		}
 
-		return datum
+		datum2 = {
+			'edi_transacrion_id_st02': transaction.transaction.transaction_set_control_no,
+			'payer_id': [o.organization.identification_code for o in transaction.organizations if o.organization.type == 'payer'][0],
+			'payer_name': [o.organization.name for o in transaction.organizations if o.organization.type == 'payer'][0],
+			'payer_address_line1': [o.address.address_line1 for o in transaction.organizations if o.organization.type == 'payer'][0],
+			'payer_address_line2':[o.address.address_line2 for o in transaction.organizations if o.organization.type == 'payer'][0],
+			'payer_city': [o.location.city for o in transaction.organizations if o.organization.type == 'payer'][0],
+
+			'payee_id_qualifier': [o.organization.identification_code_qualifier for o in transaction.organizations if
+									o.organization.type == 'payee'][0],
+
+			'payee_id': [o.organization.identification_code for o in transaction.organizations if
+							o.organization.type == 'payee'][0],
+
+		}
+
+		return datum1, datum2
 
 	@classmethod
 	def build(cls, file_path: str) -> 'TransactionSet':
