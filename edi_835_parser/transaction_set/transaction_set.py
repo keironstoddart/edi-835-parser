@@ -28,67 +28,48 @@ class TransactionSet:
 
 	def to_dataframe(self) -> tuple[pd.DataFrame]:
 		"""flatten the remittance advice by service to a pandas DataFrame"""
-		data1 = []
-		data2 = []
+		remits_df = []
+		remit_payers_df = []
 
 		for transaction in self.transactions:
 			for claim in transaction.claims:
 				for service in claim.services:
 
-					datum1, datum2 = TransactionSet.serialize_service(
+					remits_dict, remit_payers_dict = TransactionSet.serialize_service(
 						claim,
 						service,
 						transaction
 					)
 
-				data1.append(datum1)
-				data2.append(datum2)
+				remits_df.append(remits_dict)
+				remit_payers_df.append(remit_payers_dict)
 
-		data1 = pd.DataFrame(data1)
-		data2 = pd.DataFrame(data2)
+		remits_df = pd.DataFrame(remits_df)
+		remit_payers_df = pd.DataFrame(remit_payers_df)
 
-		return data1, data2
+		return remits_df, remit_payers_df
 
-	# def to_dataframe2(self) -> pd.DataFrame:
-	# 	"""flatten the remittance advice by service to a pandas DataFrame"""
-	# 	data = []
-	#
-	# 	for transaction in self.transactions:
-	# 		for claim in transaction.claims:
-	# 			for service in claim.services:
-	# 				datum1, datum2 = TransactionSet.serialize_service(
-	# 					claim,
-	# 					service,
-	# 					transaction
-	# 				)
-	#
-	# 			data.append(datum2)
-	#
-	# 	data = pd.DataFrame(data)
-	#
-	# 	return pd.DataFrame(data)
-	#
 	@staticmethod
 	def serialize_service(
 			claim: ClaimLoop,
 			service: ServiceLoop,
 			transaction: TransactionLoop
 	) -> tuple:
-		# if the service doesn't have a start date assume the service and claim dates match
-		start_date = None
-		if service.service_period_start:
-			start_date = service.service_period_start.date
-		elif claim.claim_statement_period_start:
-			start_date = claim.claim_statement_period_start.date
+		# # if the service doesn't have a start date assume the service and claim dates match
+		# start_date = None
+		# if service.service_period_start:
+		# 	start_date = service.service_period_start.date
+		# elif claim.claim_statement_period_start:
+		# 	start_date = claim.claim_statement_period_start.date
+		#
+		# # if the service doesn't have an end date assume the service and claim dates match
+		# end_date = None
+		# if service.service_period_end:
+		# 	end_date = service.service_period_end.date
+		# elif claim.claim_statement_period_end:
+		# 	end_date = claim.claim_statement_period_end.date
 
-		# if the service doesn't have an end date assume the service and claim dates match
-		end_date = None
-		if service.service_period_end:
-			end_date = service.service_period_end.date
-		elif claim.claim_statement_period_end:
-			end_date = claim.claim_statement_period_end.date
-
-		datum1 = {
+		remits_dict = {
 			'edi_transacrion_id_st02': transaction.transaction.transaction_set_control_no,
 			'patient_control_id': claim.claim.patient_control_number,
 			'patient_id_qualifier': claim.patient.identification_code_qualifier,
@@ -98,12 +79,12 @@ class TransactionSet:
 			'patient_middle_name': claim.patient.middle_name,
 			'patient_name_suffix': claim.patient.name_suffix,
 			'patient_name_prefix': claim.patient.name_prefix,
-			'payer_id': [o.organization.identification_code for o in transaction.organizations if o.organization.type == 'payer'][0],
-			'payer_name': [o.organization.name for o in transaction.organizations if o.organization.type == 'payer'][0],
+			'payer_id': transaction.payer.identification_code,
+			'payer_name': transaction.payer.name,
 			'bt_facility_type_code_clp08': claim.claim.facility_type_code,
 			'bt_facility_type_code_clp09': claim.claim.claim_frequency_code,
-			'payee_id_qualifier': [o.organization.identification_code_qualifier for o in transaction.organizations if o.organization.type == 'payee'][0],
-			'payee_id': [o.organization.identification_code for o in transaction.organizations if o.organization.type == 'payee'][0],
+			'payee_id_qualifier': transaction.payee.identification_code_qualifier,
+			'payee_id': transaction.payee.identification_code,
 			'provider_entity_type_qualifier': claim.rendering_provider.type,
 			'provider_id_qualifier': claim.rendering_provider.identification_code_qualifier,
 			'provider_id': claim.rendering_provider.identification_code,
@@ -136,23 +117,32 @@ class TransactionSet:
 
 		}
 
-		datum2 = {
+		remit_payers_dict = {
 			'edi_transacrion_id_st02': transaction.transaction.transaction_set_control_no,
-			'payer_id': [o.organization.identification_code for o in transaction.organizations if o.organization.type == 'payer'][0],
-			'payer_name': [o.organization.name for o in transaction.organizations if o.organization.type == 'payer'][0],
-			'payer_address_line1': [o.address.address_line1 for o in transaction.organizations if o.organization.type == 'payer'][0],
-			'payer_address_line2':[o.address.address_line2 for o in transaction.organizations if o.organization.type == 'payer'][0],
-			'payer_city': [o.location.city for o in transaction.organizations if o.organization.type == 'payer'][0],
+			'payer_id': transaction.payer.identification_code,
+			'payer_name': transaction.payer.name,
+			'payer_address_line1': transaction.payer_address.address_line1,
+			'payer_address_line2': transaction.payer_address.address_line2,
+			'payer_city': transaction.payer_location.city,
+			'payer_state': transaction.payer_location.state,
+			'payer_zip': transaction.payer_location.zip_code,
+			'payer_country': transaction.payer_location.country,
+			'payer_contact_business': transaction.payer_contact_business.communication_no_or_url,
+			'payer_contact_business_qualifier': transaction.payer_contact_business.communication_no_or_url_qualifier,
+			'payer_contact_business_name': transaction.payer_contact_business.name,
+			'payer_contact_web': transaction.payer_contact_web.communication_no_or_url if transaction.payer_contact_web else None,
+			'payer_contact_web_qualifier': transaction.payer_contact_web.communication_no_or_url_qualifier if transaction.payer_contact_web else None,
+			'payer_contact_web_name': transaction.payer_contact_web.name if transaction.payer_contact_web else None
 
-			'payee_id_qualifier': [o.organization.identification_code_qualifier for o in transaction.organizations if
-									o.organization.type == 'payee'][0],
-
-			'payee_id': [o.organization.identification_code for o in transaction.organizations if
-							o.organization.type == 'payee'][0],
 
 		}
 
-		return datum1, datum2
+		remit_payment_info_dict = {
+			'edi_transacrion_id_st02': transaction.transaction.transaction_set_control_no,
+
+		}
+
+		return remits_dict, remit_payers_dict
 
 	@classmethod
 	def build(cls, file_path: str) -> 'TransactionSet':

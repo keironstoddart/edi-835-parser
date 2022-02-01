@@ -1,5 +1,5 @@
 from edi_835_parser.elements.identifier import Identifier
-from edi_835_parser.segments.utilities import split_segment
+from edi_835_parser.segments.utilities import split_segment, get_element
 
 
 class Location:
@@ -15,6 +15,7 @@ class Location:
 		self.city = segment[1]
 		self.state = segment[2]
 		self.zip_code = segment[3]
+		self.country = get_element(segment, 4)
 
 	def __repr__(self):
 		return '\n'.join(str(item) for item in self.__dict__.items())
