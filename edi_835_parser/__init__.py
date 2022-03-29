@@ -40,4 +40,6 @@ def _find_edi_835_files(path: str) -> List[str]:
 	return files
 
 if __name__ == '__main__':
-	pass
+	data = parse('~/Desktop/eobs')
+	for t_set in data:
+		print(t_set.financial_information)
