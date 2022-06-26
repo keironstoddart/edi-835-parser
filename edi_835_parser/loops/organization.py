@@ -26,7 +26,8 @@ class Organization:
 
 	@classmethod
 	def build(cls, current_segment: str, segments: Iterator[str]) -> Tuple[
-		'OrganizationSegment', Optional[Iterator[str]], Optional[str]]:
+		'OrganizationSegment', Optional[Iterator[str]], Optional[str]
+	]:
 		organization = Organization()
 		organization.organization = OrganizationSegment(current_segment)
 		while True:
