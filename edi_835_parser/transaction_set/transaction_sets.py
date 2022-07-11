@@ -61,3 +61,10 @@ class TransactionSets:
 
 		patients = set(patients)
 		return len(patients)
+
+	def count_transactions(self) -> int:
+		count = 0
+		for transaction_set in self:
+			count += len(transaction_set.transactions)
+
+		return count
