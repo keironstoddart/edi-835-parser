@@ -23,6 +23,12 @@ def emedny_sample():
 
 
 @pytest.fixture
+def united_healthcare_legacy_sample():
+	path = current_path + '/test_edi_835_files/united_healthcare_legacy_sample.txt'
+	return edi_835_parser.parse(path)
+
+
+@pytest.fixture
 def all_samples():
 	path = current_path + '/test_edi_835_files'
 	return edi_835_parser.parse(path)

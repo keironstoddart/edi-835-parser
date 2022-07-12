@@ -36,6 +36,12 @@ class TransactionSet:
 		assert len(payer) == 1
 		return payer[0]
 
+	@property
+	def payee(self) -> OrganizationLoop:
+		payee = [o for o in self.organizations if o.organization.type == 'payee']
+		assert len(payee) == 1
+		return payee[0]
+
 	def to_dataframe(self) -> pd.DataFrame:
 		"""flatten the remittance advice by service to a pandas DataFrame"""
 		data = []

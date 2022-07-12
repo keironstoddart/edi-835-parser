@@ -1,14 +1,20 @@
 from typing import List
+from collections import defaultdict
+
 
 def split_element(segment: str) -> List[str]:
-	"""different payers use different characters to delineate sub-elements"""
-	arrow = '^'
-	colon = ':'
+    """different payers use different characters to delineate sub-elements"""
+    delim = _identify_delim(segment)
+    return segment.split(delim)
 
-	arrow_segment_count = len(segment.split(arrow))
-	colon_segment_count = len(segment.split(colon))
 
-	if arrow_segment_count > colon_segment_count:
-		return segment.split(arrow)
-	else:
-		return segment.split(colon)
+def _identify_delim(segment: str) -> str:
+    delim_candidates = ['^', ':', '>', '<']
+    
+    value_counts = defaultdict(int)
+    for delim in delim_candidates:
+        value_counts[delim] = segment.count(delim)
+    
+    delim = max(value_counts, key=value_counts.get)
+
+    return delim
