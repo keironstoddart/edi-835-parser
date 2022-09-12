@@ -97,6 +97,7 @@ class TransactionSet:
 
 		datum = {
 			'marker': claim.claim.marker,
+			'payer_claim_control_number': claim.claim.payer_claim_control_number,
 			'patient': claim.patient.name,
 			'code': service.service.code,
 			'modifier': service.service.modifier,
