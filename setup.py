@@ -29,4 +29,9 @@ setuptools.setup(
     install_requires=install_requires,
     tests_require=tests_require,
     python_requires='>=3.9.0',
+    entry_points={
+        'console_scripts': [
+            'edi835 = edi_835_parser.cli.main:main'
+        ]
+    }
 )

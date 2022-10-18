@@ -1,5 +1,3 @@
-from tests.conftest import current_path
-
 def test_claim_count(
 		blue_cross_nc_sample,
 		emedny_sample,
@@ -24,6 +22,7 @@ def test_patient_count(
 	assert all_samples.count_patients() == 6
 
 def test_to_dataframe(
+		test_output_directory,
 		blue_cross_nc_sample,
 		emedny_sample,
 		united_healthcare_legacy_sample,
@@ -34,25 +33,25 @@ def test_to_dataframe(
 
 	assert payment == blue_cross_nc_data['paid_amount'].sum()
 
-	blue_cross_nc_data.to_csv(f'{current_path}/output/blue_cross_nc_sample.csv')
+	blue_cross_nc_data.to_csv(f'{test_output_directory}/blue_cross_nc_sample.csv')
 
 	payment = emedny_sample.sum_payments()
 	emedny_data = emedny_sample.to_dataframe()
 
 	assert payment == emedny_data['paid_amount'].sum()
 
-	emedny_data.to_csv(f'{current_path}/output/emedny_sample.csv')
+	emedny_data.to_csv(f'{test_output_directory}/emedny_sample.csv')
 
 	payment = united_healthcare_legacy_sample.sum_payments()
 	united_healthcare_legacy_ = united_healthcare_legacy_sample.to_dataframe()
 
 	assert payment == united_healthcare_legacy_['paid_amount'].sum()
 
-	united_healthcare_legacy_.to_csv(f'{current_path}/output/united_healthcare_legacy_sample.csv')
+	united_healthcare_legacy_.to_csv(f'{test_output_directory}/united_healthcare_legacy_sample.csv')
 
 	payment = all_samples.sum_payments()
 	all_data = all_samples.to_dataframe()
 
 	assert payment == all_data['paid_amount'].sum().round(2)
 
-	all_data.to_csv(f'{current_path}/output/all_samples.csv')
+	all_data.to_csv(f'{test_output_directory}/all_samples.csv')

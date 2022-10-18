@@ -1,34 +1,41 @@
 import os
-import sys
-
 import pytest
-
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 import edi_835_parser
 
-current_path = os.path.dirname(os.path.abspath(__file__))
+
+@pytest.fixture
+def base_test_directory():
+	return os.path.dirname(os.path.abspath(__file__))
 
 
 @pytest.fixture
-def blue_cross_nc_sample():
-	path = current_path + '/test_edi_835_files/blue_cross_nc_sample.txt'
+def test_input_directory(base_test_directory):
+	return base_test_directory + '/test_edi_835_files'
+
+
+@pytest.fixture
+def test_output_directory(base_test_directory):
+	return base_test_directory + '/output'
+
+
+@pytest.fixture
+def blue_cross_nc_sample(test_input_directory):
+	path = test_input_directory + '/blue_cross_nc_sample.txt'
 	return edi_835_parser.parse(path)
 
 
 @pytest.fixture
-def emedny_sample():
-	path = current_path + '/test_edi_835_files/emedny_sample.txt'
+def emedny_sample(test_input_directory):
+	path = test_input_directory + '/emedny_sample.txt'
 	return edi_835_parser.parse(path)
 
 
 @pytest.fixture
-def united_healthcare_legacy_sample():
-	path = current_path + '/test_edi_835_files/united_healthcare_legacy_sample.txt'
+def united_healthcare_legacy_sample(test_input_directory):
+	path = test_input_directory + '/united_healthcare_legacy_sample.txt'
 	return edi_835_parser.parse(path)
 
 
 @pytest.fixture
-def all_samples():
-	path = current_path + '/test_edi_835_files'
-	return edi_835_parser.parse(path)
+def all_samples(test_input_directory):
+	return edi_835_parser.parse(test_input_directory)

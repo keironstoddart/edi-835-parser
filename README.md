@@ -54,6 +54,23 @@ data.to_csv('~/Desktop/my_edi_file.csv')
 The complete set of `TransactionSets` functionality can be found by inspecting the `TransactionSets` 
 class found at `edi_parser/transaction_set/transaction_sets.py`
 
+### Command Line Interface
+The package also provides a command line interface (CLI) which wraps the parser api.
+
+```shell
+(venv) user@MBP edi-835-parser % edi835 -h  
+usage: EDI 835 Parser [-h] input_location csv_output_file
+
+The EDI 835 Parser CLI writes 835 EDI segments to CSV.
+
+positional arguments:
+  input_location   The path to the input file or directory.
+  csv_output_file  The path to csv file output file.
+
+options:
+  -h, --help       show this help message and exit
+```
+
 ### Tests
 Example EDI 835 files can be found in `tests/test_edi_835/files`. To run the tests use `pytest`.
 ```
