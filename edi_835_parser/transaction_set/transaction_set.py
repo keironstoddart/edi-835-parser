@@ -20,12 +20,14 @@ class TransactionSet:
 			interchange: InterchangeSegment,
 			financial_information: FinancialInformationSegment,
 			claims: List[ClaimLoop],
-			organizations: List[OrganizationLoop]
+			organizations: List[OrganizationLoop],
+			file_path: str,
 	):
 		self.interchange = interchange
 		self.financial_information = financial_information
 		self.claims = claims
 		self.organizations = organizations
+		self.file_path = file_path
 
 	def __repr__(self):
 		return '\n'.join(str(item) for item in self.__dict__.items())
@@ -69,8 +71,6 @@ class TransactionSet:
 					datum[f'rem_{index}_code'] = remark.code.code
 
 				data.append(datum)
-
-		data = pd.DataFrame(data)
 
 		return pd.DataFrame(data)
 
@@ -152,7 +152,7 @@ class TransactionSet:
 			if response.key == 'claim':
 				claims.append(response.value)
 
-		return TransactionSet(interchange, financial_information, claims, organizations)
+		return TransactionSet(interchange, financial_information, claims, organizations, file_path)
 
 	@classmethod
 	def build_attribute(cls, segment: Optional[str], segments: Iterator[str]) -> BuildAttributeResponse:
