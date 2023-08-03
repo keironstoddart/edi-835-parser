@@ -39,5 +39,11 @@ def _find_edi_835_files(path: str) -> List[str]:
 
 	return files
 
+
+def main():
+	data = parse('~/Desktop/eobs').to_dataframe()
+	data.to_csv('~/Desktop/transaction_sets.csv')
+
+
 if __name__ == '__main__':
-	data = parse('~/Desktop/eobs')
+	main()
