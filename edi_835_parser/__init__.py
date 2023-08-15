@@ -6,7 +6,7 @@ from edi_835_parser.transaction_set.transaction_set import TransactionSet
 from edi_835_parser.transaction_set.transaction_sets import TransactionSets
 
 
-def parse(path: str, debug: bool=False) -> TransactionSets:
+def parse(path: str, debug: bool = False) -> TransactionSets:
 	if path[0] == '~':
 		path = os.path.expanduser(path)
 

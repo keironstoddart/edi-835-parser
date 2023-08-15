@@ -6,7 +6,7 @@ class Element(ABC):
 	def __set_name__(self, owner, name):
 		self.private_name = '_' + name
 
-	def __get__(self, obj, objtype=None):
+	def __get__(self, obj, obj_type=None):
 		return getattr(obj, self.private_name)
 
 	def __set__(self, obj, value):
