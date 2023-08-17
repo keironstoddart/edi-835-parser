@@ -3,9 +3,7 @@
 [![Python - 3.9.0+](https://img.shields.io/badge/Python-3.9.0%2B-orange)](https://www.python.org/downloads/release/python-390/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/keironstoddart/edi-835-parser)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/keironstoddart/edi-835-parser)
-[![Downloads](https://pepy.tech/badge/edi-835-parser)](https://pepy.tech/project/edi-835-parser)
-[![Downloads](https://pepy.tech/badge/edi-835-parser/month)](https://pepy.tech/project/edi-835-parser)
-[![Downloads](https://pepy.tech/badge/edi-835-parser/week)](https://pepy.tech/project/edi-835-parser)
+[![Downloads](https://static.pepy.tech/badge/edi-835-parser)](https://pepy.tech/project/edi-835-parser)
 
 ### edi-835-parser: a lightweight EDI 835 file parser
 
