@@ -1,6 +1,6 @@
 # EDI 835 Parser
 
-[![Python - 3.9.0+](https://img.shields.io/badge/Python-3.9.0%2B-orange)](https://www.python.org/downloads/release/python-390/)
+[![Python - 3.8.0+](https://img.shields.io/badge/Python-3.8.0%2B-orange)](https://www.python.org/downloads/release/python-380/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/keironstoddart/edi-835-parser)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/keironstoddart/edi-835-parser)
 [![Downloads](https://static.pepy.tech/badge/edi-835-parser)](https://pepy.tech/project/edi-835-parser)
@@ -14,7 +14,7 @@ This package provides a simple-to-use Python interface to EDI 835 Health Care Cl
 **Please consider taking two minutes to [give feedback](https://og5vg099r1x.typeform.com/to/k49iVBI2).**
 
 ### Installation
-Binary installers for the latest released version are at the Python Package Index. Please note that you need to run Python 3.9 or higher to install the edi-835-parser.
+Binary installers for the latest released version are at the Python Package Index. Please note that you need to run Python 3.8 or higher to install the edi-835-parser.
 ```
 pip install edi-835-parser
 ```

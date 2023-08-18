@@ -1,0 +1,18 @@
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  test_job:
+    name: Run Pytest
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9"]
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -r requirements.txt
+      - run: pytest
