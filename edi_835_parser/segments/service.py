@@ -35,6 +35,9 @@ class Service:
 		self.allowed_units = get_element(segment, 5, default=default)
 
 		self.billed_units = get_element(segment, 7, default=self.allowed_units)
+		
+		if isinstance(self.billed_units, str):
+		    self.billed_units = int(float(self.billed_units))
 
 	def __repr__(self):
 		return '\n'.join(str(item) for item in self.__dict__.items())
